@@ -1,0 +1,25 @@
+'use strict';
+
+/* ===== CODE REVIEW =====
+
+  PROGRAM NAME:
+
+  BEHAVIOR:
+    TITLE:
+    DESCRIPTION:
+    USER STORY:
+    TEST CASES:
+
+  CODE IS FORMATTED:
+
+  LABELED GOALS:
+
+  COMMENTS:
+
+  VARIABLES:
+
+  LOGS:
+
+  THE LOGIC IS CLEAR:
+
+*/

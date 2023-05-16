@@ -1,0 +1,38 @@
+{
+  "--port": 4005,
+  "study": {
+    "run": true,
+    "flowchart": true,
+    "save": true,
+    "trace": true,
+    "variables": true,
+    "highlight": true,
+    "loopGuard": {
+      "active": false,
+      "max": 20
+    },
+    "ask": {
+      "functions": false
+    },
+    "table": true,
+    "blanks": true,
+    "writeme": true,
+    "pseudo": true,
+    "eslint": true
+  },
+  "highlight": {
+    "--use": "study",
+    "random": true
+  },
+  "variables": {
+    "--use": "study",
+    "ask": {
+      "functions": false,
+      "controlFlow": false,
+      "operators": false
+    }
+  },
+  "parsons": {
+    "--use": "study"
+  }
+}
