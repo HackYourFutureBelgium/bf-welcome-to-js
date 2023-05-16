@@ -1,3 +1,5 @@
+'use strict';
+
 /* Console Logging
 
   the console is where info is displayed for developers

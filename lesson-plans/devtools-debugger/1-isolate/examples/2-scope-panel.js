@@ -1,6 +1,6 @@
 'use strict';
 
-/* 🥚 Scope Panel
+/*  Scope Panel
 
   go through this program one step at a time and watch the Scopes panel
     this shows you the CURRENT VALUE of each variable in your program

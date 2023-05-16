@@ -1,3 +1,5 @@
+'use strict';
+
 /* String Concatenation
 
   you can use `+` symbol to combine two strings into one string

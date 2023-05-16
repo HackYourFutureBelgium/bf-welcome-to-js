@@ -11,8 +11,8 @@ need to follow the instructions the same way a computer would. Practicing this
 game will help you learn how to trace code, and prepare you for learning about
 program memory in the next module - Debugging.
 
-- 🥚 [compute-it](http://compute-it.toxicode.fr/)
-- 🐣 [little-dot](http://little-dot.toxicode.fr/)
+- [compute-it](http://compute-it.toxicode.fr/)
+- [little-dot](http://little-dot.toxicode.fr/)
 
 ## What is Programming?
 
@@ -126,50 +126,3 @@ curious.
 - [Linting rules for JSDocs](https://github.com/Extersky/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules)
 
 ---
-
-## Class Recordings
-
-> - HYF modules are often updated, recordings from past classes may not match
->   this gitbook
-> - When sending a PR's with recording links please ...
->   - Indicate which class you were teaching
->   - Which week it was (if the module is more than 1 week)
->   - a helpful title or description
-
-### [class-13-14](https://github.com/hackyourfuturebelgium/class-13-14)
-
-> Thibault, Evan
-
-1. Week 1:
-   - [Tracing Variables pt. 1](https://vimeo.com/524232825/)
-   - [Tracing Variables pt. 2](https://vimeo.com/524233174/)
-   - [Reading Code](https://vimeo.com/524232999/)
-2. Week 2:
-   - [Studying MadLibs pt. 1](https://vimeo.com/528300558)
-   - [Studying MadLibs pt. 2](https://vimeo.com/528300446)
-
-### [class-15](https://github.com/hackyourfuturebelgium/class-15)
-
-> Evan, Unmesh
-
-1. Week 1:
-   - [learning JS & tracing variables](https://vimeo.com/551365120)
-   - [tracing conditionals](https://vimeo.com/551365422)
-2. Week 2:
-   - [Reading Code](https://vimeo.com/554219000)
-
-### [Lab Antwerp 1](https://github.com/lab-antwerp-1/home)
-
-> Axxes-team, Evan
-
-- [Chapter 1](https://youtu.be/puKsxllt1P0)
-- Chapter 2: [part-1](https://youtu.be/VN3fXfRfZIE),
-  [part-2](https://youtu.be/_sDs8dKaDyM)
-  
-### [class-19](https://github.com/HYF-Class19/home)
-
-> Evan, Eva, Louis, Jonathan
-
-1. Week 1:
-   - [learning JS & Study Lense & tracing variables](https://vimeo.com/748703159)
-
