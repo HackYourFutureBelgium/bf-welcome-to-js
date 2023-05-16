@@ -1,4 +1,5 @@
-// write this at the top of a file to run the code in strict mode
+// write this at the top of a file to run the code in strict mode'use strict';
+
 'use strict';
 
 /* Strict Mode

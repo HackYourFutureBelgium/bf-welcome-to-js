@@ -1,3 +1,4 @@
+'use strict';
 /* Strings
 
   strings are a data type used to work with text in programs
@@ -14,3 +15,10 @@
 
 // a string with quotes in it
 'cows say "moo"';
+
+const firstName = 'John';
+const lastName = 'Doe';
+
+console.log(
+  `Hello my first name is ${firstName} and my last name is ${lastName}`,
+);
