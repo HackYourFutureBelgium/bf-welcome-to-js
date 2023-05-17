@@ -1,6 +1,7 @@
 /* Comments
 
-  comments are used to leave notes for other developers
+TODO: explain what comments are
+  comments are used to leave notes for you and other developers
     the computer will ignore them
 
   there are two kinds of comments in JS

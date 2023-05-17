@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-/* 🥚 Scope Panel
+/*  Scope Panel
 
   go through this program one step at a time and watch the Scopes panel
     this shows you the CURRENT VALUE of each variable in your program
@@ -18,11 +18,11 @@
 
 let didClickOk = confirm('please click "ok":');
 
-let message = '';
+let message = "";
 if (didClickOk !== true) {
-  message = ':(';
+  message = ":(";
 } else {
-  message = 'thank you!';
+  message = "thank you!";
 }
 
 alert(message);

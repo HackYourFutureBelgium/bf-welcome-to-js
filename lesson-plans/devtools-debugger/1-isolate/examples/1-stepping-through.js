@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-/* 🥚 Stepping Through
+/*  Stepping Through
 
   click the [debug] button to start the program in your debugger
 
@@ -16,7 +16,7 @@
 let didClickOk = confirm('please click "ok":');
 
 if (didClickOk !== true) {
-  alert(':(');
+  alert(":(");
 } else {
-  alert('thank you!');
+  alert("thank you!");
 }

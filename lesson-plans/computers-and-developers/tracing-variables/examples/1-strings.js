@@ -1,9 +1,13 @@
 'use strict';
 /* Strings
 
-  strings are a data type used to work with text in programs
+  1- strings are a data type used to work with text in programs
 
-  in JS, a string is anything wrapped in quotation marks
+  2- in JS, a string is anything wrapped in quotation marks
+
+  3- There is no difference between single quote ' ' or double quote " "
+  in JS, but if you start with ' you must end the string with '
+  same for double quote " "
 
 */
 
@@ -15,10 +19,3 @@
 
 // a string with quotes in it
 'cows say "moo"';
-
-const firstName = 'John';
-const lastName = 'Doe';
-
-console.log(
-  `Hello my first name is ${firstName} and my last name is ${lastName}`,
-);
