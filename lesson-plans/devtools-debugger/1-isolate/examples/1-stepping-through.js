@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*  Stepping Through
 
@@ -16,7 +16,7 @@
 let didClickOk = confirm('please click "ok":');
 
 if (didClickOk !== true) {
-  alert(":(");
+  alert(':(');
 } else {
-  alert("thank you!");
+  alert('thank you!');
 }

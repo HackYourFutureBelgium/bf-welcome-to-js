@@ -11,3 +11,6 @@
 - [Writing and reviewing code](./writing-and-reviewing/README.md)
 
 ## Week 3
+
+- Build a calculator in JavaScript
+- [use this template](https://github.com/samirm00/js-starter)

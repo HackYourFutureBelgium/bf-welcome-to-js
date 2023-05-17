@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*  Scope Panel
 
@@ -18,11 +18,11 @@
 
 let didClickOk = confirm('please click "ok":');
 
-let message = "";
+let message = '';
 if (didClickOk !== true) {
-  message = ":(";
+  message = ':(';
 } else {
-  message = "thank you!";
+  message = 'thank you!';
 }
 
 alert(message);
