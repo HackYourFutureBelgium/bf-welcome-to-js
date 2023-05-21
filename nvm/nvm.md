@@ -26,8 +26,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 then `Ctrl + o` and Enter to save the changes and then `Ctrl + x` to exit.
 
-Note : If you are using zsh open `.zshrc` using nano .zshrc and add nvm to
-plugins plugins=(git nvm) only no need to paste the above command
+Note : If you are using zsh open `.zshrc` using `nano .zshrc` and add nvm to
+plugins plugins=(git nvm) only NO need to paste the above command
 
 1. after that if you type on terminal
 
@@ -48,7 +48,7 @@ you should have a version.
 nvm --version
 ```
 
-You should have aversion
+You should have a version
 
 ## Install node version
 
