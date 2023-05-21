@@ -13,6 +13,9 @@
 // an empty string
 console.log('');
 
+// a number
+console.log(23);
+
 // a string with the text "a string!"
 console.log('a string!');
 
