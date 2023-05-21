@@ -191,26 +191,17 @@ collaboratively on a code base.
 <br>
 
 > You will need
-> [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and
-> to study this material
->
-> Using a browser with good DevTools will make your life easier:
-> [Chrome](https://www.google.com/chrome/)
+
+- [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [NVM](./nvm/nvm.md)
+- [Chrome](https://www.google.com/chrome/)
 
 1. clone or fork the repo
    `https://github.com/HackYourFutureBelgium/bf-welcome-to-js.git`.
 2. cd `bf-welcome-to-js`
 3. `npm install`
-4. `npm run study`
+4. `study`
 5. if you want to close `study` use `ctrl + c`
-
-> If you have a Windows computer and get this error:
->
-> - `... /study.ps1 cannot be loaded because running scripts ...`
->
-> follow the instructions in
-> [this StackOverflow answer](https://stackoverflow.com/a/63424744), that should
-> take care of it ; )
 
 ---
 
