@@ -253,4 +253,8 @@ practices.
 <summary>expand/collapse</summary>
 <br>
 
+### Week1
+
+[Day 1](https://youtu.be/-76jJ1YGpO4)
+
 </details>
