@@ -2,11 +2,14 @@
   "language": "en",
   "words": [
     "asdf",
+    "Cademy",
+    "Croll",
+    "distractor",
+    "distractors",
     "hackyourfuture",
     "monospace",
     "Precourse",
-    "distractor",
-    "distractors",
+    "programing",
     "typeof"
   ],
   "ignorePaths": ["node_modules/**", "**/*.json", "**/*.mp4", "**/*.svg"]
