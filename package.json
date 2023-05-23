@@ -7,8 +7,7 @@
     "format": "prettier --write ./",
     "spell-check": "cspell  './**'",
     "lint:md": "markdownlint --ignore node_modules --ignore flashcards --config ./.markdownlint.jsonc --fix ./ ",
-    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
-    "study": "study"
+    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe"
   },
   "author": "HackYourFutureBelgium",
   "license": "MIT",
