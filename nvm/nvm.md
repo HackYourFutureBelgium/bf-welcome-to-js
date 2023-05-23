@@ -51,8 +51,7 @@ nvm --version
 You should have a version
 
 Note: for windows `10` or `11`, if `nvm` didn't change the node version or you
-got an error got to `C:\Program Files\` and delete `nodejs` folder and try
-again.
+got an error go to `C:\Program Files\` and delete `nodejs` folder and try again.
 
 ## Install node version
 
