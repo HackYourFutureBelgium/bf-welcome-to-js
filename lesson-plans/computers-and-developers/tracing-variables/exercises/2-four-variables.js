@@ -11,20 +11,20 @@
 
 // trace the program a few times with different values
 
-let a = 'Pieter';
-// let a = 'Blake';
-// let a = 'George';
+let a = 'Pieter'; // declare var. a and init value Pieter
+// let a = 'Blake';  // declare var. a and init value Blake
+// let a = 'George';  // declare var. a and init value George
 
-let b = 'Rabbit';
-// let b = 'Wozzeck';
-// let b = 'Schoenberg';
+let b = 'Rabbit'; // declare var. b and init value Rabbit
+// let b = 'Wozzeck';   // declare var. b and init value Wozzeck
+// let b = 'Schoenberg';  // declare var. b and init value Schoenberg
 
-let c = a + ' ' + b;
+let c = a + ' ' + b; // read var. b and read var. a and declare var. c and init value a + " " + b
 
-let d = 'hello ' + c;
+let d = 'hello ' + c; // read var. c and declare var. d and init value hello + c
 
-console.log(d);
+console.log(d); // read var. d
 
-d = 'good bye ' + c;
+d = 'good bye ' + c; // read var. c declare var. d and init value good bye + c
 
-console.log(d);
+console.log(d); // read var. d

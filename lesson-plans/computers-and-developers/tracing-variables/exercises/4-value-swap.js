@@ -9,20 +9,20 @@
 
 */
 
-let a = 'y';
-let b = 'x';
-let t = '';
+let a = 'y'; // declare var. a value 'y'
+let b = 'x'; // declare var. b value 'x'
+let t = ''; // declare var. t value ''
 
 console.log(a, b, t);
+ 
+t = a; // declare var. t value a
+a = b; // declare var. a value b 
+b = t; // declare var. b value t
 
-t = a;
-a = b;
-b = t;
+console.log(a, b, t); // read var. a and read var. b and read var. t  
+ 
+// what did you do in this program?  Created an additional variable to swap the values ​​of the other two variables
+// what are the final values of `a` and `b`?  a == 'x' / b == ''
+// how are they changed from the initial values? ???
 
-console.log(a, b, t);
-
-// what did you do in this program?
-// what are the final values of `a` and `b`?
-// how are they changed from the initial values
-
-// is it possible to swap a and b without using t?
+// is it possible to swap a and b without using t? For me with my knowledge now it is impossible. I think it's basically impossible.

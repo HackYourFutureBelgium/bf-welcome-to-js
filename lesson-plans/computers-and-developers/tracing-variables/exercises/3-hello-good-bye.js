@@ -6,15 +6,15 @@
 
 */
 
-let first = 'Pieter';
-let last = 'Rabbit';
+let first = 'Pieter'; // declare var. first and init value Pieter
+let last = 'Rabbit'; // declare var. last and init value Rabbit
 
-let fullName = first + ' ' + last;
+let fullName = first + ' ' + last; // read var. first and read var. last and declare var. fullName value first + " " + last 
 
-console.log(fullName);
+console.log(fullName); // read var. fullName 
 
-let greeting = 'hello ' + fullName;
+let greeting = 'hello ' + fullName; // read var. fullName declare var. greeting value hello + fullName
 
-greeting = 'good bye ' + fullName;
+greeting = 'good bye ' + fullName; // read var. fullName assign var. greeting value good bye + fullNamw 
 
-console.log(greeting);
+console.log(greeting); // read var. greeting
