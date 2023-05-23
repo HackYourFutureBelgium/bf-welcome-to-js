@@ -4,7 +4,7 @@
 
   go through this program one step at a time and watch the Scopes panel
     this shows you the CURRENT VALUE of each variable in your program
-  the Scope Panel is one of the most important tools you have to understand code
+  the Scope Panel is one of the most important tools help you have to understand code
 
   before pressing the "step" button:
   - predict which line will be next
