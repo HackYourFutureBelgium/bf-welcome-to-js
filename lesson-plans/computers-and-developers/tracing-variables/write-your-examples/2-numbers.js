@@ -21,3 +21,12 @@ console.log(age);
 
 // assign the variable age to the value 253
 age = 253
+
+//read the variable age with value 253
+console.log(age);
+
+// declare a variable sum and initialize it
+let sum = number + age
+
+//read the variable sum 
+console.log(sum)
