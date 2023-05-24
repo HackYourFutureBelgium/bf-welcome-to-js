@@ -255,6 +255,7 @@ practices.
 
 ### Week1
 
-[Day 1](https://youtu.be/-76jJ1YGpO4)
+- [Day 1](https://youtu.be/-76jJ1YGpO4)
+- [Day 2](https://youtu.be/HRWKotQzGNQ)
 
 </details>
