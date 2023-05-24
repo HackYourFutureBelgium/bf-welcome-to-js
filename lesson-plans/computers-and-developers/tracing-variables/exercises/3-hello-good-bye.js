@@ -21,6 +21,7 @@ console.log(fullName);
 //declare a variable greeting and intilize it to the value 'hello'+  Peiter Rabbit
 let greeting = 'hello ' + fullName;
 
+
 //assign the varaiable greeting to the value 'good bye' +  Peiter Rabbit
 greeting = 'good bye ' + fullName;
 

@@ -7,25 +7,30 @@ TODO: create a few variables(strings):
 declared, initialized, read , reassigned,...
 */
 
-//Declare a variable 'message' and assign it the value "welcome to my world"
-let message = 'welcome to my world.';
+//Declare a variable 'message' and intilize it the value "welcome to my world"
+let message = "welcome to my world.";
 
-//Declare a variable 'username' and assign it the value "Alice"
-let username = "I'm Alice";
+//Declare a variable 'username' and intilize it to the value "I'm Alice"
+let userName = "I'm Alice";
 
 //read variable message
 //read variable username
-//declaring a variable welcome and intilize to the value  "welcome to my world"+ " " + " I'm Alice"
-let welcome = 'welcome to my world' + ' ' + "I'm Alice";
+console.log(message);
+console.log(userName);
 
-//read the varaiable welcome which is welcome to my world I'm Alice
+//declaring a variable welcome which value is "I'm Alice welcome to my world."
+let welcome = `${userName} ${message}`;
+
+//read the varaiable welcome which is welcome to my world.  I'm Alice 
 console.log(welcome);
 
-//declare a variable greeting and intilize it to the value "hello" + welcome to my world I'm Alice
-let greeting = 'hello' + 'welcome';
 
-//assign the varaiable greeting to the value "Thanks for visiting my website" + welcome to my world I'm Alice
-greeting = 'Thanks for visiting my website' + welcome;
+//declare a variable greeting and intilize it to the value "goodbye" 
+let  greeting = "goodbye"
 
-//read the variable greeting which is Thanks for visiting my website welcome to my world I'm Alice
+
+//assign the varaiable greeting to the value "Thanks for visiting my website" 
+greeting = "Thanks for visiting my website" ;
+
+//read the variable greeting which is Thanks for visiting my website
 console.log(greeting);
