@@ -3,13 +3,14 @@
 /* Remove Spaces
 
   Data In:
-
+   some text
 
   Data Out:
-
+   text without space
 
   Test Cases:
-
+   12 12 12 -> before: 12 12 12 after: 121212
+   blue sky -> before: blue sky after: bluesky
 
 */
 

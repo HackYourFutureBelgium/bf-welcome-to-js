@@ -2,14 +2,15 @@
 
 /* Mirror
 
-  Data In:
-
+  Data In: 
+   some text
 
   Data Out:
-
+   text + ' | ' + mirrored text 
 
   Test Cases:
-
+  text -> text | txet
+  1234 -> 1234 | 4321
 
 */
 
