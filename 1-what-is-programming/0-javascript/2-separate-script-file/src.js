@@ -10,7 +10,7 @@ console.log('hello developer (console)');
 // alert hello for the user
 //  not a great UX, but easy to program
 //  you'll use this for now
-alert('hello user (alert)');
+alert('hello World! (alert)');
 
 // write hello in the main User Interface
 //  this uses the Document Object Model (DOM)

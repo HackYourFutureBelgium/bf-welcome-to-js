@@ -3,13 +3,15 @@
 /* Flip Five
 
   Data In:
-
+      any text 5 characters long
 
   Data Out:
-
+      message: text that was writteb before but mirrored
 
   Test Cases:
-
+      result:
+      12345 -> 54321
+      sunny -> ynnus
 
 */
 

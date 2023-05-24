@@ -28,9 +28,17 @@ console.log(blue);
 // assign the variable blue to the value 'water'
 blue = 'water'
 
+// declare a variable object and initialize it
+let object = blue + ' and ' + light
+
+//read the variable object
+console.log(object)
+
 //read the variable blue with value 'water'
 //read the variable message
 let message = `
-the object,
+the object
 is blue:  ${blue}
 `;
+
+console.log(message)

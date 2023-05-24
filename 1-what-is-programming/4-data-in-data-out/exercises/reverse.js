@@ -3,13 +3,14 @@
 /* Reverse
 
   Data In:
-
+   text
 
   Data Out:
-
+   reversed text
 
   Test Cases:
-
+   1234 -> 4321
+   text -> txet
 
 */
 
