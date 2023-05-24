@@ -2,13 +2,18 @@
 
 /* Flip Five
 
-  Data In:
-
+   Data In:
+    any text
 
   Data Out:
-
+    the reversed input if it was 5 characters long
+    the unchanged input if it was not 5 characters long
 
   Test Cases:
+    '' -> ''
+    'xyz' -> 'zyx'
+    'water' -> 'retaw'
+    'Alexander' -> 'Alexander'
 
 
 */
@@ -25,7 +30,7 @@ while (true) {
   if (input !== null && input.length === 5) {
     break;
   } else {
-    alert('nope, try again.');
+    alert('wrong, try again.');
   }
 }
 

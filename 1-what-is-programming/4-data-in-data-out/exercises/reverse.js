@@ -3,13 +3,15 @@
 /* Reverse
 
   Data In:
-
+    any text
 
   Data Out:
-
+    the reversed input 
 
   Test Cases:
-
+    'abc' -> 'cba'
+    'hello' -> 'hello'
+    'dolphin' -> 'nihplod'
 
 */
 

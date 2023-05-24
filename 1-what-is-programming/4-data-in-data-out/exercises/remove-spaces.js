@@ -3,12 +3,16 @@
 /* Remove Spaces
 
   Data In:
-
+    any text
 
   Data Out:
-
+    A text without spaces between their words
 
   Test Cases:
+    'Hi, I am Alexander' -> 'Hi,IamAlexander'
+    'What time is it?' -> 'WhatTimeIsIt?'
+    'The zoo is closed' -> 'The zoo is closed'
+
 
 
 */
