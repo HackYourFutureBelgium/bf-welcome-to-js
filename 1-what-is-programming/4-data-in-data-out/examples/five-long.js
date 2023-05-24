@@ -18,7 +18,7 @@
 */
 
 /* --- prompt until the input is long enough --- */
-
+// declare the variable input and initialize it to a value 'null'
 let input = null;
 while (true) {
   /* --- gather user input --- */
