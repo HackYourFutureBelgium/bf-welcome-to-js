@@ -13,7 +13,7 @@ let favoriteAnimal = undefined;
 /* reading the value of the variable */
 console.log(typeof favoriteAnimal);
 
-/* reassigning the values of the variable */
+/* initializing the values of the variable */
 favoriteAnimal = 'koala';
 
 /* reading the value of the variable */

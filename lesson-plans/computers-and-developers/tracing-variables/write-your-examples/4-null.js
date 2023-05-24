@@ -15,7 +15,7 @@ let year = null;
 console.log(typeof month);
 console.log(typeof year);
 
-/* reassigning values to the variables */
+/* reassigning values of the variables */
 month = 'march';
 year = 1995;
 
