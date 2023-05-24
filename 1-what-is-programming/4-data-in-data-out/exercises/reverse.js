@@ -2,13 +2,13 @@
 
 /* Reverse
 
-  Data In:
+  Data In: enter some text
 
 
-  Data Out:
+  Data Out: text to reverse
 
 
-  Test Cases:
+  Test Cases: dlrow --> world
 
 
 */

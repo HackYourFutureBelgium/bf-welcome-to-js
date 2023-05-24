@@ -2,13 +2,13 @@
 
 /* Flip Five
 
-  Data In:
+  Data In: text with 5 characters
 
 
-  Data Out:
+  Data Out: A text reversed
 
 
-  Test Cases:
+  Test Cases: world --> dlrow
 
 
 */

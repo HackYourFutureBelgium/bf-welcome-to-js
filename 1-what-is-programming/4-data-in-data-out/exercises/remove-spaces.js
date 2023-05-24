@@ -2,13 +2,13 @@
 
 /* Remove Spaces
 
-  Data In:
+  Data In: enter some text
 
 
-  Data Out:
+  Data Out: all the spaces will be removed
 
 
-  Test Cases:
+  Test Cases: Hello, this is Rekha --> Hello,thisisRekha
 
 
 */
