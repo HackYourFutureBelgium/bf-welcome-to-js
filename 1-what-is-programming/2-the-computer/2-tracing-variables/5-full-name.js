@@ -16,17 +16,21 @@
 */
 
 // trace the program a few times with different values
-
+// declare a variable first and initialize it to the value 'Pieter'
 let first = 'Pieter';
-// let first = 'Blake';
-// let first = 'George';
 
+// declare a variable last and initialize it to the value 'Rabbit'
 let last = 'Rabbit';
-// let last = 'Wozzeck';
-// let last = 'Schoenberg';
 
+// read the variable last
+// read the variable first
+// declare a variable fullName and initialize it to the value 'first + ' ' + last'
 let fullName = first + ' ' + last;
 
+// read the variable fullName
+// declare a variable greeting and initialize it to the value ''hello ' + fullName'
 let greeting = 'hello ' + fullName;
 
+// read the variable fullName
+// assin a variable greeting and initialize it to the value ''good bye ' + fullName'
 greeting = 'good bye ' + fullName;

@@ -2,13 +2,13 @@
 
 /* Mirror
 
-  Data In:
+  Data In: hello world
 
 
-  Data Out:
+  Data Out: reversed
 
 
-  Test Cases:
+  Test Cases: hello world --> whello worldw
 
 
 */
@@ -23,7 +23,7 @@ while (input === null) {
 
 /* --- create mirrored text --- */
 
-let mirrored = ' | ';
+let mirrored = 'hello world';
 for (let character of input) {
   mirrored = character + mirrored + character;
   console.log(mirrored);

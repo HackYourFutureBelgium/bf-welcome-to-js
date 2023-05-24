@@ -13,9 +13,9 @@
           but that's for later
 
 */
-
+// declare a variable turtle
 let turtle;
-
+// declare a variable food
 let food;
-
+// declare a variable x
 let x;
