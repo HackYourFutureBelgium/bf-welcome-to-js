@@ -24,7 +24,7 @@
 let input = null;
 while (input === null) {
   input = prompt(
-    "enter something. \n\nif it's longer than 5 characters it will be reversed",
+    "enter something. \n\n if it has 5 characters it will be reversed",
   );
   console.log(input);
 }
