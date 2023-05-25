@@ -19,7 +19,7 @@
 
 // DECLARE a variable named `x`
 // INITIALIZE the value to "hello"
-let x = 'hello';
+let x = 'null';
 
 // DECLARE a variable named `y`
 // INITIALIZE the value to 3.14
@@ -32,7 +32,7 @@ console.log(x);
 console.log(y);
 
 // ASSIGN a new value to `x`
-x = 'good bye';
+x = 'hello';
 
 // can I assign a new value to y?
 // y = 25;
@@ -43,7 +43,7 @@ console.log(x);
 // READ the value stored in `x`
 // CONCATENATE "good bye" and "!"
 // ASSIGN "good bye!" to `x`
-x = x + '!';
+x = x + '*';
 
 // READ the value stored in `x`
 console.log(x);
