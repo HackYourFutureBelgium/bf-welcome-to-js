@@ -5,13 +5,21 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
-whenFormDataChanges('______', () => {
+whenFormDataChanges('user-info', () => {
   // debugger;
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
 
-  // --- create a funny sentence ---
+  let name = readString('user-words');
 
-  // --- display the sentence ---
+  console.log(name);
+
+  // --- create a message ---
+
+  let greeting = 'On ' + adj + ' days the ' + noun + 'will always' + verb;
+
+  // --- display the message ---
+
+  displayString('greeting-output', greeting);
 });

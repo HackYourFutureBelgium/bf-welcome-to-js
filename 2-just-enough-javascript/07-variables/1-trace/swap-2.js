@@ -13,11 +13,11 @@ let temp;
 */
 
 temp = b;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // y, x, x
 b = a;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // y, y, x
 a = temp;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // x, y, x
 
 /* 3. compare the final values
   all the comparisons should be true
