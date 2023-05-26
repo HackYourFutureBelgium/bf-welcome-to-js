@@ -11,18 +11,22 @@ whenFormDataChanges('user-info', () => {
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
-
-  let name = readString('the-name');
+  let fn = readString('the-fn');
+  let ln = readString('the-ln');
+  let name = fn + ' ' + ln;
 
   console.log(name);
 
   // --- create a message ---
 
   let greeting = 'Hello ' + name + '!';
+  let farewell = 'Good bye ' + name + '!';
+
+  let output = greeting + '\n' + farewell
 
   // --- display the message ---
 
-  displayString('greeting-output', greeting);
+  displayString('output', output );
 });
 
 /*  ===== Challenges =====

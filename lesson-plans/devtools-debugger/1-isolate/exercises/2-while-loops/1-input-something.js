@@ -1,8 +1,9 @@
 'use strict';
 
 let input = null;
-while (input === null) {
-  input = prompt('input something:');
+
+while (input === null || input !== null) {
+  input = prompt('input something:'); // Good luck xD
 }
 
 alert('thank you!');

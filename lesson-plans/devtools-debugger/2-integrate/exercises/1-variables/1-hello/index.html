@@ -10,12 +10,16 @@
   <body>
     <div>
       <form id="user-info">
-        <label>your name: <input id="the-name" type="text" /> </label>
+        <div class="labels">
+          <label>your first name: <input id="the-fn" type="text" /> </label
+          ><br />
+          <label>your last name: <input id="the-ln" type="text" /> </label>
+        </div>
       </form>
 
       <hr />
 
-      <pre id="greeting-output" class="computery"></pre>
+      <pre id="output" class="computery"></pre>
     </div>
 
     <script src="./app.js" type="module"></script>

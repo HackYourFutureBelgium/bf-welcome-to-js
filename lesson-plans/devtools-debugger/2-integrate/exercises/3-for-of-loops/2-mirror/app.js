@@ -16,8 +16,9 @@ whenFormDataChanges('input', () => {
   // --- mirror the text ---
 
   let mirrored = ' | ';
+  mirrored = ' ' + readString('char-center') + ' ';
   for (let char of userText) {
-    mirrored = char + mirrored + char;
+    mirrored = char.toUpperCase() + mirrored + char.toLowerCase();
   }
 
   // --- display the result ---

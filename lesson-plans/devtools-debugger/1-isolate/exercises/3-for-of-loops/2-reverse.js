@@ -14,6 +14,10 @@ let transformation = toReverse + ' -> ' + backwards;
 
 alert(transformation);
 
+transformation = backwards + ' -> ' + toReverse ;
+
+alert(transformation);
+
 /*  ===== Challenges =====
   - Put the characters back in the right order after the string was reversed.
 */
