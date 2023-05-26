@@ -98,7 +98,7 @@ console.log(3 * 5); // 15
 console.log(' /');
 // dividing numbers
 console.log(30 / 2); // 15
-console.log(12 * 3); // 4
+console.log(12 / 3); // 4
 
 console.log(' %');
 // finding the remainder

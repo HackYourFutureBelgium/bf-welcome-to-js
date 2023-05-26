@@ -257,5 +257,7 @@ practices.
 
 - [Day 1](https://youtu.be/-76jJ1YGpO4)
 - [Day 2](https://youtu.be/HRWKotQzGNQ)
+- [Day 3](https://youtu.be/AQ95EaMbTMI)
+- [Day 4](https://youtu.be/RTV1V01tXLo)
 
 </details>
