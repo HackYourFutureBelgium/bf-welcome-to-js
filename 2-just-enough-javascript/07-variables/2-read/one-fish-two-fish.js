@@ -6,7 +6,7 @@ let phrase = ' ';
 
 phrase = 'one' + phrase + 'fish';
 
-phrase = phrase + ' two';
+phrase = phrase + ' two'; // read phrase, assign phrase to a new value 'one fish two' 
 
 phrase = phrase + ' fish';
 

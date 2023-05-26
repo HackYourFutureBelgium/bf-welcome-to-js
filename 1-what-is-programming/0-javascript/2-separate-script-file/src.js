@@ -17,4 +17,4 @@ alert('hello user (alert)');
 //  you'll learn about this in later modules
 // this line will throw an error if you run it on it's own
 //  it only works if you open the HTML file to load the script
-document.getElementById('greeting').innerHTML = 'hello user (DOM)';
+document.getElementById('greeting').innerHTML = 'hello World!';

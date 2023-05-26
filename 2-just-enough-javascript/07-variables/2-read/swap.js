@@ -30,3 +30,5 @@ console.log(temp === 'y'); // true
 
   done with these questions?  try "ask me" and "random line"
 */
+
+//How many variables are declared in this program? answer : 3 variables

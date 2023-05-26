@@ -9,16 +9,16 @@ console.log('--- find 3 ways to log "hello" ---');
 console.log('hello');
 console.log('h' + 'ello');
 // exercises
-console.log();
-console.log();
-console.log();
+console.log('hel' + 'lo');
+console.log('h' + 'el' + 'lo');
+console.log('hell' + 'o');
 
 console.log('--- find 4 ways to log "good bye" ---');
 // examples
 console.log('good bye');
 console.log('good' + ' ' + 'bye');
 // exercises
-console.log();
-console.log();
-console.log();
-console.log();
+console.log('good ' + 'bye');
+console.log('go' + 'od ' + 'bye');
+console.log('good' + ' b' + 'ye');
+console.log('g' + 'o' + 'o' + 'd' + ' ' + 'b' + 'y' + 'e' );
