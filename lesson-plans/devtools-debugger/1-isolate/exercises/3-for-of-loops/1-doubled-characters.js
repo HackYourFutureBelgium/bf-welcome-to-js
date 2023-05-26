@@ -5,10 +5,8 @@ while (text === null) {
   text = prompt('enter some text, each character will be doubled:');
 }
 
-let doubled = '';
-for (let nextChar of text) {
-  doubled = doubled + nextChar + nextChar;
-}
+let doubled = '-';
+doubled = text.split('').join('-') + '-' + text.split('').join('-');
 
 alert(doubled);
 

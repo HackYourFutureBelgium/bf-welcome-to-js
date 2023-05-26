@@ -20,7 +20,7 @@ whenFormDataChanges('search-input', () => {
   // --- do the search ---
 
   let doesExist = false;
-
+/*
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);
   } else {
@@ -28,15 +28,24 @@ whenFormDataChanges('search-input', () => {
     let smallFindThis = findThis.toLowerCase();
     doesExist = smallSearchThis.includes(smallFindThis);
   }
+*/
+
+  if (caseSensitive) {
+    let smallSearchThis = searchThis.toLowerCase();
+    let smallFindThis = findThis.toLowerCase();
+    doesExist = smallSearchThis.includes(smallFindThis);
+  } else {
+    doesExist = searchThis.includes(findThis);
+  }
 
   // --- create the message ---
 
   let message = '';
 
   if (doesExist) {
-    message = 'yes';
+    message = 'Yes, your phrase includes this part';
   } else {
-    message = 'no';
+    message = 'No, your phrase doesn\'t include this part';
   }
 
   // --- display the search results ---
