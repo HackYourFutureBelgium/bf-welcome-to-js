@@ -6,10 +6,10 @@ let a = 'y';
 let b = 'x';
 let temp;
 
-temp = b;
-b = a;
-a = temp;
+temp = b; // x
+b = a; // y
+a = temp; // x
 
-console.log('a:', a);
-console.log('b:', b);
-console.log('temp:', temp);
+console.log('a:', a); // x
+console.log('b:', b); // y
+console.log('temp:', temp); // x

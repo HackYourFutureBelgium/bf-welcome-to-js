@@ -4,34 +4,31 @@
 /*
 
 
-  Data In:
+  Data In: input
 
-  Data Out:
+  Data Out: depends on input
+    cancel -> you canceled
+    less than 5 -> too short
+    more than 5 -> long enough
+    equal to 5 -> exactly 5!
 
-  Test Cases:
+  Test Cases: 
+  
 
 */
 
-/* ---   ?   --- */
+let input = prompt('enter anything longer than 5 characters');
 
-// input <- prompt('enter anything longer than 5 characters')
+let message;
 
-// IF: input !== null
-//   IF: input.length < 5
-/* ---   ?   --- */
-//     message <- 'too short'
-//   ELSE: IF: input.length > 5
-/* ---   ?   --- */
-//     message <- 'long enough'
-//   ELSE:
-/* ---   ?   --- */
-//     message <- 'exactly 5!'
-//   :END IF
-// ELSE:
-/* ---   ?   --- */
-//   message <- 'you canceled :('
-// :END IF
+if (input === null) {
+message = 'you canceled :(';
+} else if (input.length < 5) {
+message = 'too short';
+} else if (input.length > 5) {
+message = 'long enough';
+} else {
+message = 'exactly 5!';
+}
 
-/* ---   ?   --- */
-
-// alert(message)
+-alert(message);

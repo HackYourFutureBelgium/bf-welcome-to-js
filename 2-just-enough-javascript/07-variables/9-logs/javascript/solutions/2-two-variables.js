@@ -1,11 +1,11 @@
 'use strict';
 
-__;
+let first = 'Java';
 console.log(first);
 
-__;
+let last = 'Script';
 console.log(last);
 
-console.log(__ + __);
+console.log(first + last);
 
-console.log(__ + __ + _);
+console.log(first + last + '!');

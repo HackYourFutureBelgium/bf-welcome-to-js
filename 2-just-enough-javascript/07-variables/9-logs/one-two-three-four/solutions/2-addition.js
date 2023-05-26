@@ -2,14 +2,14 @@
 
 let number = 0;
 
-__;
-__;
+let number1 = 1;
+console.log(number1);
 
-__;
-__;
+let number2 = 2;
+console.log(number2);
 
-__;
-__;
+let number3 = 3;
+console.log(number3);
 
-__;
-__;
+let number4 = 4;
+console.log(number4);
