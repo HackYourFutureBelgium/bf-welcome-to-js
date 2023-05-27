@@ -12,10 +12,15 @@
 // --- hello ---
 
 // write a string that says 'hello'
+// read the variable 'hello'
 console.log('hello'); // 'hello'
 
 // concatenate 2 strings to create 'hello'
+// read the variable 'he' 'llo'
 console.log('he' + 'llo'); // 'hello'
+
+// concatenate 2 strings to create 'rahwa' and read variable 'Rah' + 'wa'
+console.log('rah' + 'wa')
 
 // concatenate 3 strings to create 'hello'
 console.log('he' + 'l' + 'lo'); // 'hello'
