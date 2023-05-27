@@ -27,11 +27,11 @@
   when you run the program these messages will be printed to the console
   the developer can read them, but a user will not see them
 */
-
+// read a variable 'comments'
 console.log('comments');
-
+// read a variable 'and'
 console.log('and');
-
+// read a variable 'logs'
 console.log('logs');
-
+// read a variable '!'
 console.log('!');

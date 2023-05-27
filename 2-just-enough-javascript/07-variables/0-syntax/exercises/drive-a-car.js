@@ -5,11 +5,11 @@
 
 'use strict';
 
+// declare the variable phrase and initialize to a value of 'drive'
+let phrase = 'rahi';
 
-let phrase = 'drive';
 
-
-phrase = phrase + ' a';
+phrase = phrase + ' s';
 
 
 phrase = phrase + ' car';

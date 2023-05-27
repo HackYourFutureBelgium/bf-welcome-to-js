@@ -13,9 +13,9 @@
   - initial value: what you want to store in the variable
 
 */
-
+// declare a variable turtle and initialize it to value 'vinnie'
 let turtle = 'Vinnie';
-
+// declare a variable food and initialize it to value 'lettuce'
 let food = 'lettuce';
-
+// declare a variable x and initialize it to value 'abc'
 let x = 'abc';

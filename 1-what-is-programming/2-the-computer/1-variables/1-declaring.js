@@ -13,9 +13,9 @@
           but that's for later
 
 */
-
+//declaire the variable 'turtle'
 let turtle;
-
+//declaire the variable 'food'
 let food;
-
+//declaire the variable 'x'
 let x;

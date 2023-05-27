@@ -16,11 +16,11 @@
 */
 
 // trace the program a few times with different values
-
+// declare the variable firstName and initialize it to a value 'Pieter'
 let firstName = 'Pieter';
 // let firstName = 'Blake';
 // let firstName = 'George';
-
+// declare the variable greetings and initialize it to a value 'hello' + 'Pieter' + '!'
 let greeting = 'hello ' + firstName + '!';
-
+// declare the variable greetings and initialize it to a value 'good bye' + 'Pieter' + '.'
 greeting = 'good bye ' + firstName + '.';

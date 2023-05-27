@@ -6,10 +6,8 @@ while (text === null) {
 }
 
 let doubled = '';
-for (let nextChar of text) {
-  doubled = doubled + nextChar + nextChar;
-}
 
+  doubled = text.split('').join('-');
 alert(doubled);
 
 /*  ===== Challenges =====
