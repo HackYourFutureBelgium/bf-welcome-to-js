@@ -10,15 +10,25 @@ whenFormDataChanges('input', () => {
   console.log('--- form data changed ---');
 
   // --- read the user's input ---
+  let charset = readString('character');
 
   let userText = readString('to-mirror');
+
+
+  console.log(charset);
+  console.log(userText);
 
   // --- mirror the text ---
 
   let mirrored = ' | ';
-  for (let char of userText) {
-    mirrored = char + mirrored + char;
+  for (let charset of userText) {
+    mirroredChar = charset.toUpperCase() + mirrored;
+    for (let charset of userText) {
+       mirroredChar = charset.toLowerCase() + mirrored;
+    }
+    mirrored += mirroredChar;
   }
+}
 
   // --- display the result ---
 

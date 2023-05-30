@@ -22,7 +22,7 @@ while (text === null) {
 
 let excited = '';
 for (const character of text) {
-  excited = character + '!';
+  excited += character + '!';
 }
 
 alert(excited);

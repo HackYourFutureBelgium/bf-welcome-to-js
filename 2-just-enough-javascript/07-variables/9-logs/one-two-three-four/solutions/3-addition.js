@@ -2,13 +2,10 @@
 
 let number = 1;
 
-__;
+let x = 15;
+let y = 15;
 
-__;
-__;
+x = number + x;
+number = x + y;
 
-__;
-__;
-
-__;
-__;
+console.log(x, y, number);

@@ -17,4 +17,6 @@ console.log(phrase); // 'one fish two fish'
   - use lines to connect each variable declaration to it's uses
 
   done with these questions?  try "ask me" and "random line"
+
+  How many data types are used in this program? -- 2 data types ('string' and 'undefined')
 */

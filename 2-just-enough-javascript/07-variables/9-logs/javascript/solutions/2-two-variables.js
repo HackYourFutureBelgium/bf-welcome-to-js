@@ -1,11 +1,14 @@
 'use strict';
 
-__;
+let first = 10;
 console.log(first);
 
-__;
+let last = 10;
 console.log(last);
 
-console.log(__ + __);
+first = first + last;
 
-console.log(__ + __ + _);
+console.log(first + last);
+
+last = first + 10;
+console.log(first + last + 10);

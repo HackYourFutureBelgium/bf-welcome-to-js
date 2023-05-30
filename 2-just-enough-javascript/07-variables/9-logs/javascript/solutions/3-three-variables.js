@@ -1,12 +1,13 @@
 'use strict';
 
-__;
+let first = 'Tamil';
 console.log(first);
 
-__;
+let last = 'Telugu';
 console.log(last);
 
-__;
+let language = first + ' ';
 console.log(language);
 
-console.log(___);
+first = language + last;
+console.log(first);

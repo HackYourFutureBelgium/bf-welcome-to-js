@@ -17,7 +17,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated = text + '\n' + text;
+  let repeated = text + '\n' + text + '\n' + text + '\n' + text;
 
   // --- display the repeated text ---
 

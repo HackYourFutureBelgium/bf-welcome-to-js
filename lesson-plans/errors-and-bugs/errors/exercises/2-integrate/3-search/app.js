@@ -6,18 +6,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Cannot use import statement outside a module
 
-  location:
+  location: line 35
 
-  life cycle:
+  life cycle: creation
 
-  the mistake:
+  the mistake: variable not declare with const or let
 
-  the fix(es):
+  the fix(es): variable declare with let
 */
 
 whenFormDataChanges('search-input', () => {
@@ -32,7 +32,7 @@ whenFormDataChanges('search-input', () => {
 
   // --- do the search ---
 
-  doesExist = false;
+  let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);

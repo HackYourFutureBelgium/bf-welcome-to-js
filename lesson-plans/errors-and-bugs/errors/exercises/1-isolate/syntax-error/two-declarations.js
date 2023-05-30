@@ -3,20 +3,20 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: entifier 'tree' has already been declared
 
-  location:
+  location: line 22
 
-  life cycle:
+  life cycle: execution
 
-  the mistake:
+  the mistake: two declaration in the variable name
 
-  the fix(es):
+  the fix(es): remove the unwanted declaration
 */
 
 let tree = 'oak';
 
-let tree = 'birch';
+tree = 'birch';
