@@ -6,18 +6,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: chrom
 
-  name:
+  name: reference-error
   message:
 
-  location:
+  location: 35
 
   life cycle:
 
-  the mistake:
+  the mistake: misssed declaration
 
-  the fix(es):
+  the fix(es):   let doesExist = false;
 */
 
 whenFormDataChanges('search-input', () => {
@@ -32,7 +32,7 @@ whenFormDataChanges('search-input', () => {
 
   // --- do the search ---
 
-  doesExist = false;
+  let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);

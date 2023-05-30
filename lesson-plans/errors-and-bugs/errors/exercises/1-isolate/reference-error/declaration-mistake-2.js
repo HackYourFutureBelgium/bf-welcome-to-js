@@ -3,25 +3,25 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: ReferenceError
+  message: ReferenceError: Cannot access 'isValidUserName' before initialization
 
-  location:
+  location: 24
 
   life cycle:
 
-  the mistake:
+  the mistake: missed the declaration for isValidUserName 
 
-  the fix(es):
+  the fix(es): let isValidUserName = true;
 */
 
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
 if (userName.length > 3) {
-  isValidUserName = true;
+  let isValidUserName = true;
 }
 
 let isValidUserName;

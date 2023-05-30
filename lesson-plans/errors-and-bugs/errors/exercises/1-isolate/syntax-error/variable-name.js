@@ -7,21 +7,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrom
 
-  name:
-  message:
+  name: SyntaxError
+  message: SyntaxError: Unexpected number
 
-  location:
+  location: 25
 
   life cycle:
 
-  the mistake:
+  the mistake: number in the string
 
-  the fix(es):
+  the fix(es): const three = 'three';
 */
 
 
-const 3 = 'three';
+const three = 'three';
 
 
