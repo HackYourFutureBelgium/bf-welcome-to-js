@@ -2,14 +2,19 @@
 
 /* Mirror
 
-  Data In:
+ This program mirror the input.
 
+  Data In:
+    any text
 
   Data Out:
-
+    reverse the text and mirror the text
 
   Test Cases:
+    'rahwa' ->  'awhar | rahwa'
+    'abc' -> 'cba | abc'
 
+    
 
 */
 

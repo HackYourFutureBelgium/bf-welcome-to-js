@@ -1,26 +1,20 @@
-
-
 'use strict';
 
-console.log('--- in execution phase ---');
-
-
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Invalid or unexpected token
 
-  location:
+  location:23
 
   life cycle:
 
-  the mistake:
+  the mistake:const a wasnt defined first
 
-  the fix(es):
+  the fix(es):we define and log it after
 */
 
-const a = 'this is
-two lines';
+const a = 'this is two lines';
 
-
+console.log('--- in execution phase ---');

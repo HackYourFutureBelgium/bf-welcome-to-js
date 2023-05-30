@@ -20,15 +20,14 @@ console.log('hello'); // 'hello'
 console.log('he' + 'llo'); // 'hello'
 
 // concatenate 2 strings to create 'rahwa' and read variable 'Rah' + 'wa'
-console.log('rah' + 'wa')
+console.log('Rah' + 'wa'); // 'Rahwa'
 
-// concatenate 3 strings to create 'hello'
-console.log('he' + 'l' + 'lo'); // 'hello'
+
+// concatenate 2 strings to create 'kinfe' and read variable 'Ki' + 'n' + 'fe'
+console.log('ki' + 'n' + 'fe'); // 'kinfe'
+
 
 // --- length ---
 
-// write a string with 5 characters and log it's length
-console.log('hello'.length); // 5
-
-// write a different string with 5 characters and log it's length
-console.log('rahwa'.length); // 5
+// write a different string with 4 characters and log it's length
+console.log('Rahi'.length); // 4

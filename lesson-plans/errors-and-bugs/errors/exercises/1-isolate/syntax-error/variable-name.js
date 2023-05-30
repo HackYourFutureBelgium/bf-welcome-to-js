@@ -1,10 +1,6 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
-
-
 
 /*
   environment:
@@ -12,16 +8,13 @@ console.log('--- in execution phase ---');
   name:
   message:
 
-  location:
+  location:exculion
 
   life cycle:
 
-  the mistake:
+  the mistake:numbers can not be variables
 
   the fix(es):
 */
 
-
-const 3 = 'three';
-
-
+const three3 = 'three';

@@ -8,15 +8,15 @@ console.log('--- in execution phase ---');
   name:
   message:
 
-  location:
+  location:excution
 
   life cycle:
 
   the mistake:
 
-  the fix(es):
+  the fix(es):reassign the variable 
 */
 
 let tree = 'oak';
 
-let tree = 'birch';
+tree = 'birch';

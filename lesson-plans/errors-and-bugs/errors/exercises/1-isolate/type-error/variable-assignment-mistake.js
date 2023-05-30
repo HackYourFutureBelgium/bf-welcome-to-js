@@ -1,27 +1,22 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
   environment:
 
-  name:
-  message:
+  name:SyntaxError
+  message:Invalid left-hand side in assignment
 
-  location:
+  location:25
 
   life cycle:
 
   the mistake:
 
-  the fix(es):
+  the fix(es):console.log
 */
 
 let isHappy = false;
 
-true = isHappy;
-
-
+console.log('isHappy');

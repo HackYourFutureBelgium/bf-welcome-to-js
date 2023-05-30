@@ -14,13 +14,21 @@
   looking for a challenge? Try the "debug" button
 
 */
-
+// declaire the variable a and initialize it to value '.'
 let a = '.';
+// declaire the variable b and initialize it to value '@'
 let b = '@';
+// declaire the variable tenp
 let temp;
 
+// assign the variable temp to value of 'a'
+// read the variable 'a'
 temp = a;
+// assign the variable a to value of 'b'
+// read the variable 'b'
 a = b;
+// assign the variable b to value of 'temp'
+// read the variable 'temp'
 b = temp;
 
 // is it possible two swap a and b without using temp?

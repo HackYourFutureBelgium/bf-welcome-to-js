@@ -15,18 +15,22 @@
 
 */
 
-// trace the program a few times with different values
 
+// declaire the variable first and initialize it to a value of 'Pieter'
 let first = 'Pieter';
-// let first = 'Blake';
-// let first = 'George';
 
+// declaire the variable last and initialize it to a value of 'Rabbit'
 let last = 'Rabbit';
-// let last = 'Wozzeck';
-// let last = 'Schoenberg';
 
+// declaire the variable fullName and initialize it to a value of 'Pieter' + ' ' + 'Rabbit'
+// read the variables first and  last
 let fullName = first + ' ' + last;
 
+// declaire the variable greeting and initialize it to a value of 'hello' + 'Pieter' + ' ' + 'Rabbit'
+// read the variable fullName
 let greeting = 'hello ' + fullName;
-
+console.log(greeting);
+// assign the variable greeting to 'good bye' + fullName
+// read the variable fullName
 greeting = 'good bye ' + fullName;
+console.log(greeting);

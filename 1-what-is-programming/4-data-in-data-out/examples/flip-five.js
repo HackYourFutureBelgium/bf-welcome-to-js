@@ -15,7 +15,6 @@
     '' -> ''
     'abc' -> 'abc'
     'hello' -> 'olleh'
-    'JavaScript' -> 'JavaScript'
 
 */
 
