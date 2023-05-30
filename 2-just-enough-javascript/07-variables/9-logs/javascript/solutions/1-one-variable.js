@@ -1,15 +1,14 @@
 'use strict';
 
-let favoriteLanguage;
+let favoriteLanguage = 'tamil';
 
-_;
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'telugu';
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'english';
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'dutch';
 console.log(favoriteLanguage);

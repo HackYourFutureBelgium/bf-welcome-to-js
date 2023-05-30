@@ -12,16 +12,16 @@ console.log('--- in execution phase ---');
 
   life cycle:
 
-  the mistake:
+  the mistake: declare before initialize
 
-  the fix(es):
+  the fix(es): declare with const or let
 */
 
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
 if (userName.length > 3) {
-  isValidUserName = true;
+  let isValidUserName = true;
 }
 
 let isValidUserName;

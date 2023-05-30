@@ -6,18 +6,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Cannot use import statement outside a module
+ 
+  location: line 32
 
-  location:
+  life cycle: creation
 
-  life cycle:
+  the mistake: + operation mentioned between the variable and value
 
-  the mistake:
-
-  the fix(es):
+  the fix(es): instead of + mentioned =
 */
 
 whenFormDataChanges('user-data', () => {
@@ -29,7 +29,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text;
 
   // --- display the repeated text ---
 

@@ -5,18 +5,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Cannot use import statement outside a module
 
-  location:
+  location: line 46
 
-  life cycle:
+  life cycle: creation
 
-  the mistake:
+  the mistake: DisplayString
 
-  the fix(es):
+  the fix(es): displayString
 */
 
 whenFormDataChanges('sleep-info', () => {
@@ -43,5 +43,5 @@ whenFormDataChanges('sleep-info', () => {
 
   // --- display the advice ---
 
-  DisplayString('advice-area', advice);
+  displayString('advice-area', advice);
 });

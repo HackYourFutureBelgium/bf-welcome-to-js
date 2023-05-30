@@ -1,25 +1,20 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: expected string
 
-  location:
+  location: line 23
 
-  life cycle:
+  life cycle: execution
 
-  the mistake:
+  the mistake: unwanted string
 
-  the fix(es):
+  the fix(es): remove unwanted string
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
-
-
+const quotesInQuotes = 'remind yourself "i can do this!" at least once a day';

@@ -20,7 +20,7 @@
 
 /* ----------- solution --------------- */
 
-let phrase = ' ';
+/*let phrase = ' ';
 
 phrase = 'one' + phrase + 'fish';
 
@@ -28,10 +28,16 @@ phrase = phrase + ' two';
 
 phrase = phrase + ' fish';
 
-console.log(phrase === 'one fish two fish');
+console.log(phrase === 'one fish two fish');*/
 
 /* ----------- distractors -------------- */
 
-phrase = 'one' + phrase + ' fish'; // distractor
-phrase = 'one ' + phrase + 'fish'; // distractor
-phrase = phrase + 'fish'; // distractor
+let phrase = ' ';
+
+phrase = 'one' + phrase + 'fish'; // distractor
+
+phrase = phrase + ' two'; // distractor
+
+phrase = phrase + ' fish'; // distractor
+
+console.log(phrase === 'one fish two fish');

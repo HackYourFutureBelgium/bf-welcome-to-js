@@ -4,9 +4,9 @@
 /* 1. declare 3 variables */
 
 
-let a = 'y';
+/*let a = 'y';
 let b = 'x';
-let temp;
+let temp;*/
 
 /* 2. swap the values between a and b */
 
@@ -18,22 +18,34 @@ let temp;
 */
 
 
-temp = b;
+/*temp = b;
 b = a;
-a = temp;
+a = temp;*/
 
 /* 3. compare the final values */
 
 
-console.log(a === 'x');
+/*console.log(a === 'x');
 console.log(b === 'y');
-console.log(temp === 'x');
+console.log(temp === 'x');*/
 
 // begin distractors
+let a = 'y';
+let b = 'x';
+let temp;
+// read a variable b
+// declare a variable temp and initialize it to the value b
+temp = a;
+// read a variable a
+// declare a variable b and initialize it to the value a
+b = a;
+// read a variable temp
+// declare a variable a and initialize it to the value temp
+a = temp;
 
-a = c; // distractor
-b === temp; // distractor
-let a === 'y'; // distractor
+console.log(a === b);
+console.log(b === temp);
+console.log(temp === a);
 
 
 // #todo

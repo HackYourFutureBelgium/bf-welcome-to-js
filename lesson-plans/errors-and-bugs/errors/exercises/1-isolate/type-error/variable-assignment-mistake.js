@@ -1,27 +1,22 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: valid left-hand side in assignment
 
-  location:
+  location: line 25
 
-  life cycle:
+  life cycle: execution
 
-  the mistake:
+  the mistake: value mentioned in wrong place
 
-  the fix(es):
+  the fix(es): first declare the variable and initialize the value
 */
 
 let isHappy = false;
 
-true = isHappy;
-
-
+isHappy = true;

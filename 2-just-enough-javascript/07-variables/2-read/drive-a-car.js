@@ -17,4 +17,8 @@ console.log(phrase); // 'drive a car'
   - use lines to connect each variable declaration to it's uses
 
   done with these questions?  try "ask me" and "random line"
+
+  using two data types
+  1. 'string'
+  2. undefined
 */

@@ -1,9 +1,9 @@
 'use strict';
 
-__;
-__;
-__;
-__;
+let first = 'tamil';
+let last = 'telugu';
+let language = first + ' ' + '&' + ' ' + last;
+let favoriteLanguage = language;
 
 console.log(first);
 console.log(last);

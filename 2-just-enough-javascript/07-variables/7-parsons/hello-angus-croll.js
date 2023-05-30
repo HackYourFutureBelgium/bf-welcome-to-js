@@ -12,18 +12,23 @@
 
 */
 
-let first = 'angus';
+/*let first = 'angus';
 let last = 'croll';
 
 let greeting = 'hello ' + first + ' ' + last;
 
 greeting = greeting + '!';
 
-console.log(greeting === 'hello angus croll!');
+console.log(greeting === 'hello angus croll!');*/
 
 // begin distractors
 
-let greeting = 'hello' + first + last; // distractor
-greeting === greeting + '!'; // distractor
-let first = angus; // distractor
-let last = croll; // distractor
+let first = 'angus'; // distractor
+
+let last = 'croll'; // distractor
+
+let greeting = 'hello ' + first + ' ' + last; // distractor
+
+greeting = greeting + '!'; // distractor
+
+console.log(greeting);
