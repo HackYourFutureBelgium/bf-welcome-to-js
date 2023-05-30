@@ -8,16 +8,16 @@ import {
 /*
   environment:
 
-  name:
+  name: 
   message:
 
-  location:
+  location: 32
 
   life cycle:
 
-  the mistake:
+  the mistake: + instead of =
 
-  the fix(es):
+  the fix(es):   let repeated = text + '\n' + text;
 */
 
 whenFormDataChanges('user-data', () => {
@@ -29,7 +29,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text;
 
   // --- display the repeated text ---
 

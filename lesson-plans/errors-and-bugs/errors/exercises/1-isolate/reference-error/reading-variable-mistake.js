@@ -3,20 +3,21 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: ReferenceError
+  message: ReferenceError: Cannot access 'tomatoes' before initialization
 
-  location:
+  location: 25
 
   life cycle:
 
-  the mistake:
+  the mistake: initialization after console.log(tomatoes)
 
-  the fix(es):
-*/
+  the fix(es): let tomatoes = 'fresh';
 
 console.log(tomatoes);
-
+*/
 let tomatoes = 'fresh';
+
+console.log(tomatoes);
