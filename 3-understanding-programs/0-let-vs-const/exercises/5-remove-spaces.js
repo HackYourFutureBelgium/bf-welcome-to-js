@@ -3,6 +3,7 @@
 'use strict';
 
 // use `const` for every variable that is never reassigned
+// message has to be declare with const
 
 let input = null;
 while (input === null) {
@@ -18,7 +19,7 @@ for (let character of input) {
   }
 }
 
-let message = 'before: ' + input + '\nafter: ' + spaceless;
+const message = 'before: ' + input + '\nafter: ' + spaceless;
 console.log(message);
 
 alert(message);

@@ -14,7 +14,7 @@
   Hint: try using the `run` and `debug` buttons, what's the difference?
 
 */
-
+debugger;
 const firstName = 'Brobes';
 
 const lastName = 'Pierre';

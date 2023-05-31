@@ -19,39 +19,38 @@ whenFormDataChanges('reversify', () => {
 
   // --- reverse the string input ---
 
-    /*let reversed = '';
-  let text = 'charset';
-  for (let i = text.length; i >= 0; i--) {
-    if (!text.has(text[i])) {
-      reverse += text[i];
-      text.add (text[i]);
-    }
-  }
-
-  console.log(reversed);
-  console.log(text);*/
-
   let reversed = '';
   for (let character of text) {
     reversed = character + reversed;
   }
   console.log(reversed);
 
+  // --- remove dublikate charakters ---
+  let reversedCut = '';
+  let cut = '';
+  for (let cutChar of reversed) {
+    if (cutChar !== cut) {
+      cut = cutChar;
+      reversedCut += cut;
+    }
+  }
+
   // --- set to upper or lower case ---
 
   let finalText = '';
-  if (i > 10) {
-    finalText = reversed.toUpperCase();
-  } else if (i < 5) {
-    finalText = reversed.toLowerCase();
-  } else {
-    finalText = reversed;
+  if (text.length >= 10) {
+    finalText = reversedCut.toUpperCase();
+  }
+  if (text.length < 5) {
+    finalText = reversedCut.toLowerCase();
+  }
+  if (text.length >= 5 && text.length < 10) {
+    finalText = reversedCut;
   }
   console.log(finalText);
 
-  // --- display the final text ---
+  // --- display the final text ---  // display the final text to the <pre> with id “out”
 
-  // display the final text to the <pre> with id "out"
   displayString('out', finalText);
 });
 
