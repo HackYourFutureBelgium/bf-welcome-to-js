@@ -260,4 +260,11 @@ practices.
 - [Day 3](https://youtu.be/AQ95EaMbTMI)
 - [Day 4](https://youtu.be/RTV1V01tXLo)
 
+### Week2
+
+- [Day 5-1](https://youtu.be/5BUvv9bumK4)
+- [Day 5-2](https://youtu.be/ZbdgOXpOrds)
+- [Day 5-3](https://youtu.be/yY-nyRRjMgQ)
+- [Day 6](https://youtu.be/-gNOnrpUHSo)
+
 </details>
