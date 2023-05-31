@@ -19,7 +19,7 @@ while (true) {
     continue;
   }
 
-  let didConfirm = confirm(
+  const didConfirm = confirm(
     'are you sure ' + input + ' is your favorite color?',
   );
   if (didConfirm) {

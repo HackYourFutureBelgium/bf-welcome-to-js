@@ -8,9 +8,9 @@
 
 */
 
-let input = null;
+const input = prompt('enter something, it will be broken');
 while (input === null) {
-  input = prompt('enter something, it will be broken');
+  
 }
 
 for (let char of input) {

@@ -3,6 +3,7 @@
 'use strict';
 
 // use `const` for every variable that is never reassigned
+// all the variables are reasssigned no need to add const.
 
 let input = null;
 while (input === null) {

@@ -2,6 +2,23 @@
 
 'use strict';
 
+/*
+- if you press ok without enter anything it shown 'unknown commend:""'
+- if you press cancel it show 'good bye'
+- if you type '-h' show the instruction about the game
+- if you type 'play' the message show
+    -'Player 2: look away! hide your eyes!'
+    -'Player 1: enter a secret phrase'
+    -'Player 1: enter a clue to help guess your number'
+    - if the phase and clue is valid it goes to the player 2 if not it say 'good bye'
+    - if the player 1 enter the valid text it show 'now go get Player 2'
+    - then ask the secreat phase to player2
+    - if the player 2 enter the correct secreat phase the message shows that the winner is player2 or its show the winner is player1
+    - or else it show 'Nope, not correct.\n\ndo you want to know the secret?'
+    - if press ok they show the secret phase and say 'thanks for playing, see ya'
+    - if the user refuse to know the secret the prompt shows 'better luck next time' 
+*/
+
 /* Execution Paths
 
   try predicting how this game works just by reading the code

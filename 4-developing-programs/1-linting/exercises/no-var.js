@@ -10,9 +10,9 @@
 
 */
 
-var likesApples = confirm('do you like apples?');
+let likesApples = confirm('do you like apples?');
 
-var greeting = '';
+let greeting = '';
 if (likesApples) {
   greeting = 'hello, welcome to my apple garden';
 } else {

@@ -4,6 +4,13 @@
 
 /* -- gather user input -- */
 
+// if the prompt is empty nothing will show
+// if we type f it shows frog
+// if we type F it shows FROG
+// if we type test it show test
+// if we type first it show frogirst
+// if we type First it show FORGirst 
+
 let toBeFrogged = null;
 
 while (toBeFrogged === null) {

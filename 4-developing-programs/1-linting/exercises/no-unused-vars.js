@@ -17,3 +17,5 @@ if (likesApples) {
 } else {
   greeting = 'hello, welcome to my orange garden';
 }
+
+alert(greeting);
