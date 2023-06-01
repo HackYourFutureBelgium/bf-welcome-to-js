@@ -1,33 +1,29 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
-  environment:
+  environment: chrom
 
   name:
-  message:
+  message: SyntaxError: Unexpected token '{'
+    at evaller.onload
 
-  location:
+  location: 27
 
-  life cycle:
+  life cycle: 
 
-  the mistake:
+  the mistake: 28 line: else -> else if
 
-  the fix(es):
+  the fix(es): } else if (userName.length < 5) {
 */
 
 let userName = 'indrogo';
 
 if (userName.length < 3) {
   console.log('too short');
-} else (userName.length < 5) {
+} else if (userName.length < 5) {
   console.log('just right');
 } else {
   console.log('too long');
 }
-
-

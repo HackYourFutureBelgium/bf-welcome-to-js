@@ -5,18 +5,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: chrom
 
-  name:
+  name: reference-error
   message:
 
-  location:
+  location: 46
 
   life cycle:
 
-  the mistake:
+  the mistake: DislayString
 
-  the fix(es):
+  the fix(es):   displayString('advice-area', advice);
 */
 
 whenFormDataChanges('sleep-info', () => {
@@ -43,5 +43,5 @@ whenFormDataChanges('sleep-info', () => {
 
   // --- display the advice ---
 
-  DisplayString('advice-area', advice);
+  displayString('advice-area', advice);
 });

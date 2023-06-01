@@ -6,21 +6,20 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrom
 
-  name:
-  message:
+  name: SyntaxError
+  message: SyntaxError: Invalid or unexpected token
 
-  location:
+  location: 23
 
   life cycle:
 
-  the mistake:
+  the mistake: part of value on the hext line
 
-  the fix(es):
+  the fix(es):const a = 'this is two lines';
 */
 
-const a = 'this is
-two lines';
+const a = 'this is two lines';
 
 
