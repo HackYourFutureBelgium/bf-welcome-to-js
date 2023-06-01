@@ -7,3 +7,11 @@ let backwards = 'tpircsavaj';
 let language = '';
 
 // log each character in `language`
+
+for(let char of backwards){
+  language = char + language
+}
+
+for (let char of language){
+  console.log(char)
+}

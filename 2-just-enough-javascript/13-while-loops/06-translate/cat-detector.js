@@ -16,22 +16,21 @@
 
 /* --- ? --- */
 
-// input <- null
+let input = null;
 
-// WHILE: input === null
-//   input <- prompt('please enter "cat"')
-// :END WHILE
-
-/* --- ? --- */
-
-// message <- ''
-
-// IF: input !== 'cat'
-//   message <- '"' + input + '" is not a cat'
-// ELSE:
-//   message <- 'thank you for the cat'
-// :END IF
+while (input === null) {
+  input = prompt('please enter "cat"');
+}
 
 /* --- ? --- */
 
-// alert(message)
+let message = '';
+
+if (input !== 'cat') {
+  message = '"' + input + '" is not a cat';
+} else {
+  message = 'thank you for the cat';
+}
+/* --- ? --- */
+
+alert(message);

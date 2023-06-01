@@ -15,24 +15,24 @@
 
 /* ---  ?  --- */
 
-// firstName <- null
+let firstName = null;
 
-// WHILE: firstName === null
-//   firstName <- prompt('enter a first name')
-// :END WHILE
-
-/* ---  ?  --- */
-
-// lastName <- null
-
-// WHILE: lastName === null
-//   lastName <- prompt('enter a last name')
-// :END WHILE
+while (firstName === null) {
+  firstName = prompt('enter a first name');
+}
 
 /* ---  ?  --- */
 
-// fullName <- firstName + ' ' + lastName
+let lastName = null;
+
+while (lastName === null) {
+  lastName = prompt('enter a last name');
+}
 
 /* ---  ?  --- */
 
-// alert(fullName)
+let fullName = firstName + ' ' + lastName;
+
+/* ---  ?  --- */
+
+alert(fullName);

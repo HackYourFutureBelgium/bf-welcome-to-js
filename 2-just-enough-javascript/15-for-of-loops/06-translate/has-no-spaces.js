@@ -15,32 +15,34 @@
 
 /* ---   ?   --- */
 
-// input <- null
+let input = null;
 
-// WHILE: input === null
-//   input <- prompt('enter some text, the program will check if it has any spaces')
-// :END WHILE
-
-/* ---   ?   --- */
-
-// noSpaces <- true
-
-// FOR: letter OF input
-//   IF: letter === ' '
-//     noSpaces <- false
-//   :END IF
-// :END FOR-OF
+while (input === null) {
+  input = prompt(
+    'enter some text, the program will check if it has any spaces',
+  );
+}
 
 /* ---   ?   --- */
 
-// message <- ''
+let noSpaces = true;
 
-// IF: noSpaces
-//   message <- '"' + input + '" has no spaces'
-// ELSE:
-//   message <- '"' + input + '" has at least one space'
-// :END IF
+for (letter of input) {
+  if (letter === ' ') {
+    noSpaces = false;
+  }
+}
 
 /* ---   ?   --- */
 
-// alert(message)
+let message = '';
+
+if (noSpaces) {
+  message = '"' + input + '" has no spaces';
+} else {
+  message = '"' + input + '" has at least one space';
+}
+
+/* ---   ?   --- */
+
+alert(message);

@@ -22,6 +22,4 @@ for (let char of animal) {
     console.log(char);
 
 }
-
-
 }

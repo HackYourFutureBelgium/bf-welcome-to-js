@@ -15,18 +15,18 @@
 
 /* ---  ?  --- */
 
-// input <- null
-// WHILE: input === null
-//   input <- prompt('enter something, it will become curious')
-// :END WHILE
+let input = null;
+while (input === null) {
+  input = prompt('enter something, it will become curious');
+}
 
 /* ---  ?  --- */
 
-// output <- input
-// IF: input[input.length - 1] !== '?'
-//   output <- output + '?'
-// :END IF
+let output = input;
+if (input[input.length - 1] !== '?') {
+  output = output + '?';
+}
 
 /* ---  ?  --- */
 
-// alert(output)
+alert(output);

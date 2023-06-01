@@ -20,11 +20,39 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let input = '';
+let output = '';
 
-/* --- create final output --- */
+while (true) {
+  let input = prompt(
+    'Type a single character',
+  );
 
-while (_) {}
+  if (input === null) {
+    console.log('Cancelled. Please try again.');
+    continue;
+  }
+
+  if (input.length == 0) {
+    console.log('The input is empty. Please try again.');
+    continue;
+  }
+
+  if (input.length > 1) {
+    console.log('The input is longer than 1 character. Please try again.');
+    continue;
+  }
+
+  output += input;
+
+  let confirmation = confirm(
+    `The current output is: ${output}\nDo you want to finish?`,
+  );
+
+  if (confirmation) {
+    break;
+  }
+}
 
 /* --- alert the result --- */
 
@@ -32,16 +60,3 @@ console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
-
-/*
-  checklist:
-    [ ] the code is formatted
-    [ ] linting check passes
-    [ ] variable names are clear and helpful
-    [ ] each line of code is explained in a comment above that line
-      - use full sentences and correct JS vocabulary
-    [ ] the program runs
-    [ ] the program has no errors
-    [ ] all of the test cases work
-    [ ] you tested strange inputs that could break your program (edge cases)
-*/

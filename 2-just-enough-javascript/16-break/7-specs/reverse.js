@@ -20,35 +20,28 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
-console.log('input:', input);
-
-/* --- declare initial output --- */
-
-let output = _;
-
-/* --- create final output --- */
-
-for (let _ of _) {
+let input = null;
+while (input === null || input === '') {
+  input = prompt('enter some text to reverse');
+  console.log(input);
 }
 
-/* --- alert the result --- */
+/* --- reverse the input text --- */
 
-console.log('output:', output);
-alert(output);
+let reversed = '';
+while(true) {for (let character of input) {
+  reversed = character + reversed;
+}
+console.log(reversed);
+break
+}
+/* --- create a final message --- */
+
+let message = input + ' -> ' + reversed;
+console.log(message);
+
+/* --- display message to the user --- */
+
+alert(message);
 
 console.log('--- end program ---');
-
-/*
-  checklist:
-    [ ] the code is formatted
-    [ ] linting check passes
-    [ ] variable names are clear and helpful
-    [ ] each line of code is explained in a comment above that line
-      - use full sentences and correct JS vocabulary
-    [ ] the program runs
-    [ ] the program has no errors
-    [ ] all of the test cases work
-    [ ] you tested strange inputs that could break your program (edge cases)
-*/

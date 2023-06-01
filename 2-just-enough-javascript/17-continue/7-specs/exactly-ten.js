@@ -22,30 +22,37 @@
 
 console.log('--- begin program ---');
 
+let input = null;
+
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
-
+while (!input) {
+  input = prompt('Type 10 characters');
+  if (input.length < 10) {
+    alert(
+      'The input is too short, it shpuld be 10 character length. Try again!',
+    );
+    input = null;
+    continue;
+  } else if (input.length > 10) {
+    alert(
+      'The input is too long, it shpuld be 10 character length. Try again!',
+    );
+    input = null
+    continue;
+  } else {
+    alert('The input is 10 characters length. Good job!');
+    output += input;
+    break;
+  }
+}
 /* --- alert the result --- */
 
 console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
-
-/*
-  checklist:
-    [ ] the code is formatted
-    [ ] linting check passes
-    [ ] variable names are clear and helpful
-    [ ] each line of code is explained in a comment above that line
-      - use full sentences and correct JS vocabulary
-    [ ] the program runs
-    [ ] the program has no errors
-    [ ] all of the test cases work
-    [ ] you tested strange inputs that could break your program (edge cases)
-*/

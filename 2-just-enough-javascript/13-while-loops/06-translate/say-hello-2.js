@@ -13,20 +13,18 @@
 
 /* ---   ?   --- */
 
-// input <- null
-// WHILE: input === null
-//   input <- prompt('say hello')
-// :END WHILE
-
+let input = null;
+while (input === null) {
+  input = prompt('say hello');
+}
 /* ---   ?   --- */
 
-// message <- ''
-// IF: input === 'hello'
-//   message <- 'hello to you too!'
-// ELSE:
-//   message <- 'good bye'
-// :END IF
-
+let message = '';
+if (input === 'hello') {
+  message = 'hello to you too!';
+} else {
+  message = 'good bye';
+}
 /* ---   ?   --- */
 
-// alert(message)
+alert(message);

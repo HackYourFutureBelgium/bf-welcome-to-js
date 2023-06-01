@@ -26,22 +26,21 @@
 console.log('--- begin program ---');
 
 /* --- gather user input --- */
+let output = '';
+let input = '';
+while (true) {
+  input = prompt('Enter a non-empty string:');
 
-let input = _;
-while (_) {}
-console.log('input:', input);
+  if (!input) {
+    continue;
+  }
 
-/* --- declare characters to keep --- */
+  if (input.trim().length === 0) {
+    continue;
+  }
 
-let toKeep = _;
-
-/* --- declare initial output --- */
-
-let output = _;
-
-/* --- create final output --- */
-
-for (let _ of _) {
+  output = input.replace(/[^a-zA-Z]/g, '');
+  break;
 }
 
 /* --- alert the result --- */
@@ -50,16 +49,3 @@ console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
-
-/*
-  checklist:
-    [ ] the code is formatted
-    [ ] linting check passes
-    [ ] variable names are clear and helpful
-    [ ] each line of code is explained in a comment above that line
-      - use full sentences and correct JS vocabulary
-    [ ] the program runs
-    [ ] the program has no errors
-    [ ] all of the test cases work
-    [ ] you tested strange inputs that could break your program (edge cases)
-*/

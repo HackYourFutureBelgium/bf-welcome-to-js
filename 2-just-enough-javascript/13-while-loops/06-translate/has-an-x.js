@@ -15,19 +15,19 @@
 
 /* ---  ?  --- */
 
-// input <- null
-// WHILE: input === null
-// input <- prompt('enter something, the program will check if it has an "x"')
-// :END WHILE
+let input = null;
+while (input === null) {
+  input = prompt('enter something, the program will check if it has an "x"');
+}
 
 /* ---  ?  --- */
 
-// IF: input.includes('x')
-//  message <- message + 'has at least one "x"'
-// ELSE:
-//  message <- message + 'does not have a single "x"'
-// :END IF
+if (input.includes('x')) {
+  message = message + 'has at least one "x"';
+} else {
+  message = message + 'does not have a single "x"';
+}
 
 /* ---  ?  --- */
 
-// alert(message)
+alert(message);

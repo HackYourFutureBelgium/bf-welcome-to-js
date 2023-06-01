@@ -24,11 +24,29 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
+let input = null;
+const letters = /^[A-Za-z]+$/;
 
 /* --- create final output --- */
 
-while (_) {}
+while (!input) {
+  input = prompt('Type letters');
+  if (input == null) {
+    alert('canceled')
+    continue;
+  } else if (input == '') {
+    alert('the input is empty')
+    continue;
+  } else if (!letters.test(input)) {
+    alert('input contains anything that is not a letter')
+    input = null
+    continue;
+  } else {
+    output += input;
+  }
+  break
+}
 
 /* --- alert the result --- */
 
@@ -36,16 +54,3 @@ console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
-
-/*
-  checklist:
-    [ ] the code is formatted
-    [ ] linting check passes
-    [ ] variable names are clear and helpful
-    [ ] each line of code is explained in a comment above that line
-      - use full sentences and correct JS vocabulary
-    [ ] the program runs
-    [ ] the program has no errors
-    [ ] all of the test cases work
-    [ ] you tested strange inputs that could break your program (edge cases)
-*/
