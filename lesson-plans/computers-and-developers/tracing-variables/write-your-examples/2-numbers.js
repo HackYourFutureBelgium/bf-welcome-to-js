@@ -8,12 +8,10 @@ declared, initialized, read , reassigned,...
 */
 
 // declared and initialized
-let mangocost =10;
+let mangocost = 10;
 console.log(mangocost);
-
-
-let cheekucost=5;
+let cheekucost = 5;
 console.log(cheekucost);
 
-let cost= (mangocost + cheekucost) 
+let cost = mangocost + cheekucost;
 console.log(cost);
