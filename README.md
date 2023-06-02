@@ -266,5 +266,7 @@ practices.
 - [Day 5-2](https://youtu.be/ZbdgOXpOrds)
 - [Day 5-3](https://youtu.be/yY-nyRRjMgQ)
 - [Day 6](https://youtu.be/-gNOnrpUHSo)
+- [Day 7](https://youtu.be/0oalTHUxafk)
+- [Day 8](https://youtu.be/QlPQ44HG9XM)
 
 </details>
