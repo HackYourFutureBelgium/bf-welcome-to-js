@@ -20,8 +20,13 @@ let noRepetitions = '';
 for (const next of phrase) {
   if (next !== previous) {
     noRepetitions = noRepetitions + next;
+  }else {
+    console.log('Letter removed:', next);
   }
   previous = next;
 }
 
 alert(noRepetitions);
+
+
+

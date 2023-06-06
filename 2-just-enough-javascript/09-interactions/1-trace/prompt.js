@@ -16,4 +16,4 @@ let input3 = prompt('3. enter "hello"');
 console.log(input3 === 'hello'); // true
 
 let input4 = prompt('4. enter your name');
-console.log(input4); // ?
+console.log(input4); //  map

@@ -23,3 +23,36 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+// a variable to store the userInput
+let message = '';
+while (true) {
+  // in case null
+  const userInput = prompt('Please enter something : ');
+  if (userInput === null) {
+    alert('there is no escape!');
+    continue;
+  }
+  // in case empty string
+  if (userInput === '') {
+    alert('no empty string allowed');
+    continue;
+  }
+  // if userInput
+  if (userInput) {
+    message = userInput;
+    break;
+  }
+}
+
+// Loop throw message
+let newMessage = '';
+for (let i = 0; i < message.length; i++) {
+  if (i % 2 === 0) {
+    newMessage += message[i].toUpperCase();
+  } else {
+    newMessage += message[i].toLowerCase();
+  }
+}
+
+alert(newMessage);

@@ -30,3 +30,35 @@
 /* ---  ?  --- */
 
 // alert(output)
+
+
+'use strict';
+
+
+/* Be Curious
+
+  Data In: user input
+  Data Out: "How are you?"
+  
+  
+
+  Test Cases:  how are you ---> how are you?
+
+*/
+
+/* --- gather user input   --- */
+let input = null;
+while (input === null) {
+  input = prompt('Enter something, it will become curious');
+}
+
+/* ---  create a message  --- */
+
+let output = input;
+if (output[output.length - 1] !== '?') {
+  output += '?';
+}
+
+/* ---  alert the output  --- */
+
+alert(output);

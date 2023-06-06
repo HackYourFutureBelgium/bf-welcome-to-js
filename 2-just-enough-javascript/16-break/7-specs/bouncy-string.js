@@ -28,17 +28,43 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+  const userInput = prompt('Please type something but only  letters');
+
+  if (userInput === null) {
+    alert('no message.');
+    continue;
+  }
+
+  if (userInput === '') {
+    alert('no message. Please enter only letters.');
+    continue;
+  }
+
+  if (!/^[a-zA-Z]+$/.test(userInput)) {
+    alert('no message, Please enter letters only.');
+    continue;
+  }
+
+  input = userInput;
+  break;
+}
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let i = 0; i < input.length; i++) {
+  const letter = input[i];
+  if (i % 2 === 0) {
+    output += letter.toLowerCase();
+  } else {
+    output += letter.toUpperCase();
+  }
 }
 
 /* --- alert the result --- */

@@ -4,12 +4,24 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
-whenFormDataChanges('__', () => {
+whenFormDataChanges('calculator', () => {
   // debugger;
   console.log('--- form data changed ---');
 
   // --- read user values ---
+let x = readNumber('left');
+let y = readNumber('right');
   // --- multiply the numbers ---
-  // --- create a message ---
+
+   let z = x * y ;
+// --- create a message ---
+
+
+  const message = `${x} * ${y} === ${z}`
+
+
   // --- display the message ---
+
+  displayString('product', '' + message);
+
 });

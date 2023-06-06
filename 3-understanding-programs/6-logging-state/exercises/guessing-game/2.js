@@ -53,6 +53,8 @@ if (userInput === '-h') {
           clue +
           '"',
       );
+      console.log('Secret Phrase:'); // log the secret phrase
+      console.log('Clue:'); // log the clue
 
       alert('now go get Player 2');
 
@@ -74,6 +76,7 @@ if (userInput === '-h') {
         alert('Congrats, you were right!\n\n');
       } else {
         winner = 'Player 1';
+                console.log('Incorrect Guess'); // log only incorrect guesses
 
         const revealTheSecret = confirm(
           'Nope, not correct. \n\ndo you want to know the secret?',

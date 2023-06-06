@@ -21,23 +21,33 @@ whenFormDataChanges('search-input', () => {
 
   let doesExist = false;
 
-  if (caseSensitive) {
+  //if (!caseSensitive) {
+    // let smallSearchThis = searchThis.toLowerCase();
+    // let smallFindThis = findThis.toLowerCase();
+    //doesExist = smallSearchThis.includes(smallFindThis);
+  //} else {
+    //let smallSearchThis = searchThis.toLowerCase();
+    //let smallFindThis = findThis.toLowerCase();
+    //doesExist = searchThis.includes(findThis);
+  //}
+
+if (!caseSensitive) {
     doesExist = searchThis.includes(findThis);
-  } else {
+  } else if (caseSensitive) {
     let smallSearchThis = searchThis.toLowerCase();
     let smallFindThis = findThis.toLowerCase();
     doesExist = smallSearchThis.includes(smallFindThis);
   }
-
   // --- create the message ---
 
-  let message = '';
+  let message = " ";
 
-  if (doesExist) {
-    message = 'yes';
+  if (doesExist){
+    message = `the text contains`;
   } else {
-    message = 'no';
+    message = `the text does not contains`;
   }
+
 
   // --- display the search results ---
 

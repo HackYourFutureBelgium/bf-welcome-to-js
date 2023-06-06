@@ -3,28 +3,28 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: chorme
 
-  name:
-  message:
+  name:  23
+  message : Reference Error
 
-  location:
+  location: 23
 
-  life cycle:
+  life cycle:Exceution phase
 
-  the mistake:
+  the mistake: using isValidUserName  intilizating before declaring username
 
-  the fix(es):
+  the fix(es): declare isValidUserName variable before conditional using it in the if statement.
 */
 
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
-if (userName.length > 3) {
-  isValidUserName = true;
-}
-
 let isValidUserName;
+
+if (userName.length > 3) {
+  isValidUserName = true;  // Reference Error : isValidUserName is not defined
+}
 
 if (userName.length <= 3) {
   isValidUserName = false;

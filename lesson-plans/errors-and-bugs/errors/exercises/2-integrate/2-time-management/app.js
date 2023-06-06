@@ -5,18 +5,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name: reference error
+  message: Display string is not defined
 
-  location:
+  location: 46
 
-  life cycle:
+  life cycle:Exceutionphase
 
-  the mistake:
+  the mistake: Display string is not camelcase
 
-  the fix(es):
+  the fix(es):  used camelcase i.e.., used lower case first
 */
 
 whenFormDataChanges('sleep-info', () => {
@@ -43,5 +43,5 @@ whenFormDataChanges('sleep-info', () => {
 
   // --- display the advice ---
 
-  DisplayString('advice-area', advice);
+  displayString('advice-area', advice); // DisplayString('advice-area', advice);
 });

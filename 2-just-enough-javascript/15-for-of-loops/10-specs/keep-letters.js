@@ -26,21 +26,36 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+  const userInput = prompt('Please enter only letters:');
+
+  if (userInput === null) {
+    alert('please write something.');
+    continue;
+  }
+
+  if (userInput === '') {
+    alert('Please enter only letters.');
+    continue;
+  }
+
+  input = userInput;
+  break;
+}
 console.log('input:', input);
-
-/* --- declare characters to keep --- */
-
-let toKeep = _;
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let i = 0; i < input.length; i++) {
+  const character = input[i];
+  if (/[a-zA-Z]/.test(character)) {
+    output += character;
+  }
 }
 
 /* --- alert the result --- */
@@ -49,6 +64,7 @@ console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
+
 
 /*
   checklist:

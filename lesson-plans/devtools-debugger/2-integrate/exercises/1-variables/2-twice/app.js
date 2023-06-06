@@ -17,7 +17,10 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated = text + '\n' + text;
+  let repeated = '';
+  for (let i = 1; i <= 4; i++) {
+    repeated += i + '. ' + text + '\n';
+  }
 
   // --- display the repeated text ---
 
@@ -25,13 +28,12 @@ whenFormDataChanges('user-data', () => {
   displayString('doubled-input', repeated);
 });
 
-/*  ===== Challenges =====
+/* ===== Challenges =====
 
-  - Copy the user's text 4 times
-  - Number the copies like this:
-    1. asdf
-    2. asdf
-    3. asdf
-    4. asdf
-
+Copy the user's text 4 times
+Number the copies like this:
+asdf
+asdf
+asdf
+asdf
 */

@@ -6,20 +6,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name:syntax error
+  message: unexpected string
 
-  location:
+  location: 23
 
-  life cycle:
+  life cycle:Eceutionphase
 
-  the mistake:
+  the mistake: '' is used twice 
 
-  the fix(es):
+  the fix(es): added ""
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
+const quotesInQuotes = 'remind yourself "i can do this!"  at least once a day';
 
 
+// 'remind yourself'i can do this! 'at least once a day';

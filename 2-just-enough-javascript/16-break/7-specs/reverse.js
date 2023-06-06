@@ -20,18 +20,37 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+  const userInput = prompt('Please enter something');
+
+  if (userInput === null) {
+    alert('noescape.');
+    continue;
+  }
+
+  if (userInput === '') {
+    alert('Invalid input. Please enter something.');
+    continue;
+  }
+
+  input = userInput;
+  break;
+}
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of input) {
+  if (/[a-zA-Z]/.test(char)) {
+    output += char;
+  }
 }
+output += '|' + output.split('').reverse().join('');
 
 /* --- alert the result --- */
 
@@ -39,6 +58,7 @@ console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
+
 
 /*
   checklist:

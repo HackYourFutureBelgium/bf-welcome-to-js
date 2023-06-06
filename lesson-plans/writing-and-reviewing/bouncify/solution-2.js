@@ -23,3 +23,38 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+let message = '';
+
+// Prompt user for input
+while (true) {
+  const userInput = prompt('Please enter something:');
+
+  if (userInput === null) {
+    alert('There is no escape!');
+  } else if (userInput === '') {
+    alert('No empty string allowed');
+  } else {
+    message = userInput;
+    break;
+  }
+}
+
+// Bouncify the message
+let newMessage = '';
+let toUpperCase = true;
+
+for (let i = 0; i < message.length; i++) {
+  const char = message[i];
+
+  if (/[a-zA-Z]/.test(char)) {
+    newMessage += toUpperCase ? char.toUpperCase() : char.toLowerCase();
+    toUpperCase = !toUpperCase;
+  } else {
+    newMessage += char;
+  }
+}
+
+// Display the bouncified message
+alert(newMessage);
+

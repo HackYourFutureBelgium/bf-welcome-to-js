@@ -1,13 +1,22 @@
 'use strict';
 
-let input = null;
-while (input === null || input.length !== 5) {
-  input = prompt('enter something with 5 characters:');
+let partOne;
+let partTwo;
+let message;
+
+while (true) {
+  partOne = prompt('Please enter somthing ');
+  partTwo = prompt('Please enter somthing ');
+
+  message = partOne + partTwo;
+
+  if (message.length === 10) {
+    alert('Thank you :)');
+    break;
+  } else {
+    alert('Please ennter only 10 characters for both times');
+  }
 }
-
-let message = 'thank you for "' + input + '"!';
-
-alert(message);
 
 /*  ===== Challenges =====
   - Change the condition to 10 characters.

@@ -6,8 +6,15 @@ while (text === null) {
 }
 
 let doubled = '';
+
 for (let nextChar of text) {
-  doubled = doubled + nextChar + nextChar;
+  doubled = doubled + nextChar + '-';
+}
+for (let i = 0; i < text.length; i++) {
+  doubled = doubled + text[i];
+  if (i !== text.length - 1) {
+    doubled = doubled + '-';
+  }
 }
 
 alert(doubled);

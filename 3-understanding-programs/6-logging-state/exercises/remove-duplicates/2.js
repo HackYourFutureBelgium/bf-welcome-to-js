@@ -19,6 +19,7 @@ let noRepetitions = '';
 for (const next of phrase) {
   if (next !== previous) {
     noRepetitions = noRepetitions + next;
+     console.log('Character added:', next);
   }
   previous = next;
 }

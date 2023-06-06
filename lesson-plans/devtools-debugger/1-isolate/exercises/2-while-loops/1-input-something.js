@@ -1,11 +1,12 @@
 'use strict';
 
-let input = null;
-while (input === null) {
-  input = prompt('input something:');
-}
+let num;
 
-alert('thank you!');
+while (true) {
+  // infinite loop
+  num = Number(prompt('Enter a number: '));
+  console.log(num);
+}
 
 /*  ===== Challenges =====
   - Try to create an infinite loop so the user gets stuck inside your prompt.

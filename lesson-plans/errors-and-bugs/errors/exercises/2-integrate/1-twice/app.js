@@ -6,18 +6,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: syntax error
+  message: un expected token '+'
 
-  location:
+  location: 32
 
-  life cycle:
+  life cycle: Creationphase
 
-  the mistake:
+  the mistake: using + after the variable repeated
 
-  the fix(es):
+  the fix(es): using = instead of +
 */
 
 whenFormDataChanges('user-data', () => {
@@ -29,7 +29,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text; // let repeated + text + '\n' + text;
 
   // --- display the repeated text ---
 

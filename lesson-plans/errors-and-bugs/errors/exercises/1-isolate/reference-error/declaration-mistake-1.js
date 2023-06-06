@@ -3,20 +3,20 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: reference error
+  message: welf is not defined
 
-  location:
+  location: 20
 
   life cycle:
 
-  the mistake:
+  the mistake: didn't assign a value to the variable welf without declaring it.
 
-  the fix(es):
+  the fix(es): declare the welf variable using the let.
 */
 
-welf = 'ingrad';
+let welf = 'ingrad';
 
 console.log(welf);
