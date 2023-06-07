@@ -1,46 +1,48 @@
-// #todo
-
 'use strict';
 
 /*
 
 
-  Data In:
+  Data In: user input
 
-  Data Out:
+  Data Out: "I love coding" has at least one space
 
-  Test Cases:
+  Test Cases: I love coding - > "I loce coding" has at least one space
+              coding -> "love" does not have any spaces
 
 */
 
 /* ---   ?   --- */
 
-// input <- null
+let input = null;
 
-// WHILE: input === null
-//   input <- prompt('enter some text, the program will check if it has any spaces')
-// :END WHILE
-
-/* ---   ?   --- */
-
-// hasASpace <- false
-
-// FOR: char OF input
-//   IF: char === ' '
-//     hasASpace <- true
-//   :END IF
-// :END FOR-OF
+while (input === null) {
+  input = prompt(
+    'Enter some text. The program will check if it has any spaces',
+  );
+}
 
 /* ---   ?   --- */
 
-// message <- ''
+let hasASpace = false;
 
-// IF: hasASpace
-//   message <- '"' + input + '" has at least one space'
-// ELSE:
-//   message <- '"' + input + '" does not have any spaces'
-// :END IF
+for (let char of input) {
+  if (char === ' ') {
+    hasASpace = true;
+    break;
+  }
+}
 
 /* ---   ?   --- */
 
-// alert(message)
+let message = '';
+
+if (hasASpace) {
+  message = '"' + input + '" has at least one space';
+} else {
+  message = '"' + input + '" does not have any spaces';
+}
+
+/* ---   ?   --- */
+
+alert(message);

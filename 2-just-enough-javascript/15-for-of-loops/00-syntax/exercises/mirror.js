@@ -9,19 +9,11 @@
 let word = 'hello';
 
 
-let mirrored = '|';
+let mirrored = '';
 
 
 for (let char of word) {
-
-
-    mirrored = char + mirrored + char;
-
-
+    mirrored = char + mirrored;
 }
-
-
 console.log(word + ' -> ' + mirrored);
-
-
 }

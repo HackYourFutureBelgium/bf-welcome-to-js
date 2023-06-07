@@ -2,7 +2,8 @@
 
 'use strict';
 
-/*
+/* Challenge: write this program using `break` and `continue`
+
   a user can input string of letters (upper or lower case), each letter will be doubled
     - given the user cancels, they will be prompted again
     - given the input is empty, they will be prompted again
@@ -20,21 +21,52 @@
       'jello' -> 'jjeelllloo'
 */
 
+
 console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input;
+while (true) {
+  input = prompt('Please enter a string of letters:');
+
+  if (input === null) {
+    continue; // User canceled, prompt again
+  }
+
+  if (input === '') {
+    continue; // Empty input, prompt again
+  }
+
+  let isValid = true;
+  for (let i = 0; i < input.length; i++) {
+    const charCode = input.charCodeAt(i);
+    if (
+      (charCode < 65 || charCode > 90) && // not uppercase A-Z
+      (charCode < 97 || charCode > 122) // not lowercase a-z
+    ) {
+      isValid = false;
+      break;
+    }
+  }
+
+  if (!isValid) {
+    continue; // Input contains non-letter characters, prompt again
+  }
+
+  break; // Valid input, exit the loop
+}
+
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let i = 0; i < input.length; i++) {
+  output += input[i] + input[i];
 }
 
 console.log('output:', output);

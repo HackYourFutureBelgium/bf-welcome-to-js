@@ -33,28 +33,39 @@
       'Java Script', 'as' -> '"Java Script" does not include "as"'
 */
 
-console.log('--- begin program ---');
+let text = prompt('enter something');
+let query = prompt('enter something');
 
-/* --- gather user input --- */
+// cancel
 
-let text = prompt(_);
-console.log('text:', text);
+if (text === null || query === null) {
+  alert(':(');
+}
+
+const isIncluded = text.toLowerCase().includes(query.toLowerCase());
+if (isIncluded) {
+  alert(`"${text}" does includes "${query}"`);
+} else {
+  alert(`"${text}" does not include "${query}"`);
+}
+
+/*console.log('text:', text);
 
 let query = prompt(_);
-console.log('query:', query);
+console.log('query:', query);*/
 
 /* --- declare initial output --- */
 
-let output = _;
+/*let output = _;*/
 
 /* --- create final output --- */
 
 /* --- alert the result --- */
 
-console.log('output:', output);
+/*console.log('output:', output);
 alert(output);
 
-console.log('--- end program ---');
+console.log('--- end program ---');*/
 
 /*
   checklist:

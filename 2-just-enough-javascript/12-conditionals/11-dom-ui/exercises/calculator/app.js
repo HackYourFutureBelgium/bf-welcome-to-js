@@ -5,17 +5,28 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
-whenFormDataChanges('___', () => {
+whenFormDataChanges('inputs', () => {
   // debugger;
   console.log('--- form data changed ---');
 
   // --- read the user's input ---
-  let left = readNumber('__');
-  let right = readNumber('__');
+  let left = readNumber('left');
+  let right = readNumber('right');
+  const operation = readString('operator');
 
-  let operator = readString('__');
+  let message = '';
 
-  // --- calculate the result ---
+  if (operation === '+') {
+    message = left + right;
+  } else if (operation === '-') {
+    message = left - right;
+  } else if (operation === '*') {
+    message = left * right;
+  } else {
+    message = left / right;
+  }
 
-  // --- display the result ---
+  message = '$ ' + message;
+
+  displayString('result', message);
 });

@@ -1,8 +1,7 @@
-// #todo
-
 'use strict';
 
-/*
+/* Challenge: write this program using `break` and `continue`
+
   a user can input a non-empty string and it will be reversed
     - given the user cancels, they will be prompted again
     - given the input is empty, they will be prompted again
@@ -19,17 +18,32 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+  input = prompt('Please enter a non-empty string to reverse:');
+  
+  if (input === null) {
+    alert('You canceled. Please try again.');
+    continue; // User canceled, prompt again
+  }
+  
+  if (input === '') {
+    alert('Input is empty. Please enter a non-empty string.');
+    continue; // Input is empty, prompt again
+  }
+  
+  break; // Valid input, exit the loop
+}
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let i = input.length - 1; i >= 0; i--) {
+  output += input[i];
 }
 
 /* --- alert the result --- */

@@ -27,18 +27,34 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
-console.log('input:', input);
+let input = '';
+while (true) {
+  const input = prompt('Please enter something');
+  console.log('input:', input);
+}
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
+let isUpperCase = true;
+let spcial = ' 0123456789!?.&*$#';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of output) {
+  if (spcial.indexOf(char) === -1) {
+    if (isUpperCase) {
+      output += char.toUpperCase();
+      isUpperCase = false;
+    } else {
+      output += char.toLowerCase();
+      isUpperCase = true;
+    }
+  } else {
+    output += char;
+  }
 }
+
 
 /* --- alert the result --- */
 

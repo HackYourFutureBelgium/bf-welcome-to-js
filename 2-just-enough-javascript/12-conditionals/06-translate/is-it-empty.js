@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -13,27 +11,26 @@
 
 */
 
-/* ---   ?   --- */
+/* declare a variable input and initialize it to the value */
 
-// input <- prompt('do whatever you want')
+let input = prompt('do whatever you want');
 
-/* ---   ?   --- */
+/* declare a variable message and initialize it to the value 'your input is '*/
 
-// message <- 'your input is '
+let message = 'your input is ';
 
-// IF: input === null
-/* ---   ?   --- */
-//   message <- message + 'null'
-// ELSE:
-/* ---   ?   --- */
-//   maybeNot <- ''
-//   IF: input.length !== 0
-/* ---   ?   --- */
-//     maybeNot <- 'not '
-//   :END IF
-//   message <- message + maybeNot + 'empty'
-// :END IF
-
-/* ---   ?   --- */
-
-// alert(message)
+if (input === null) {
+  /* declare a variable maybeNot and initialize it to the value '' */
+  let maybeNot = '';
+  if (input.length !== 0) {
+    /* reassign the variable maybenot and initialize it to the value 'not ' */
+    maybeNot = 'not ';
+  }
+  // reassign the variable message and initialize it to the value 'message + maybeNot + 'empty''//
+  message = message + maybeNot + 'empty';
+} else {
+  // reassign the variable message and initialize it to the value 'message + 'null''//
+  message = message + 'null';
+}
+// read the value message//
+alert(message);

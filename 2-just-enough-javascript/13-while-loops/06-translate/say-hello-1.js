@@ -1,22 +1,22 @@
-// #todo
-
 'use strict';
 
 /*
 
 
-  Data In:
+  Data In: user input
 
-  Data Out:
+  Data Out: 
+   - enter 'hello' the message its shows 'hello to you too'
+   - if not enter 'hello' the prompt shows 'say hello'
 
   Test Cases:
+   - world --> 'say hello'
+   - hello --> 'hello to you too!'
 
 */
+let input = '';
+while (input !== 'hello') {
+  input = prompt('say hello');
+}
+alert('hello to you too!');
 
-// input <- ''
-
-// WHILE: input !== 'hello'
-//   input <- prompt('say hello')
-// :END WHILE
-
-// alert('hello to you too!')

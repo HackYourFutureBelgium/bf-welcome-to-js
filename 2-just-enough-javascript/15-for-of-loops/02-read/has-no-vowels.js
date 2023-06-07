@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let text = null;

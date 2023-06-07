@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -25,35 +23,33 @@
       'javascript is perfect' -> '"javascript is perfect" is 11 characters too long'
 */
 
-console.log('--- begin program ---');
+//console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = prompt(_);
-console.log('input:', input);
+let input = prompt('enter something with 10 characters');
+let output;
+if (input === null) {
+  output = ':(';
+} else {
+  if (input.length < 10) {
+    output = 'too short';
+  } else if (input.length === 10) {
+    output = 'perfect';
+  } else {
+    output = 'too long';
+  }
+}
 
-/* --- declare initial output --- */
-
-let output = _;
-
-/* --- create final output --- */
-
-/* --- alert the result --- */
-
-console.log('output:', output);
 alert(output);
 
-console.log('--- end program ---');
-
-/*
-  checklist:
-    [ ] the code is formatted
-    [ ] linting check passes
-    [ ] variable names are clear and helpful
-    [ ] each line of code is explained in a comment above that line
-        - use full sentences and correct JS vocabulary
-    [ ] the program runs
-    [ ] the program has no errors
-    [ ] all of the test cases work
-    [ ] you tested strange inputs that could break your program (edge cases)
-*/
+//  checklist:
+//   [ ] the code is formatted
+//    [ ] linting check passes
+//    [ ] variable names are clear and helpful
+//    [ ] each line of code is explained in a comment above that line
+//        - use full sentences and correct JS vocabulary
+//    [ ] the program runs
+//    [ ] the program has no errors
+//    [ ] all of the test cases work
+//    [ ] you tested strange inputs that could break your program (edge cases)

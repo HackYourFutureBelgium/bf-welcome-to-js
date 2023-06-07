@@ -24,11 +24,23 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const userInput = prompt('Please enter something  only letters allowed : ');
+  if (!userInput) {
+    continue;
+  } else {
+    if (/^[a-zA-Z]+$/.test(userInput)) {
+      output = userInput;
+      break;
+    } else {
+      continue;
+    }
+  }
+}
 
 /* --- alert the result --- */
 

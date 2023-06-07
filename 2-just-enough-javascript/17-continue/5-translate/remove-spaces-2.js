@@ -4,10 +4,9 @@
 
 /*
 
+  Data In: any text with space(s)
 
-  Data In:
-
-  Data Out:
+  Data Out: text without space(s)
 
   Test Cases:
 
@@ -47,3 +46,34 @@
 /* ---   ?   --- */
 
 // alert(input + ' -> ' + spaceless)
+
+let input = null;
+
+while (true) {
+  input = prompt(
+    'enter something with at least one space, the spaces will be removed',
+  );
+
+  if (input === null) {
+    alert('no escape');
+    continue;
+  } else if (input === '') {
+    alert('gotta enter something');
+    continue;
+  } else if (!input.includes(' ')) {
+    alert('there must be a space!');
+    continue;
+  } else {
+    break;
+  }
+}
+
+let spaceless = '';
+
+for (const char of input) {
+  if (char !== ' ') {
+    spaceless += char;
+  }
+}
+
+alert(input + ' -> ' + spaceless);

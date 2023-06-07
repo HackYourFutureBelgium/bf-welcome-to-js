@@ -17,4 +17,3 @@ while (dots.length !< 5) { // distractor
 { // distractor
 
 
-// #todo

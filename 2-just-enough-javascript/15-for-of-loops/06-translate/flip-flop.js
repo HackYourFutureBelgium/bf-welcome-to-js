@@ -1,47 +1,46 @@
-// #todo
-
 'use strict';
 
 /*
 
 
-  Data In:
+  Data In: user input
 
-  Data Out:
+  Data Out: ehllo
 
-  Test Cases:
+  Test Cases: hello --> ehllo
 
 */
 
 /* ---   ?   --- */
 
-// normalPhrase <- null
+let normalPhrase = null;
 
-// WHILE: normalPhrase === null
-//   normalPhrase <- prompt('enter something to flipflop')
-// :END WHILE
-
-/* ---   ?   --- */
-
-// previous <- ''
-
-// flipFlopped <- ''
-
-// FOR: current OF normalPhrase
-//   IF: previous !== ''
-//     flipFlopped <- flipFlopped + current + previous
-//     previous <- ''
-//   ELSE:
-//     previous <- current
-//   :END IF
-// :END FOR-OF
+while (normalPhrase === null) {
+  normalPhrase = prompt('Enter something to flip-flop');
+}
 
 /* ---   ?   --- */
 
-// IF: flipFlopped.length < normalPhrase.length
-//   flipFlopped <- flipFlopped + normalPhrase[normalPhrase.length - 1]
-// :END IF
+let previous = '';
+let flipFlopped = '';
+
+for (let i = 0; i < normalPhrase.length; i++) {
+  let current = normalPhrase[i];
+
+  if (previous !== '') {
+    flipFlopped += current + previous;
+    previous = '';
+  } else {
+    previous = current;
+  }
+}
 
 /* ---   ?   --- */
 
-// alert(flipFlopped)
+if (flipFlopped.length < normalPhrase.length) {
+  flipFlopped += normalPhrase[normalPhrase.length - 1];
+}
+
+/* ---   ?   --- */
+
+alert(flipFlopped);

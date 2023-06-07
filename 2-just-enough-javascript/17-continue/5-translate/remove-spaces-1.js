@@ -1,13 +1,10 @@
-// #todo
-
 'use strict';
 
 /*
 
+  Data In: any text with spaces 
 
-  Data In:
-
-  Data Out:
+  Data Out: text without spaces
 
   Test Cases:
 
@@ -46,3 +43,34 @@
 /* ---   ?   --- */
 
 // alert(input + ' -> ' + spaceless)
+
+let input = null;
+let hasSpaces = false;
+
+while (!hasSpaces) {
+  input = prompt(
+    'enter something with at least one space, the spaces will be removed',
+  );
+
+  if (input === null) {
+    alert('no escape');
+  } else if (input === '') {
+    alert('gotta enter something');
+  } else if (!input.includes(' ')) {
+    alert('there must be a space!');
+  } else {
+    hasSpaces = true;
+  }
+}
+
+let spaceless = '';
+
+for (const char of input) {
+  if (char === ' ') {
+    continue;
+  } else {
+    spaceless += char;
+  }
+}
+
+alert(input + ' -> ' + spaceless);

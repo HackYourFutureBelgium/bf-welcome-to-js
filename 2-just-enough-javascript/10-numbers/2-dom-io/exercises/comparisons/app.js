@@ -5,15 +5,29 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
-whenFormDataChanges('______', () => {
+whenFormDataChanges('nums', () => {
   // debugger;
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
-
-  // --- compare the numbers ---
+  const numberLeft = readNumber('left-num');
+  const numberRight = readNumber('right-num');
 
   // --- create a message
 
-  // --- display the message ---
+  let message = `${numberLeft} > ${numberRight} ----> ${
+    numberLeft > numberRight
+  }\n`;
+  message += `${numberLeft} >= ${numberRight} ---> ${
+    numberLeft >= numberRight
+  }\n`;
+  message += `${numberLeft} === ${numberRight} --> ${
+    numberLeft === numberRight
+  }\n`;
+  message += `${numberLeft} <= ${numberRight} ---> ${
+    numberLeft <= numberRight
+  }\n`;
+  message += `${numberLeft} < ${numberRight} ----> ${numberLeft < numberRight}`;
+
+  displayString('compared', message);
 });

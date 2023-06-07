@@ -5,32 +5,26 @@
 /*
 
 
-  Data In:
+  Data In: user input
 
-  Data Out:
+  Data Out: 
+   - if the user enter something the message shows 'thank you for something!
+   - if the user didn't enter its shows 'you entered nothing :('
 
   Test Cases:
+  - something --> 'thank you for something'
+  - '' --> 'you entered nothing :('
 
 */
 
-/* ---   ?   --- */
-
-// input <- null
-
-// WHILE: input === null
-//   input <- prompt('enter something')
-// :END WHILE
-
-/* ---   ?   --- */
-
-// output <- ''
-
-// IF: input === ''
-//   output <- 'you entered nothing :('
-// ELSE:
-//   output <- 'thank you for something!'
-// :END IF
-
-/* ---   ?   --- */
-
-// alert(output)
+let input = null;
+while (input === null) {
+  input = prompt('enter something');
+}
+let output = '';
+if (input === '') {
+  output = 'you entered nothing :(';
+} else {
+  output = 'thank you for something!';
+}
+alert(output);

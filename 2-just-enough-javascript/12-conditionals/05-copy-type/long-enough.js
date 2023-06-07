@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let input = prompt('enter anything longer than 5 characters');

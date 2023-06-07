@@ -1,6 +1,3 @@
-'use strict';
-
-
 /* parsons-collapse: hint
 
   1. declare variable with string to double
@@ -31,4 +28,4 @@ for (let character in doubled) { // distractor
 doubled = character + character; // distractor
 
 
-// #todo
+

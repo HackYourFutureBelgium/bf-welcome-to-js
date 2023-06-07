@@ -23,3 +23,5 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+// a variable to store the userInput

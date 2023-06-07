@@ -27,21 +27,31 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+  input = prompt('Please enter something');
+  if (input) {
+    break;
+  } else {
+    continue;
+  }
+}
 console.log('input:', input);
 
 /* --- declare characters to keep --- */
 
-let toKeep = _;
+let toKeep = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of input) {
+  if (toKeep.includes(char)) {
+    output += char;
+  }
 }
 
 /* --- alert the result --- */

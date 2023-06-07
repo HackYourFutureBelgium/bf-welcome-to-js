@@ -1,7 +1,8 @@
 'use strict';
 
 let step = 0;
-while (__ <= __) {
+while (step <= 10) {
+  step = step + 1;
   console.log(step);
-  __;
 }
+

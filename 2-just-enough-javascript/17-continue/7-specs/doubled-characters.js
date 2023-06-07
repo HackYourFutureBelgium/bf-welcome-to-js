@@ -25,17 +25,30 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
-console.log('input:', input);
+let userInput;
+while (true) {
+  const input = prompt('Please enter something, only letters allowed. ');
+  if (input) {
+    if (/^[a-zA-Z]+$/.test(input)) {
+      userInput = input;
+      break;
+    } else {
+      continue;
+    }
+  } else {
+    continue;
+  }
+}
+console.log('input:', userInput);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of userInput) {
+  output += char + char;
 }
 
 console.log('output:', output);

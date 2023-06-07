@@ -3,28 +3,20 @@
 /* Be Excited
 
 
-  Data In:
+  Data In: User input
 
-  Data Out:
+  Data Out: user input + !
 
-  Test Cases:
+  Test Cases: hello --> hello!
 
 */
+let input = null;
+while (input === null) {
+  input = prompt('enter something, it will become excited');
+}
+let output = input;
+if (input[input.length - 1] !== '!') {
+  output = output + '!';
+}
 
-/* ---  ?  --- */
-
-// input <- null
-// WHILE: input === null
-//   input <- prompt('enter something, it will become excited')
-// :END WHILE
-
-/* ---  ?  --- */
-
-// output <- input
-// IF: input[input.length - 1] !== '!'
-//   output <- output + '!'
-// :END IF
-
-/* ---  ?  --- */
-
-// alert(output)
+alert(output);

@@ -5,43 +5,49 @@
 /*
 
 
-  Data In:
+  Data In: user input
 
-  Data Out:
+  Data Out: "hack your future" has at least one vowel
 
-  Test Cases:
+  Test Cases: hack your future -> "hack your future" has at least one vowel
+              mnprs -> "mnprs" does not have any vowels
 
 */
 
 /* ---   ?   --- */
 
-// text <- null
+'use strict';
 
-// WHILE: text === null
-//   text <- prompt('enter some text')
-// :END WHILE
+/* --- gather user input --- */
 
-/* ---   ?   --- */
+let text = null;
+while (text === null || text === '') {
+  text = prompt('Enter some text:');
+}
+console.log('input:', text);
 
-// hasAVowel <- false
+/* --- check for vowels --- */
 
-// FOR: letter OF text
-//   IF: 'aeiouAEIOU'.includes(letter)
-//     hasAVowel <- true
-//     BREAK
-//   :END IF
-// :END FOR-OF
+let hasAVowel = false;
 
-/* ---   ?   --- */
+for (let letter of text) {
+  if ('aeiouAEIOU'.includes(letter)) {
+    hasAVowel = true;
+    break;
+  }
+}
 
-// message <- ''
+/* --- create message --- */
 
-// IF: hasAVowel
-//   message <- '"' + text + '" has at least one vowel'
-// ELSE:
-//   message <- '"' + text + '" does not have any vowels'
-// :END IF
+let message = '';
 
-/* ---   ?   --- */
+if (hasAVowel) {
+  message = '"' + text + '" has at least one vowel';
+} else {
+  message = '"' + text + '" does not have any vowels';
+}
 
-// alert(message)
+/* --- alert the result --- */
+
+console.log('message:', message);
+alert(message);
