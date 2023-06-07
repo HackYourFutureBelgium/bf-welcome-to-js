@@ -56,6 +56,7 @@ if (phraseIncludesQuery) {
   doesOrNot = 'does';
 } else {
   doesOrNot = 'does not';
+ console.log('Invalid query inputs:' ${query}); // log invalid query
 }
 
 alert(
@@ -70,6 +71,6 @@ alert(
     caseSensitive,
 );
 
+console.log('Invalid phrase inputs:'); // log Invalid inputs
 
-console.log('Invalid phrase inputs:');
-console.log('Invalid query inputs:');
+
