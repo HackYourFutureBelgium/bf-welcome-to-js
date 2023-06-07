@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -36,25 +34,29 @@
       'watermelons' -> 'too long'
 */
 
-console.log('--- begin program ---');
+let input = prompt('enter something with 10 character');
 
-/* --- gather user input --- */
+let output;
 
-let input = prompt(_);
-console.log('input:', input);
+if (input === null) {
+  output = ':(';
+} else {
+  if (input === '') {
+    output = 'not even close';
+  } else if (input.length < 5) {
+    output = 'better';
+  } else if (input.length < 8) {
+    output = 'almost there';
+  } else if (input.length < 10) {
+    output = 'so close';
+  } else if (input.length === 10) {
+    output = 'perfect';
+  } else if (input.length > 10) {
+    output = 'too long';
+  }
+}
 
-/* --- declare initial output --- */
-
-let output = _;
-
-/* --- create final output --- */
-
-/* --- alert the result --- */
-
-console.log('output:', output);
 alert(output);
-
-console.log('--- end program ---');
 
 /*
   checklist:

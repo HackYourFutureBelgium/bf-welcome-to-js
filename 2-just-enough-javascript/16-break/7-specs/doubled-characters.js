@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* Challenge: write this program using at least 1 `break`
@@ -25,17 +23,30 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+  input = prompt('Please enter something to double only letters allowed');
+
+  if (!input) {
+    continue;
+  } else {
+    if (/^[a-zA-Z]+$/.test(input)) {
+      break;
+    } else {
+      continue;
+    }
+  }
+}
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of input) {
+  output += char + char;
 }
 
 console.log('output:', output);

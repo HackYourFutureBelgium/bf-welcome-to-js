@@ -3,4 +3,4 @@
 let letters = 'abcd';
 
 let index = 0;
-while (__ < __.__) {}
+while (letters < index.length) {}

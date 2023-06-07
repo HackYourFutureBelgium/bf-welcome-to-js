@@ -1,8 +1,6 @@
-// #todo
-
 'use strict';
 
-let word = '';
+let word = 'peat';
 // let word = 'a';
 // let word = 'be';
 // let word = 'eat';

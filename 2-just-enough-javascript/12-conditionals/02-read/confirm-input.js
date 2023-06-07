@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 let input = prompt('enter something');

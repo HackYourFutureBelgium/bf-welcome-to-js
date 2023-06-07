@@ -5,41 +5,46 @@
 /*
 
 
-  Data In:
+  Data In: JavaScript
 
-  Data Out:
+  Data Out: Java Script -> JavaScript
 
-  Test Cases:
+  Test Cases: JavaScript -> Java Script -> JavaScript
 
 */
 
-/* ---   ?   --- */
+/* --- gather user input --- */
 
-// input <- null
+let input = null;
 
-// WHILE: true
-//   input <- prompt('enter something with at least one space, the spaces will be removed')
-//   IF: input === null
-//     alert('no escape')
-//   ELSE: IF: input === ''
-//     alert('gotta enter something')
-//   ELSE: IF: !input.includes(' ')
-//     alert('there must be a space!')
-//   ELSE:
-//     BREAK
-//   :END IF
-// :END WHILE
+while (true) {
+  input = prompt('Enter something with at least one space. Spaces will be removed:');
+  
+  if (input === null) {
+    alert('No escape!');
+  } else if (input === '') {
+    alert('Gotta enter something!');
+  } else if (!input.includes(' ')) {
+    alert('There must be a space!');
+  } else {
+    break;
+  }
+}
 
-/* ---   ?   --- */
+console.log('input:', input);
 
-// spaceless <- ''
+/* --- remove spaces --- */
 
-// FOR: char OF input
-//   IF: char !== ' '
-//     spaceless <- spaceless + char
-//   :END IF
-// :END FOR-OF
+let spaceless = '';
 
-/* ---   ?   --- */
+for (let char of input) {
+  if (char !== ' ') {
+    spaceless += char;
+  }
+}
 
-// alert(input + ' -> ' + spaceless)
+console.log('spaceless:', spaceless);
+
+/* --- alert the result --- */
+
+alert(input + ' -> ' + spaceless);

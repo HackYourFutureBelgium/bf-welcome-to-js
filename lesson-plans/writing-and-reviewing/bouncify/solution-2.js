@@ -23,3 +23,44 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+let message = '';
+while (true) {
+  // in case null
+  const userInput = prompt('Please enter something : ');
+  if (userInput === null) {
+    alert('there is no escape!');
+    continue;
+  }
+  // in case empty string
+  if (userInput === '') {
+    alert('no empty string allowed');
+    continue;
+  }
+  // if userInput
+  if (userInput) {
+    message = userInput;
+    break;
+  }
+}
+
+// Loop throw message
+let newMessage = '';
+let isUpperCase = true;
+
+let special = ' 0123456789!?.&*$#';
+for (const char of message) {
+  if (special.indexOf(char) === -1) {
+    if (isUpperCase) {
+      newMessage += char.toUpperCase();
+      isUpperCase = false;
+    } else {
+      newMessage += char.toLowerCase();
+      isUpperCase = true;
+    }
+  } else {
+    newMessage += char;
+  }
+}
+
+alert(newMessage);

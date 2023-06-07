@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* Challenge: write this program using at least 1 `break`
@@ -31,16 +29,46 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const input = prompt(
+    'Please enter something, the first character must be upper case and the last must be period. ',
+  );
+
+  if (input) {
+    if (input.length < 2) {
+      continue;
+    } else if (input[0] !== input[0].toUpperCase()) {
+      continue;
+    } else if (input[input.length - 1] !== '.') {
+      continue;
+    } else {
+      output = input;
+      break;
+    }
+  } else {
+    continue;
+  }
+}
+
+let newOutput = '';
+for (let i = 0; i < output.length; i++) {
+  if (i === 0) {
+    newOutput += output[0].toLowerCase();
+  } else if (i === output.length - 1) {
+    // do nothing
+  } else {
+    newOutput += output[i];
+  }
+}
 
 /* --- alert the result --- */
 
-console.log('output:', output);
-alert(output);
+console.log('output:', newOutput);
+alert(newOutput);
 
 console.log('--- end program ---');
 

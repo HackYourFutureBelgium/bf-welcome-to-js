@@ -21,24 +21,52 @@
       'jello' -> 'jElLo'
     mixed strings:
       'AbCdEf' -> 'aBcDeF'
-      'jElLo' -> jElLo'
+      'jElLo' -> 'jElLo'
 */
 
 console.log('--- begin program ---');
 
+
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = null;
+while (true) {
+  input = prompt('Enter a string of letters to convert to a bouncy string');
+  if (input === null) {
+    continue; // User canceled, prompt again
+  }
+  if (input.length === 0) {
+    continue; // Empty input, prompt again
+  }
+  let invalidInput = false;
+  for (let i = 0; i < input.length; i++) {
+    let char = input[i];
+    if (!((char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z'))) {
+      invalidInput = true;
+      break; // Invalid input, prompt again
+    }
+  }
+  if (invalidInput) {
+    continue; // Invalid input, prompt again
+  }
+  break; // Valid input, exit the loop
+}
+
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let i = 0; i < input.length; i++) {
+  let char = input[i];
+  if (i % 2 === 0) {
+    output += char.toLowerCase();
+  } else {
+    output += char.toUpperCase();
+  }
 }
 
 /* --- alert the result --- */
@@ -47,16 +75,3 @@ console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
-
-/*
-  checklist:
-    [ ] the code is formatted
-    [ ] linting check passes
-    [ ] variable names are clear and helpful
-    [ ] each line of code is explained in a comment above that line
-      - use full sentences and correct JS vocabulary
-    [ ] the program runs
-    [ ] the program has no errors
-    [ ] all of the test cases work
-    [ ] you tested strange inputs that could break your program (edge cases)
-*/

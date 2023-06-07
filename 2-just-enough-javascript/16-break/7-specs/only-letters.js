@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* Challenge: write this program using at least 1 `break`
@@ -24,11 +22,24 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const input = prompt('Please enter something, only letters allowed.');
+
+  if (input) {
+    if (/^[a-zA-Z]+$/.test(input)) {
+      output = input;
+      break;
+    } else {
+      continue;
+    }
+  } else {
+    continue;
+  }
+}
 
 /* --- alert the result --- */
 

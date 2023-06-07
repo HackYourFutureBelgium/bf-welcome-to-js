@@ -1,13 +1,10 @@
-// #todo
-
 'use strict';
 
 /*
 
+  Data In: any text
 
-  Data In:
-
-  Data Out:
+  Data Out: text without vowels
 
   Test Cases:
 
@@ -35,3 +32,20 @@
 /* ---   ?   --- */
 
 // alert(letters + ' -> ' + noVowels)
+
+let letters = null;
+
+while (letters === null) {
+  letters = prompt('enter some letters');
+}
+
+let noVowels = '';
+
+for (const character of letters) {
+  if ('aeiouAEIOU'.includes(character)) {
+    continue;
+  }
+  noVowels += character;
+}
+
+alert(letters + ' -> ' + noVowels);

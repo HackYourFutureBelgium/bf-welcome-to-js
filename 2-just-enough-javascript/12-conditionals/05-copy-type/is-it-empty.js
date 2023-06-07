@@ -1,8 +1,6 @@
-// #todo
-
 'use strict';
 
-let input = prompt('do whatever you want');
+/*let input = prompt('do whatever you want');
 
 let message = 'your input is ';
 if (input === null) {
@@ -13,6 +11,18 @@ if (input === null) {
   message = message + maybeNot + 'empty';
 } else {
   message = message + 'null';
+}
+alert(message);*/
+
+let input = prompt('do whatever you want');
+let message = 'your input is ';
+
+if (input === null) {
+  message = message + 'null';
+} else if (input == '') {
+  message = message + 'empty';
+} else {
+  message = message + 'not empty';
 }
 
 alert(message);

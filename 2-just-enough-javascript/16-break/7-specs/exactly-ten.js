@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* Challenge: write this program using at least 1 `break`
@@ -24,11 +22,30 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const input = prompt('Please enter something with 10 characters longs ');
+
+  if (input === null) {
+    alert('No escape');
+    continue;
+  } else if (input === '') {
+    alert('you need to enter something');
+    continue;
+  } else if (input.length < 10) {
+    alert(`"${input}" is ${10 - input.length} characters short`);
+    continue;
+  } else if (input.length > 10) {
+    alert(`"${input}" is ${input.length - 10} characters long`);
+    continue;
+  } else {
+    output = input;
+    break;
+  }
+}
 
 /* --- alert the result --- */
 

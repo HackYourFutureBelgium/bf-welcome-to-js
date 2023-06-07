@@ -22,10 +22,3 @@ if (likesCake === true) {
 }
 
 alert(message);
-
-// --- distractors ---
-
-} // distractor
-{ // distractor
-] else [ // distractor
-if likesCake === true: // distractor

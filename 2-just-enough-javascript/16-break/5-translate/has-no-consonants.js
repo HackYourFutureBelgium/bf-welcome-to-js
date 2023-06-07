@@ -5,44 +5,50 @@
 /*
 
 
-  Data In:
+  Data In: user input
 
-  Data Out:
+  Data Out: "HackYourFuture" has at least one consonant
 
-  Test Cases:
+  Test Cases: HackYourFutute -> "HackYourFuture" has at least one consonant
+              aou -> "aou" has no consonants
 
 */
 
 /* ---   ?   --- */
 
-// letters <- null
+'use strict';
 
-// WHILE: letters === null
-//   letters <- prompt('enter some letters')
-// :END WHILE
+/* --- gather user input --- */
 
-/* ---   ?   --- */
+let letters = null;
+while (letters === null || letters === '') {
+  letters = prompt('Enter some letters:');
+}
+console.log('input:', letters);
 
-// noConsonants <- true
+/* --- check for consonants --- */
 
-// FOR: letter OF letters
-//   lowerCaseLetter <- letter.toLowerCase()
-//   IF: 'bcdfghjklmnpqrstvwxyz'.includes(lowerCaseLetter)
-//     noConsonants <- false
-//     BREAK
-//   :END IF
-// :END FOR-OF
+let noConsonants = true;
 
-/* ---   ?   --- */
+for (let letter of letters) {
+  let lowerCaseLetter = letter.toLowerCase();
+  if ('bcdfghjklmnpqrstvwxyz'.includes(lowerCaseLetter)) {
+    noConsonants = false;
+    break;
+  }
+}
 
-// message <- ''
+/* --- create message --- */
 
-// IF: noConsonants
-//   message <- '"' + letters + '" has no consonants'
-// ELSE:
-//   message <- '"' + letters + '" has at least one consonant'
-// :END IF
+let message = '';
 
-/* ---   ?   --- */
+if (noConsonants) {
+  message = '"' + letters + '" has no consonants';
+} else {
+  message = '"' + letters + '" has at least one consonant';
+}
 
-// alert(message)
+/* --- alert the result --- */
+
+console.log('message:', message);
+alert(message);

@@ -21,5 +21,6 @@ console.log(greeting === 'bye');
 
 /* ------------ */
 
-let greeting = newGreeting; // distractor
-let newGreeting = 'bye'; // distractor
+let newGreeting = 'bye';
+greeting = newGreeting; // distractor
+console.log(newGreeting === 'bye'); // distractor
