@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -13,7 +11,7 @@ while (characters === null) {
   characters = prompt('enter some characters');
 }
 
-const vowels = 'aeiouAEIOU';
+const vowels = 'AEIOU';
 
 let hasAVowel = false;
 for (const char of characters) {
@@ -24,7 +22,8 @@ for (const char of characters) {
 }
 
 if (hasAVowel) {
-  alert('"' + characters + '" has at least one vowel');
+  alert('"' + characters + '" has at least one upperCase vowels');
 } else {
-  alert('"' + characters + '" has no vowels');
+  alert('"' + characters + '" has no upperCase vowels');
 }
+

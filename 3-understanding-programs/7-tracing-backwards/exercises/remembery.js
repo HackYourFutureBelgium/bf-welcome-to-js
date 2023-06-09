@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 alert(`Guess 3 phrases in 3 tries

@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -14,7 +12,6 @@ alert(
 );
 
 let shortStrings = 'short:';
-let mediumStrings = 'medium:';
 let longStrings = 'long:';
 
 while (true) {
@@ -24,13 +21,14 @@ while (true) {
     break;
   }
 
-  if (input.length < 5) {
+  if (input.length <= 3) {
     shortStrings = shortStrings + '\n- "' + input + '"';
-  } else if (input.length < 10) {
-    mediumStrings = mediumStrings + '\n- "' + input + '"';
-  } else {
+  }
+
+  if (input.length > 6) {
     longStrings = longStrings + '\n- "' + input + '"';
   }
 }
 
-alert(shortStrings + '\n\n' + mediumStrings + '\n\n' + longStrings);
+alert(shortStrings + '\n\n' + longStrings);
+

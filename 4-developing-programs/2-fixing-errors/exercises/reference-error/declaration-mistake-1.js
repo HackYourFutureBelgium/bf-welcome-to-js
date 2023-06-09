@@ -1,22 +1,24 @@
-// #todo
-
 'use strict';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: ReferenceError
+  message: welf is not defined
 
-  callstack:
+  callstack: at <anonymous>:20:6
+    at evaller.onload (study-with.js:63:34)
+    at Object.console (study-with.js:65:17)
+    at JavaScriptFE.studyWith (javascript-class.js:732:29)
+    at HTMLButtonElement.<anonymous> 
 
-  life cycle:
+  life cycle: Execution phase
 
-  the mistake:
+  the mistake: initialization without declare
 
-  the fix(es):
+  the fix(es): add const
 */
 
-welf = 'ingrad';
+const welf = 'ingrad';
 
 console.log(welf);

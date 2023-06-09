@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -32,3 +30,8 @@ for (const character of toBeFrogged) {
 }
 
 alert(frogged);
+
+
+
+
+

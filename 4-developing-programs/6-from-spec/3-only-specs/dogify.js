@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* Dogify
@@ -35,3 +33,45 @@
       'Do dump'     ->  'DOGo dogump'
       'dim mooD'    -> 'dogim mooDOG'
 */
+
+
+/* --- gather user input --- */
+
+let input = null;
+
+while (!input) {
+  input = prompt("Enter some text:");
+
+  if (input === null) {
+    alert("cancelled :(");
+    continue;
+  }
+
+  if (input === '') {
+    alert("you didn't enter anything");
+    continue;
+  }
+}
+
+/* --- replace "d"s with "dog" and "D"s with "DOG" --- */
+
+let dogifiedText = '';
+
+for (let i = 0; i < input.length; i++) {
+  const char = input[i];
+
+  if (char === 'd') {
+    dogifiedText += 'dog';
+  } else if (char === 'D') {
+    dogifiedText += 'DOG';
+  } else {
+    dogifiedText += char;
+  }
+}
+
+
+/* --- display the message to the user --- */
+
+
+alert(dogifiedText);
+console.log(dogifiedText);

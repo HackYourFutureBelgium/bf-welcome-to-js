@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* Something with a Space
@@ -33,25 +31,41 @@
 
 */
 
+
 /* --- gather user input --- */
 //  Data In:      a string or null
-_;
-//  Data After:   the user's input (string or null)
+let message = null;
+let freeSpace = 0;
 
-/* --- create a message for the user --- */
+while (!message) {
+  /* --- create a message for the user --- */
+  message = prompt(
+    ' enter the text, please. I will tell you how many spaces are in it.',
+  );
 
-//  Data Before:  the user's input (string or null)
-_;
-if (_) {
-  /* --- the user canceled --- */
-} else if (_) {
-  /* --- the input has at least one space --- */
-} else {
-  /* --- the input has no spaces --- */
+  if (message === null) {
+    /* --- the user canceled --- */
+    alert(' "cancelled :("');
+    continue;
+  }
+
+  if (message === '') break;
+
+  //  Data After:   the user's input (string or null)
 }
-//  Data After:   a message describing the user's input
 
-/* --- alert the message to the user --- */
+for (const character of message) {
+  if (character === ' ') {
+    freeSpace++;
+  } else {
+    continue;
+  }
+}
 
-//  Data Out:     the user's message
-_;
+if (freeSpace === 0) {
+  /* --- the input has no spaces --- */
+  alert(`"${message}" has no spaces`);
+} else {
+  /* --- the input has at least one space --- */
+  alert(`"${message}" has at least ${freeSpace} space`);
+}

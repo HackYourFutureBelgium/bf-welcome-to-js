@@ -1,20 +1,21 @@
-// #todo
-
 'use strict';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected token '{'
 
-  callstack:
+  callstack: at evaller.onload (study-with.js:63:34)
+             at Object.console (study-with.js:65:17)
+             at JavaScriptFE.studyWith (javascript-class.js:732:29)
+             at HTMLButtonElement.<anonymous> (javascript-class.js:390:49)
 
-  life cycle:
+  life cycle: Execution phase
 
-  the mistake:
+  the mistake: key word mistake
 
-  the fix(es):
+  the fix(es): use else if instead else
 */
 
 const userName = 'indrogo';
@@ -22,7 +23,7 @@ const userName = 'indrogo';
 if (userName.length < 3) {
   console.log('too short');
 
-} else (userName.length < 5) {
+} else if (userName.length < 5) {
   console.log('just right');
 
 } else {

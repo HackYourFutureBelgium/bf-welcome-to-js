@@ -1,20 +1,22 @@
-// #todo
-
 'use strict';
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: ReferenceError
+  message: 'tomatoes' before initialization
 
-  callstack:
+  callstack:  at <anonymous>:20:13
+    at evaller.onload (study-with.js:63:34)
+    at Object.console (study-with.js:65:17)
+    at JavaScriptFE.studyWith (javascript-class.js:732:29)
+    at HTMLButtonElement.<anonymous> (javascript-class.js:390:49)
 
-  life cycle:
+  life cycle: Execution phase
 
-  the mistake:
+  the mistake: using variable tomatoes before initialization
 
-  the fix(es):
+  the fix(es): put variable tomatoes before using it
 */
 
 console.log(tomatoes);

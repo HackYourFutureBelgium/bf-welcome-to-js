@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -8,7 +6,7 @@
   you can make this change on one line
 */
 
-const limit = 5;
+const limit = 10;
 
 let phrase = '';
 

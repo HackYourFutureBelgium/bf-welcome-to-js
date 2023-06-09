@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 console.log('-- begin --');
 
@@ -18,25 +16,36 @@ console.log('-- begin --');
 
 */
 
-_;
-console.log(x); // should print 'a'
 
-_;
-console.log(y); // should print 'b'
+// declare a variable named x and assign it the value 'a'
+const x = 'a';
+console.log(x); // Output: a
 
-console.log(x); // should print 'a'
+// declare a variable named y and assign it the value 'b'
+const y = 'b';
+console.log(y); // Output: b
 
-_;
-console.log(z); // should print undefined
+console.log(x); // Output: a
 
-console.log(y); // should print 'b'
+// declare a variable named z without assigning a value
+let z;
+console.log(z); // Output: undefined
 
-_;
-console.log(z); // should print 'c'
+console.log(y); // Output: b
 
-_;
-console.log(y); // should print 'bd'
+// assign the value 'c' to the variable z
+z = 'c';
+console.log(z); // Output: c
 
-console.log(x); // should print 'a'
+// assign the value 'bd' to the variable y
+y = 'bd';
+console.log(y); // Output: bd
+
+console.log(x); // Output: a
 
 console.log('-- end --');
+
+
+
+
+

@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* No Repeats
@@ -33,11 +31,42 @@
 */
 
 /* --- gather user input --- */
+let input = null;
+
+while (!input ) {
+  input = prompt("Enter some text:");
+
+   if (input === null) {
+    alert('cancelled:(');
+    continue;
+  }
+
+  if (input === '') {
+    alert("you didn't enter anything");
+    continue;
+  }
+}
 
 /* --- check if the input has any repeated characters --- */
+let hasRepeats = false;
+for (let i = 0; i < input.length; i++) {
+  if (input.indexOf(input[i]) !== input.lastIndexOf(input[i])) {
+    hasRepeats = true;
+    break;
+  }
+}
 
 //  store the search results as a boolean
 
 /* --- create a message for the user --- */
+let message;
+if (hasRepeats) {
+  message = `"${input}" has at least one repeat`;
+} else {
+  message = `"${input}" has no repeats`;
+}
 
 /* --- display the message to the user --- */
+console.log(message);
+alert(message);
+

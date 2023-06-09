@@ -65,7 +65,9 @@ if (userInput === '-h') {
             '"\n\n' +
             'what do you think the secret phrase is?',
         );
-      }
+      
+        console.log(clue);
+        }
 
       if (guess === null) {
         alert('good bye');
@@ -89,6 +91,7 @@ if (userInput === '-h') {
               '\n\n' +
               'thanks for playing, see ya',
           );
+          console.log(secretPhrase);
         } else {
           alert('better luck next time');
         }

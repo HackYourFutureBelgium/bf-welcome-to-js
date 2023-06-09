@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -8,15 +6,15 @@
   upper or lower case is your choice
 */
 
-const userInput = prompt('please enter something with an "a" in it');
+const userInput = prompt('please enter something with an "Coffee" in it');
 
 let reaction;
 if (userInput === null || userInput === '') {
-  reaction = 'nothing!  why !!! ??? !!!';
-} else if (userInput.includes('a')) {
-  reaction = '"' + userInput + '" is perfect!';
+  reaction = 'nothing!  why  ???';
+} else if (userInput.toUpperCase().includes('Coffee')) {
+  reaction = '"' + userInput + '" has "Coffee"';
 } else {
-  reaction = '"' + userInput + '" has no "a" in it';
+  reaction = '"' + userInput + '" has no "Coffee" in it';
 }
 
 alert(reaction);

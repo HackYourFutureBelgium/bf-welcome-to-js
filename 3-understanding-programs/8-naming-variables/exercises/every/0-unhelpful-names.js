@@ -1,20 +1,65 @@
-// #todo
-
 'use strict';
 
 /*
   _a:
     declaration:
-      init:
-      types:
-      scopes:
-    reads:
-      scopes:
-      checks:
-    assignments:
-      types:
-      scopes:
+      init: null
+      types: null
+      scopes: Global 
+      reads:
+      scopes: while loop
+      checks: while condition
+      assignments:
+      types: null
+      scopes: while loop
 
+  _b:
+    declaration:
+      init: yes
+      types: string
+      scopes: Global 
+      reads:
+      scopes: -
+      checks: -
+    assignments:
+      types: -
+      scopes: -
+
+     _c:
+     declaration:
+      init: yes
+      types: boolean
+      scopes: Global 
+      reads:
+      scopes: for of loop
+      checks: for of loop
+      assignments:
+      types: boolean
+      scopes: for of loop
+
+   _d:
+    declaration:
+      init: yes
+      types: Unknown
+      scopes: For of loop
+      reads:
+      scopes: For of loop
+      checks: For of loop
+      assignments:
+      types: -
+      scopes: For of loop
+
+     _e:
+      declaration:
+      init: yes
+      types: boolean
+      scopes: For of loop
+      reads:
+      scopes: For of loop
+      checks: For of loop
+      assignments:
+      types: -
+      scopes: For of loop
 
 */
 

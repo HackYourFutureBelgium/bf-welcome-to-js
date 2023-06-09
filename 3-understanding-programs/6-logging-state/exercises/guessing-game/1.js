@@ -66,6 +66,7 @@ if (userInput === '-h') {
             'what do you think the secret phrase is?',
         );
       }
+        console.log(guess);
 
       if (guess === null) {
         alert('good bye');
@@ -89,6 +90,7 @@ if (userInput === '-h') {
               '\n\n' +
               'thanks for playing, see ya',
           );
+           console.log(secretPhrase);
         } else {
           alert('better luck next time');
         }
@@ -96,7 +98,10 @@ if (userInput === '-h') {
     }
   }
   alert('game over. the winner is: ' + winner);
-} else if (userInput === null) {
+
+ console.log(winner);
+ } 
+ else if (userInput === null) {
   alert('good bye');
 } else {
   alert('unknown command: "' + userInput + '"');

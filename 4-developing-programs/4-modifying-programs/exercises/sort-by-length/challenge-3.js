@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -30,5 +28,6 @@ while (true) {
     longStrings = longStrings + '\n- "' + input + '"';
   }
 }
+let sortedStrings = longStrings + '\n\n' + mediumStrings + '\n\n' + shortStrings;
 
-alert(shortStrings + '\n\n' + mediumStrings + '\n\n' + longStrings);
+alert(sortedStrings);

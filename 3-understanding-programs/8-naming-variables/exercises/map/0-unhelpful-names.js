@@ -1,22 +1,45 @@
-// #todo
-
 'use strict';
 
 /*
   _a:
     declaration:
-      init:
-      types:
-      scopes:
+      init: yes
+      types: null
+      scopes: global
     reads:
-      scopes:
-      checks:
+      scopes: while loop
+      checks: while condition
     assignments:
-      types:
-      scopes:
+      types: unknown
+      scopes: while loop
 
+  _b:
+    declaration:
+      init: yes
+      types: string
+      scopes: global
+    reads:
+      scopes: for of loop
+      checks: 
+    assignments:
+      types: 
+      scopes: for of loop
+
+  _c:
+    declaration:
+      init: yes
+      types: unknown
+      scopes: for of loop
+    reads:
+      scopes: for of loop
+      checks: if condition
+    assignments:
+      types: 
+      scopes: for of loop
 
 */
+
+
 
 let _a = null;
 while (_a === null) {

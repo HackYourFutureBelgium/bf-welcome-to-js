@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /*
@@ -18,16 +16,21 @@ while (toBeFrogged === null) {
 
 let frogged = '';
 
-for (const character of toBeFrogged) {
-  if (character === 'f') {
+let i = 0;
+while (i < toBeFrogged.length) {
+  const char = toBeFrogged[i];
+  if (char === 'f') {
     frogged = frogged + 'frog';
+    i++;
     continue;
   }
-  if (character === 'F') {
+  if (char === 'F') {
     frogged = frogged + 'FROG';
+    i++;
     continue;
   }
-  frogged = frogged + character;
+  frogged = frogged + char;
+  i++;
 }
 
 alert(frogged);
