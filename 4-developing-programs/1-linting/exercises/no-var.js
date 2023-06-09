@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* https://eslint.org/docs/rules/no-var

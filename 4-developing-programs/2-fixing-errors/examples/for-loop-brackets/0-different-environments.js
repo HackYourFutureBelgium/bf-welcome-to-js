@@ -29,18 +29,18 @@
 /*
   environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected token '}'
 
   callstack:
 
   life cycle:
 
-  the mistake:
+  the mistake: { --> missing
 
-  the fix(es):
+  the fix(es): { --> added
 */
 
-for (let i = 0; i < 5; i++)
+for (let i = 0; i < 5; i++) {
   console.log(i);
 }

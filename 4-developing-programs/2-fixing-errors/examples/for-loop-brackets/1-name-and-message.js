@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* Error Name and Error Message
@@ -51,11 +49,11 @@
 
   life cycle:
 
-  the mistake:
+  the mistake: 
 
-  the fix(es):
+  the fix(es): 
 */
 
-for (let i = 0; i < 5; i++)
+for (let i = 0; i < 5; i++) {
   console.log(i);
 }
