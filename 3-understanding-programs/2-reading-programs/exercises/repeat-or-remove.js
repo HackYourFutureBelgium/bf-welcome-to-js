@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* --- get a phrase from the user --- */

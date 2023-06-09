@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* -- gather and confirm user input -- */
