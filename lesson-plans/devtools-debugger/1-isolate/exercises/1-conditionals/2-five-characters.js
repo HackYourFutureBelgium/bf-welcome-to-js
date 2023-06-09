@@ -1,13 +1,13 @@
 'use strict';
 
-let input = prompt('enter something with 5 characters:');
+let characters = 'default value';
 
 let message = '';
-if (input === null) {
+if (characters === null) {
   message = ':(';
-} else if (input.length < 5) {
+} else if (characters.length < 5) {
   message = 'too short';
-} else if (input.length === 5) {
+} else if (characters.length === 5) {
   message = 'thank you!';
 } else {
   message = 'too long';

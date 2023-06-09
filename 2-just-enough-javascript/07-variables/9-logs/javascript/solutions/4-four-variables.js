@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-__;
-__;
-__;
-__;
+let first = "Java";
+let last = "Script";
+let language = first + last;
+let favoriteLanguage = language + "!";
 
 console.log(first);
 console.log(last);

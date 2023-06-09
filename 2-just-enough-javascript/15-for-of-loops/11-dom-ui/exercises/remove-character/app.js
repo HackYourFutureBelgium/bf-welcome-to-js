@@ -5,12 +5,18 @@ import {
 } from '../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('search-field', () => {
-  // debugger;
   console.log('--- form data changed ---');
 
-  // --- read the user's input ---
+  // Read the user's input
+  const character = readString('character');
+  const phrase = readString('phrase');
 
-  // --- remove the character if there is only one ---
+  // Remove the character if there is only one
+  let filteredPhrase = phrase;
+  if (character.length === 1 && phrase.includes(character)) {
+    filteredPhrase = phrase.replace(character, '');
+  }
 
-  // --- display the result ---
+  // Display the filtered phrase
+  displayString('filtered', filteredPhrase);
 });

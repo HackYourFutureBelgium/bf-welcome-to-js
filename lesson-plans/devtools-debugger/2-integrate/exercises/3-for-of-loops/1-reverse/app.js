@@ -17,22 +17,28 @@ whenFormDataChanges('reversify', () => {
 
   console.log(text, screaming);
 
-  // --- reverse the string input ---
+  // --- reverse the string input and ensure unique characters ---
 
   let reversed = '';
-  for (let character of text) {
-    reversed = character + reversed;
+  let uniqueCharacters = new Set();
+  for (let i = text.length - 1; i >= 0; i--) {
+    if (!uniqueCharacters.has(text[i])) {
+      reversed += text[i];
+      uniqueCharacters.add(text[i]);
+    }
   }
 
   console.log(reversed);
 
-  // --- set to upper or lower case ---
+  // --- set to upper or lower case based on input length ---
 
   let finalText = '';
-  if (screaming) {
+  if (text.length > 10) {
     finalText = reversed.toUpperCase();
-  } else {
+  } else if (text.length < 5) {
     finalText = reversed.toLowerCase();
+  } else {
+    finalText = reversed;
   }
 
   console.log(finalText);
@@ -42,6 +48,7 @@ whenFormDataChanges('reversify', () => {
   // display the final text to the <pre> with id "out"
   displayString('out', finalText);
 });
+
 
 /*  ===== Challenges =====
 

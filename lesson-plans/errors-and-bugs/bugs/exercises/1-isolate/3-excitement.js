@@ -9,9 +9,9 @@
 
 
   experiment 1
-    line:
-    why:
-    trying:
+    line: 25
+    why: The given test cases are not working 
+    trying: by adding the + character,  + ! to excited the test cases are working
 
 */
 
@@ -22,7 +22,7 @@ while (text === null) {
 
 let excited = '';
 for (const character of text) {
-  excited = character + '!';
+  excited += character + '!';
 }
 
 alert(excited);

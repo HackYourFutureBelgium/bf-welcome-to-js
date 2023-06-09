@@ -17,6 +17,10 @@ while (!userConfirmedPhrase) {
   }
 
   userConfirmedPhrase = confirm('is this correct: "' + phrase + '"');
+  if (!userConfrimedPhrase){
+  invalidPhraseInputs.push(phrase);
+  }
+  
 }
 
 const caseSensitive = confirm('do you want a case-sensitive search?');
@@ -33,6 +37,9 @@ while (!userConfirmedQuery) {
   }
 
   userConfirmedQuery = confirm('is this correct: "' + query + '"');
+  if (!userConfrimedQuery){
+  invalidPhraseInputs.push(query);
+  }
 }
 
 let phraseIncludesQuery;
@@ -49,6 +56,7 @@ if (phraseIncludesQuery) {
   doesOrNot = 'does';
 } else {
   doesOrNot = 'does not';
+ console.log('Invalid query inputs:' ${query}); // log invalid query
 }
 
 alert(
@@ -62,3 +70,7 @@ alert(
     'case sensitive: ' +
     caseSensitive,
 );
+
+console.log('Invalid phrase inputs:'); // log Invalid inputs
+
+

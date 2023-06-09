@@ -13,16 +13,10 @@ let temp;
 */
 
 temp = a;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // y, x, y
 a = b;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // x, x, y
 b = temp;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // y, x, x
 
-/* 3. compare the final values
-  all the comparisons should be true
-*/
 
-console.log(a === 'x'); // true
-console.log(b === 'y'); // true
-console.log(temp === 'y'); // true

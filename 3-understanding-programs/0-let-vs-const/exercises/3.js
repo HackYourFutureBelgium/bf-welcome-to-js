@@ -42,5 +42,28 @@ console.log(furniture); // Output: table
 
 food = 'pear';
 console.log(food); // Output: pear
+=======
+const furniture ='chair';
+console.log(furniture); // should log 'chair'
+
+let building ='house'
+console.log(building); // should log 'house'
+
+furniture = 'table';
+console.log(furniture); // should log 'table'
+
+let food;
+console.log(food); // should log undefined
+
+food ='apple';
+console.log(food); // should log 'apple'
+
+console.log(building); // should log 'house'
+
+console.log(furniture); // should log 'table'
+
+ food +=', pear';
+console.log(_); // should log 'apple, pear'
+
 
 console.log('-- end --');

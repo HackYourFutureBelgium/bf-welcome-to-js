@@ -1,12 +1,13 @@
-'use strict';
+"use strict";
 
-__;
+let first = "Java";
 console.log(first);
 
-__;
+let last = "Script";
 console.log(last);
 
-__;
+let language = first + last;
 console.log(language);
 
-console.log(___);
+let exclamation = language + "!";
+console.log(exclamation);

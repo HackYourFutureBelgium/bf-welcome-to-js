@@ -6,21 +6,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: invalid or unexpecterd error
 
-  location:
+  location: 23 & 24
 
-  life cycle:
+  life cycle:Exceutionphase
 
-  the mistake:
+  the mistake: divided the value in to two lines 
 
-  the fix(es):
+  the fix(es): fixed it to change the value in one line 
 */
 
-const a = 'this is
-two lines';
+const a = 'this is two lines'; // this is 
+ //two lines
 
 

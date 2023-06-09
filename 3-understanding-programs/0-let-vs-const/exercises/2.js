@@ -17,6 +17,7 @@ console.log('-- begin --');
 */
 
 
+
 // declare a variable named x and assign it the value 'a'
 const x = 'a';
 console.log(x); // Output: a
@@ -25,13 +26,26 @@ console.log(x); // Output: a
 const y = 'b';
 console.log(y); // Output: b
 
+let x = 'a';
+console.log(x); // should print 'a'
+
+const y = 'b';
+console.log(y); // should print 'b'
+
+
 console.log(x); // Output: a
+
 
 // declare a variable named z without assigning a value
 let z;
 console.log(z); // Output: undefined
 
+let z;
+console.log(z); // should print undefined
+
+
 console.log(y); // Output: b
+
 
 // assign the value 'c' to the variable z
 z = 'c';
@@ -40,6 +54,14 @@ console.log(z); // Output: c
 // assign the value 'bd' to the variable y
 y = 'bd';
 console.log(y); // Output: bd
+
+z = 'c';
+console.log(z); // should print 'c'
+
+y += ', d'
+
+
+console.log(y); // should print 'bd'
 
 console.log(x); // Output: a
 

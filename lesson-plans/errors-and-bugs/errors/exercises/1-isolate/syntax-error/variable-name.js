@@ -7,21 +7,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name:syntax error
+  message: unexpected number
 
-  location:
+  location: 25
 
-  life cycle:
+  life cycle: Exceutionphase
 
-  the mistake:
+  the mistake: we cannot start the declaration  with numbers alone
 
-  the fix(es):
+  the fix(es): we add the varaiable name which starts with letter 
 */
 
 
-const 3 = 'three';
+const number3 = 'three'; // const 3 = 'three';
 
 

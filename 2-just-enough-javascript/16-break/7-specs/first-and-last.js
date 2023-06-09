@@ -27,15 +27,58 @@
 
 */
 
+// console.log('--- begin program ---');
+
+// /* --- declare initial output --- */
+
+// let output = _;
+
+// /* --- create final output --- */
+
+// while (_) {}
+
+// /* --- alert the result --- */
+
+// console.log('output:', output);
+// alert(output);
+
+// console.log('--- end program ---');
+
 console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  let input = prompt('Enter your input:');
+  console.log('input:', input);
+
+  if (input === null) {
+    alert(':(');
+    break;
+  }
+
+  if (input.length < 2) {
+    alert('Please enter at least two characters.');
+    continue;
+  }
+
+  if (!(input[0] >= 'A' && input[0] <= 'Z')) {
+    alert('Please start your input with a capital letter.');
+    continue;
+  }
+
+  if (input.charAt(input.length - 1) !== '.') {
+    alert('Please end your input with a period.');
+    continue;
+  }
+
+  output = input.charAt(0).toLowerCase() + input.slice(1, -1);
+  break;
+}
 
 /* --- alert the result --- */
 
@@ -43,6 +86,9 @@ console.log('output:', output);
 alert(output);
 
 console.log('--- end program ---');
+
+
+
 
 /*
   checklist:

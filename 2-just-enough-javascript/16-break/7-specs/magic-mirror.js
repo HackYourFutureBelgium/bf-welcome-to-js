@@ -1,8 +1,5 @@
 // #todo
-
-'use strict';
-
-/* Challenge: write this program using at least 1 `break`
+/* Challenge: write this program using `break` and `continue`
 
   a user can input a non-empty string and only the letters will be turned into a mirror
     - given the user cancels, they will be prompted again
@@ -24,23 +21,42 @@
       'let input = ""' -> 'letinput|tupnitel'
 
 */
-
 console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+  const userInput = prompt('Please enter something');
+
+  if (userInput === null) {
+    alert('noescape.');
+    continue;
+  }
+
+  if (userInput === '') {
+    alert('Invalid message. Please enter something.');
+    continue;
+  }
+
+  input = userInput;
+  break;
+}
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of input) {
+  if (/[a-zA-Z]/.test(char)) {
+    output += char;
+  }
 }
+output += '|' + output.split('').reverse().join('');
+
 
 /* --- alert the result --- */
 

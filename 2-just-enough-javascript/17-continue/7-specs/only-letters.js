@@ -19,17 +19,29 @@
       'hi' -> 'hi'
 
 */
-
 console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const userInput = prompt('Please enter only letters:');
 
+  if (userInput === null || userInput === '') {
+    continue;
+  }
+
+  const isInvalidInput = /[^a-zA-Z]/.test(userInput);
+  if (isInvalidInput) {
+    continue;
+  }
+
+  output = userInput;
+  break;
+}
 /* --- alert the result --- */
 
 console.log('output:', output);

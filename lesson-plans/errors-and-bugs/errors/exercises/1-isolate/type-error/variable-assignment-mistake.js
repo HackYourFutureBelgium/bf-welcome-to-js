@@ -6,22 +6,24 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: syntax error
+  message:invalid left hand side in assignment
 
-  location:
+  location: 25 
 
-  life cycle:
+  life cycle:Exceution phase
 
-  the mistake:
+  the mistake: value before variable
 
-  the fix(es):
+  the fix(es): variable before value
 */
 
 let isHappy = false;
 
-true = isHappy;
+  isHappy = true; // true = isHappy
+
+
 
 

@@ -1,15 +1,15 @@
-'use strict';
+"use strict";
 
 let favoriteLanguage;
 
-_;
+favoriteLanguage = "Java";
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = "Script";
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = "JavaScript";
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = "JavaScript!";
 console.log(favoriteLanguage);

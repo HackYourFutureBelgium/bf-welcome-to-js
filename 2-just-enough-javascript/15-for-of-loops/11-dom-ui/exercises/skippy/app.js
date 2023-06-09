@@ -1,17 +1,29 @@
 import {
   whenFormDataChanges,
-  readString,
   readNumber,
+  readString,
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('skippable', () => {
-  // debugger;
   console.log('--- form data changed ---');
+debugger;
+  // Read the skip size from user input
+  let skipSize = readNumber('skip-size');
 
-  // --- read the user's input ---
+  // Read the phrase from user input
+  const phrase = readString('phrase');
 
-  // --- skip characters ---
+  // Skip characters in the phrase
+  let newPhrase = '';
 
-  // --- display the result ---
+  let i = 0;
+  for (let char of phrase) {
+    if (i % skipSize !== 0) {
+      newPhrase += char;
+    }
+    i++;
+  }
+  // Display the skipped phrase
+  displayString('skipped', newPhrase);
 });

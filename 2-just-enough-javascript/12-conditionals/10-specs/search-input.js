@@ -37,17 +37,24 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let text = prompt(_);
+let text = prompt('Enter the first text:');
 console.log('text:', text);
 
-let query = prompt(_);
+let query = prompt('Enter the second text:');
 console.log('query:', query);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
+if (text === null || query === null || text === '' || query === '') {
+  output = ':(';
+} else if (text.toLowerCase().includes(query.toLowerCase())) {
+  output = `"${text}" includes "${query}"`;
+} else {
+  output = `"${text}" does not include "${query}"`;
+}
 
 /* --- alert the result --- */
 
@@ -68,3 +75,26 @@ console.log('--- end program ---');
     [ ] all of the test cases work
     [ ] you tested strange inputs that could break your program (edge cases)
 */
+
+//console.log('--- begin program ---');
+
+/* --- gather user input --- */
+
+// let text = prompt('--');
+// console.log('text:', text);
+
+// let query = prompt('--');
+// console.log('query:', query);
+
+// /* --- declare initial output --- */
+
+// let output = '';
+
+// /* --- create final output --- */
+
+// /* --- alert the result --- */
+
+// console.log('output:', output);
+// alert(output);
+
+// console.log('--- end program ---');

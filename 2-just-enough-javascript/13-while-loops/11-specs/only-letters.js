@@ -23,12 +23,25 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const userInput = prompt('Please enter a string containing only uppercase and lowercase letters:');
 
+if (userInput === null || userInput === '') {
+    continue;
+  }
+
+  const isInvalidInput = /[^\p{L}]/u.test(userInput);
+  if (isInvalidInput) {
+    continue;
+  }
+
+  output = userInput;
+  break;
+}
 /* --- alert the result --- */
 
 console.log('output:', output);

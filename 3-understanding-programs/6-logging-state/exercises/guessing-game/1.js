@@ -1,4 +1,4 @@
-// #todo
+
 
 'use strict';
 
@@ -56,6 +56,7 @@ if (userInput === '-h') {
 
       alert('now go get Player 2');
 
+
       let guess = '';
       while (guess === '') {
         guess = prompt(
@@ -66,9 +67,14 @@ if (userInput === '-h') {
             'what do you think the secret phrase is?',
         );
       }
+
         console.log(guess);
 
       if (guess === null) {
+
+      console.log(guess);
+     if (guess === null) {
+
         alert('good bye');
       } else if (guess === secretPhrase) {
         winner = 'Player 2';
@@ -90,7 +96,11 @@ if (userInput === '-h') {
               '\n\n' +
               'thanks for playing, see ya',
           );
+
            console.log(secretPhrase);
+
+          console.log(secretphase);
+
         } else {
           alert('better luck next time');
         }
@@ -99,9 +109,14 @@ if (userInput === '-h') {
   }
   alert('game over. the winner is: ' + winner);
 
+
  console.log(winner);
  } 
  else if (userInput === null) {
+
+  console.log(winner);
+} else if (userInput === null) {
+
   alert('good bye');
 } else {
   alert('unknown command: "' + userInput + '"');

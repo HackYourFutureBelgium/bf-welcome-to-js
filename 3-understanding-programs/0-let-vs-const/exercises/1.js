@@ -18,6 +18,7 @@ console.log('-- begin --');
 
 // declare a variable named aTree, don't assign a value!
 let aTree;
+
 console.log(aTree); // Output: undefined
 
 // assign the value "birch" to the variable aTree
@@ -46,5 +47,34 @@ console.log(aTree); // Output: oak
 // reassign aColor to "orange"
 aColor = "orange";
 console.log(aColor); // Output: orange
+
+console.log(aTree);
+
+// assign the value "birch" to the variable aTree
+aTree = "birch";
+console.log(aTree);
+
+// declare a variable named turtle and assign it the name "myrtle"
+const turtle = "myrtle";
+console.log(turtle);
+
+// reassign aTree to "aspen"
+aTree = "aspen";
+console.log(aTree);
+
+// declare a variable named aColor with the value "blue"
+const aColor = "blue";
+console.log(aColor);
+
+// log the value of turtle
+console.log(turtle);
+
+// reassign aTree to "oak"
+aTree = "oak";
+console.log(aTree);
+
+// reassign aColor to "orange"
+let aColor = "orange";
+console.log(aColor);
 
 console.log('-- end --');

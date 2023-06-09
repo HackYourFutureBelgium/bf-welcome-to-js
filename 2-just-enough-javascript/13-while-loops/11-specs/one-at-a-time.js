@@ -15,16 +15,34 @@
     because the user can decide when to stop there are no certain test cases
 
 */
-
 console.log('--- begin program ---');
 
 /* --- declare initial output --- */
-
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  let input = prompt('Enter a single character');
+
+  if (input === null) {
+    alert(' Please try again.');
+    continue;
+  }
+
+  if (input.length !== 1) {
+    alert('Please enter a single character.');
+    continue;
+  }
+
+  output += input;
+
+  let confirm = prompt('Add another character?');
+
+  if (confirm !== 'yes') {
+    break;
+  }
+}
 
 /* --- alert the result --- */
 

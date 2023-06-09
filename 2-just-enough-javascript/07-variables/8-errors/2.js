@@ -4,5 +4,5 @@
 
 // fix the error in this code
 
-hasFiveFingers = true;
+let hasFiveFingers = true;
 console.log(hasFiveFingers); // true

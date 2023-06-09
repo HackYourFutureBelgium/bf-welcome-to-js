@@ -22,15 +22,20 @@
 
 console.log('--- begin program ---');
 
-/* --- declare initial output --- */
+let output = '';
 
-let output = _;
+while (true) {
+  let userInput = prompt('Please enter something with letters:');
 
-/* --- create final output --- */
-
-while (_) {}
-
-/* --- alert the result --- */
+  if (userInput === null) {
+    continue; // User canceled, continue the loop
+  } else if (userInput === '' || /[^a-zA-Z]/.test(userInput)) {
+    continue; // Invalid input, prompt again
+  } else {
+    output = userInput;
+    break; // Valid input, exit the loop
+  }
+}
 
 console.log('output:', output);
 alert(output);

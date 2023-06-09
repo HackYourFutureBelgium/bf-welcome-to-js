@@ -3,20 +3,21 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: chrome 
 
-  name:
-  message:
+  name: ReferenceError
+  message: cannot access 'tomatoes' before intilization
 
-  location:
+  location: 20
 
-  life cycle:
+  life cycle: Exceution phase
 
-  the mistake:
+  the mistake: using tomatoes before it is declare
 
-  the fix(es):
+  the fix(es): declare tomatoes before using it in console
 */
 
-console.log(tomatoes);
-
 let tomatoes = 'fresh';
+console.log(tomatoes); // ReferenceError: tomatoes is defined
+
+
