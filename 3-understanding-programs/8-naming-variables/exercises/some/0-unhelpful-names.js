@@ -1,20 +1,65 @@
-// #todo
-
 'use strict';
 
 /*
   _a:
     declaration:
-      init:
-      types:
-      scopes:
+      init: no
+      types: unknown
+      scopes: global
     reads:
-      scopes:
-      checks:
+      scopes: none
+      checks: none
     assignments:
-      types:
-      scopes:
+      types: unknown
+      scopes: none
 
+  _b:
+    declaration:
+      init: yes
+      types: string
+      scopes: global
+    reads:
+      scopes: none
+      checks: none
+    assignments:
+      types: string
+      scopes: none
+
+  _c:
+    declaration:
+      init: yes
+      types: boolean
+      scopes: local
+    reads:
+      scopes: local
+      checks: none
+    assignments:
+      types: boolean
+      scopes: none
+
+  _d:
+    declaration:
+      init: no
+      types: unknown
+      scopes: local
+    reads:
+      scopes: local
+      checks: none
+    assignments:
+      types: unknown
+      scopes: none
+
+ _e:
+    declaration:
+      init: no
+      types: unknown
+      scopes: local
+    reads:
+      scopes: none
+      checks: none
+    assignments:
+      types: unknown
+      scopes: none
 
 */
 

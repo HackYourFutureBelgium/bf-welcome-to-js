@@ -4,17 +4,40 @@
 
 /*
   _a:
-    declaration:
-      init:
-      types:
-      scopes:
-    reads:
-      scopes:
-      checks:
-    assignments:
-      types:
-      scopes:
+    declaration: 
+      init: yes
+      types: object
+      scopes: global
+    reads: 5
+      scopes: glopal, local
+      checks: while llop
+    assignments: 1
+      types: string
+      scopes: global
 
+      _b:
+    declaration: 
+      init: yes
+      types: string
+      scopes: global
+    reads: 4
+      scopes: glopal, local
+      checks: while loop
+    assignments: 1
+      types: string
+      scopes: global
+
+      _c:
+    declaration: 
+      init: yes
+      types: boolean
+      scopes: global
+    reads: 2
+      scopes: else if condition
+      checks: while loop
+    assignments: 1
+      types: boolean
+      scopes: if condition
 
 */
 

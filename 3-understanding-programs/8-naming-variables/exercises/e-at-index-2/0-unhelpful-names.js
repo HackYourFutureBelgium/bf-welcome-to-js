@@ -1,21 +1,41 @@
-// #todo
-
 'use strict';
 
 /*
   _a:
-    declaration:
-      init:
-      types:
-      scopes:
-    reads:
-      scopes:
-      checks:
-    assignments:
-      types:
-      scopes:
+    declaration: 
+      init: yes
+      types: number
+      scopes: global
+    reads: 3
+      scopes: global, local
+      checks: while, if condition
+    assignments: 0
+      types: number
+      scopes: global
 
+      _b:
+    declaration: 
+      init: yes
+      types: string
+      scopes: global, local
+    reads: 2
+      scopes: global, local
+      checks: while loop
+    assignments: 1
+      types: string
+      scopes: global
 
+      _c:
+    declaration: 
+      init: yes
+      types: boolean
+      scopes: local
+    reads: 3
+      scopes: else if condition
+      checks: while loop if condition
+    assignments: 0
+      types: string, 
+      scopes: if condition
 */
 
 alert('you will need to enter strings with "e" in the right place');

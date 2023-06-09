@@ -1,5 +1,3 @@
-// #todo
-
 'use strict';
 
 /* 1. Zooming Out

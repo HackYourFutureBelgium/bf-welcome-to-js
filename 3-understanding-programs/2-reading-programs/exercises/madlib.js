@@ -1,9 +1,13 @@
-// #todo
-
 'use strict';
 
-/* -- declare program variables -- */
+/* -- declare program variables -- 
+- if the user press cancel the prompt show again and again
+- the prompt asking to enter an adjective
+- the prompt asking to enter a noun
+- the prompt asking to enter a verb
+- if the user enter all these its will show all the answer together
 
+*/
 let madlib = '';
 
 let noun = null;
