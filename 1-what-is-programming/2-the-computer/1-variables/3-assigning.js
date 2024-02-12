@@ -10,6 +10,8 @@
   - the new value is written on the RIGHT of =
 */
 
+debugger;
+
 let turtle = 'Vinnie';
 turtle = 'Yurtle';
 

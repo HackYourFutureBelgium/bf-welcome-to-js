@@ -13,6 +13,7 @@
 */
 
 /* --- declaring --- */
+debugger;
 
 // declare onlyDeclared using let
 let onlyDeclared;
