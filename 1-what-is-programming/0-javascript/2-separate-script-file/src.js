@@ -1,3 +1,6 @@
+'use strict';
+
+debugger;
 /* --- for the computer --- 'use strict';
 
 /* --- for developers --- */

@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* user interactions
 
   different programming environments have different user interactions.

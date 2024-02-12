@@ -1,3 +1,7 @@
+'use strict';
+
+debugger;
+
 /* --- for the developer --- */
 
 // log to the console for developers to read
