@@ -19,3 +19,17 @@ name = 'Amela';
 
 greeting = 'good bye ' + name;
 console.log(greeting); // "good bye Amela"
+
+debugger;
+
+let color = 'black';
+
+let day = 'monday';
+
+let nature = 'flower';
+
+color;
+
+day;
+
+nature;

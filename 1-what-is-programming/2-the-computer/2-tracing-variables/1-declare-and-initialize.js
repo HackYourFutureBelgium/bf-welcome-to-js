@@ -12,6 +12,7 @@
 
 */
 
+debugger;
 /* --- declaring --- */
 
 // declare onlyDeclared using let
@@ -31,3 +32,9 @@ let declaredAndInitialized = 'hello';
 
 // read declaredAndInitialized: "hello"
 declaredAndInitialized;
+
+let day;
+
+let color = 'black';
+
+color;

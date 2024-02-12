@@ -18,3 +18,14 @@ food = 'peanut';
 
 let x = 'abc';
 x = '-|-';
+
+debugger;
+
+let nature = 'tree';
+nature = 'flower';
+
+let color = 'black';
+color = 'green';
+
+let day = 'monday';
+day = 'friday';

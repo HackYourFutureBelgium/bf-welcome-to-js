@@ -15,6 +15,8 @@
 
 */
 
+debugger;
+
 let a = '.';
 let b = '@';
 let temp;
@@ -24,3 +26,15 @@ a = b;
 b = temp;
 
 // is it possible two swap a and b without using temp?
+
+let day1 = 'monday';
+let day2 = 'friday';
+let day3;
+
+day3 = day1;
+day1 = day2;
+day2 = day3;
+
+day1;
+
+day2;

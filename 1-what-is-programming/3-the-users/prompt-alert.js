@@ -19,7 +19,7 @@
   then the program continues executing, using the user's input
 
 */
-
+debugger;
 // alert just displays text, you cannot type anything
 alert('(alert) hello! the program is paused until you click "ok"');
 
@@ -32,3 +32,8 @@ alert(
   'no try running the program again passing different input. \n\n' +
     'PS. check your console!',
 );
+
+alert('this is a test');
+
+let test = prompt('what is your name?');
+console.log(test);

@@ -13,7 +13,7 @@
 */
 
 /* --- assigning new values to a variable --- */
-
+debugger;
 // declare name using let
 // initialize to "Gödel"
 let name = 'Gödel';
@@ -45,3 +45,11 @@ name = 'Schoenberg';
 
 // read name: "Schoenberg"
 name;
+
+let day = 'sunday';
+
+day = 'friday';
+
+day = 'thursday';
+
+day = 'monday';

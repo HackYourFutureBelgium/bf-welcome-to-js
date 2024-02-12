@@ -14,7 +14,7 @@
   looking for a challenge? Try the "debug" button
 
 */
-
+debugger;
 // trace the program a few times with different values
 
 let first = 'Pieter';
@@ -30,3 +30,17 @@ let fullName = first + ' ' + last;
 let greeting = 'hello ' + fullName;
 
 greeting = 'good bye ' + fullName;
+
+let part1 = 'mon';
+// let part1 = "fri";
+// let part1 = "sun";
+
+let part2 = 'day';
+// let part2 = "day";
+// let part2 = "day";
+
+let fullday = part1 + part2;
+
+let today = 'today is ' + fullday + '!';
+
+today;

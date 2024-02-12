@@ -19,3 +19,11 @@ let turtle = 'Vinnie';
 let food = 'lettuce';
 
 let x = 'abc';
+
+debugger;
+
+let animal = 'turtle';
+
+let color = 'black';
+
+let nature = 'tree';

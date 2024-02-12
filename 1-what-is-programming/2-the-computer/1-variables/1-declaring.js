@@ -19,3 +19,11 @@ let turtle;
 let food;
 
 let x;
+
+debugger;
+
+let test;
+
+let test2;
+
+let test3;

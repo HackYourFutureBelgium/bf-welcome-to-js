@@ -11,7 +11,7 @@
   looking for a challenge? Try the "debug" button
 
 */
-
+debugger;
 // declare using let: pattern
 // initialize to "."
 let pattern = '.';
@@ -56,3 +56,11 @@ pattern = pattern + pattern;
 
 // read pattern: "@.@@.@"
 pattern;
+
+let day = 'monday';
+
+day = day + 'friday';
+
+day = 'sunday' + day;
+
+day = day + day;
