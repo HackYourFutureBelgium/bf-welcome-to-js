@@ -16,6 +16,7 @@
 
 // declare name using let
 // initialize to "Gödel"
+debugger;
 let name = 'Gödel';
 
 /*

@@ -28,6 +28,7 @@
   the developer can read them, but a user will not see them
 */
 
+debugger;
 console.log('comments');
 
 console.log('and');

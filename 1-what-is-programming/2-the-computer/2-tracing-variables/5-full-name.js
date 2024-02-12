@@ -16,7 +16,7 @@
 */
 
 // trace the program a few times with different values
-
+debugger;
 let first = 'Pieter';
 // let first = 'Blake';
 // let first = 'George';

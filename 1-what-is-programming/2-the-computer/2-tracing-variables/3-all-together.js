@@ -11,7 +11,7 @@
   looking for a challenge? Try the "debug" button
 
 */
-
+debugger;
 // declare using let: pattern
 // initialize to "."
 let pattern = '.';
