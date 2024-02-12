@@ -1,8 +1,13 @@
+'use strict';
+
 /* --- for the computer --- 'use strict';
 
 /* --- for developers --- */
 
+debugger;
+
 // log to the console for developers to read
+
 console.log('hello developer (console)');
 
 /* --- for users --- */
