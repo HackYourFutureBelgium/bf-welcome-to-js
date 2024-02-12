@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Assigning New Values
 
   you can assign new values to a variable after they are declared.
@@ -18,3 +20,6 @@ food = 'peanut';
 
 let x = 'abc';
 x = '-|-';
+
+let school = 'students';
+school = 'teacher';

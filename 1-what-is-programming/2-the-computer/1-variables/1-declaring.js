@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Declaring a Variable
 
   declaring a variable creates a new "box" in program memory,

@@ -1,5 +1,6 @@
 'use strict';
 
+debugger;
 /*
   comment and uncomment different names
   how will the program change?
@@ -24,3 +25,7 @@ let firstName = 'Pieter';
 let greeting = 'hello ' + firstName + '!';
 
 greeting = 'good bye ' + firstName + '.';
+
+let lastName = 'ilciuc';
+
+let greeting = 'how are you' + lastName + '?';

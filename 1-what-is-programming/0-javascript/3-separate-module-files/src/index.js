@@ -1,3 +1,7 @@
+'use strict';
+
+debugger;
+
 // modules are automatically in strict mode
 //  you do not need to write 'use strict'
 
