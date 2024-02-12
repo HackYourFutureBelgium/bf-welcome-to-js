@@ -1,5 +1,6 @@
 'use strict';
 
+debugger;
 /* string exercises
 
   practice writing some strings, each log has two comments:
@@ -12,18 +13,20 @@
 // --- hello ---
 
 // write a string that says 'hello'
-console.log(); // 'hello'
+console.log('hello');
 
 // concatenate 2 strings to create 'hello'
-console.log(); // 'hello'
+console.log('hel' + 'lo');
 
 // concatenate 3 strings to create 'hello'
-console.log(); // 'hello'
+console.log('he' + 'l' + 'lo');
 
 // --- length ---
 
 // write a string with 5 characters and log it's length
-console.log(); // 5
+let string = 'Hello';
+console.log(string.length);
 
-// write a different string with 5 characters and log it's length
-console.log(); // 5
+// Write a different string with 5 characters
+let string2 = 'World';
+console.log(string2.length);

@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /*
   comment and uncomment different names
   how will the program change?

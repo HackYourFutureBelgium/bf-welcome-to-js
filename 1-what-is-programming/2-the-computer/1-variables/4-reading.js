@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Reading Stored Values
 
   you can also read the value stored in a variable
@@ -10,12 +12,12 @@
 
 */
 
-let name = 'Pieter';
+let name = 'Rohma';
 
 let greeting = 'hello ' + name;
 console.log(greeting); // "hello Pieter"
 
-name = 'Amela';
+name = 'Ramya';
 
 greeting = 'good bye ' + name;
 console.log(greeting); // "good bye Amela"

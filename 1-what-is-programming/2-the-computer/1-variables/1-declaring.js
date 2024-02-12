@@ -1,5 +1,6 @@
 'use strict';
 
+debugger;
 /* Declaring a Variable
 
   declaring a variable creates a new "box" in program memory,
@@ -14,8 +15,10 @@
 
 */
 
-let turtle;
+let turtle = 'tall';
 
-let food;
+let food = 'pizza';
 
-let x;
+let x = 'y';
+
+let help = 'ok';

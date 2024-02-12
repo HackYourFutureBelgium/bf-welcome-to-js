@@ -17,7 +17,7 @@
 
 let input = null;
 while (true) {
-  input = prompt('enter something with 5 characters and it will be reversed.');
+  input = prompt('garnal');
   console.log(input);
 
   /* --- check that the user input is 5 characters long --- */
@@ -31,7 +31,7 @@ while (true) {
 
 /* --- create the final message --- */
 
-let message = '';
+let message = 'good';
 for (let character of input) {
   message = character + message;
 }
