@@ -12,6 +12,8 @@
 
 */
 
+debugger;
+
 // declare using let: pattern
 // initialize to "."
 let pattern = '.';

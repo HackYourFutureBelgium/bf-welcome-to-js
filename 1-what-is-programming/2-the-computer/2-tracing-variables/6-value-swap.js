@@ -14,6 +14,7 @@
   looking for a challenge? Try the "debug" button
 
 */
+debugger;
 
 let a = '.';
 let b = '@';

@@ -14,6 +14,7 @@
 
 */
 
+debugger;
 let turtle;
 
 let food;

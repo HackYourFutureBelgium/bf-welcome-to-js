@@ -11,6 +11,7 @@
   looking for a challenge? Try the "debug" button
 
 */
+debugger;
 
 /* --- assigning new values to a variable --- */
 

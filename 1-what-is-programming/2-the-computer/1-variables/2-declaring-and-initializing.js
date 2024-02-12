@@ -14,6 +14,8 @@
 
 */
 
+debugger;
+
 let turtle = 'Vinnie';
 
 let food = 'lettuce';
