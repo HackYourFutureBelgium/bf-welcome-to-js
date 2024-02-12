@@ -9,6 +9,7 @@
   you can use variables every way as many times as you like
 
 */
+debugger;
 
 let name = 'Pieter';
 

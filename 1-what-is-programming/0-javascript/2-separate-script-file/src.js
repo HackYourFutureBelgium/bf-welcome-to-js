@@ -1,3 +1,5 @@
+'use strict';
+
 /* --- for the computer --- 'use strict';
 
 /* --- for developers --- */

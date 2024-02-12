@@ -12,18 +12,18 @@
 // --- hello ---
 
 // write a string that says 'hello'
-console.log(); // 'hello'
+console.log('hello'); // 'hello'
 
 // concatenate 2 strings to create 'hello'
-console.log(); // 'hello'
+console.log('hel' + 'lo'); // 'hello'
 
 // concatenate 3 strings to create 'hello'
-console.log(); // 'hello'
+console.log('h' + 'el' + 'lo'); // 'hello'
 
 // --- length ---
 
 // write a string with 5 characters and log it's length
-console.log(); // 5
+console.log('Strin'.length); // 5
 
 // write a different string with 5 characters and log it's length
-console.log(); // 5
+console.log('fivee'.length); // 5

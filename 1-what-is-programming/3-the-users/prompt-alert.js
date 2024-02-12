@@ -19,7 +19,7 @@
   then the program continues executing, using the user's input
 
 */
-
+debugger;
 // alert just displays text, you cannot type anything
 alert('(alert) hello! the program is paused until you click "ok"');
 
