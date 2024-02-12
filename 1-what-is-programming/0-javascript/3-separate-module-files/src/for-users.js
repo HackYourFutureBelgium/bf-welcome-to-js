@@ -1,5 +1,5 @@
 /* --- for the user --- */
-
+debugger;
 // alert hello for the user
 //  not a great UX, but easy to program
 //  you'll use this for now
