@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Reading Stored Values
 
   you can also read the value stored in a variable
