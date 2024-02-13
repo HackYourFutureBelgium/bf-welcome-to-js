@@ -1,8 +1,8 @@
 'use strict';
 
 let a = '*';
-// let a = '<>';
-// let a = '|-|';
+// let a = '<>'; the output will be = '<>, <>, <>'
+// let a = '|-|'; the output will be
 // let a = '';
 
 let b = '';
