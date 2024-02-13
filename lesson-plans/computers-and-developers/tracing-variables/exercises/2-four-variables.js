@@ -28,3 +28,9 @@ console.log(d);
 d = 'good bye ' + c;
 
 console.log(d);
+
+// | a        | b         | c                 |d                        |
+// | -------- | --------  | ----------------- | --------------------    |
+// |Pieter,  | Rabbit     |Pieter Rabbit       | hello Pieter Rabbit    |
+// |Blake,   | Wozzeck    | Blake Wozzeck      | hello Black Wozzeck    |
+// |George   | Schoenberg | George Schoenberg  | hello George Schoenberg |

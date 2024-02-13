@@ -16,3 +16,8 @@ if (a.length > 4) {
 }
 
 console.log(b);
+
+/* the output will be:
+Ewin = 'Hello Ewin, your name is perfect'
+Jo = 'Hello Jo, your name is short'
+Olesandra = 'Hello Olesandra, your name is long'
