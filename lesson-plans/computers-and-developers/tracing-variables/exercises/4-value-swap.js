@@ -8,7 +8,7 @@
   study tips: [variables], [open in] jsTutor, [ask me]
 
 */
-
+debugger;
 let a = 'y';
 let b = 'x';
 let t = '';

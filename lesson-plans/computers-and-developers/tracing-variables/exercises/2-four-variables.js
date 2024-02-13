@@ -10,7 +10,7 @@
 */
 
 // trace the program a few times with different values
-
+debugger;
 let a = 'Pieter';
 // let a = 'Blake';
 // let a = 'George';

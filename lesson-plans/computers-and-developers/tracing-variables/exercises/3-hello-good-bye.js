@@ -5,6 +5,7 @@
   Add comments and logs to help a developer understand this program
 
 */
+debugger;
 
 let first = 'Pieter';
 let last = 'Rabbit';
