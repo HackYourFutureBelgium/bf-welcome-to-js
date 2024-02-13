@@ -13,6 +13,7 @@
   - initial value: what you want to store in the variable
 
 */
+debugger;
 
 let turtle = 'Vinnie';
 

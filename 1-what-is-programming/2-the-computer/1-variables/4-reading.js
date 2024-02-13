@@ -10,6 +10,8 @@
 
 */
 
+debugger;
+
 let name = 'Pieter';
 
 let greeting = 'hello ' + name;
