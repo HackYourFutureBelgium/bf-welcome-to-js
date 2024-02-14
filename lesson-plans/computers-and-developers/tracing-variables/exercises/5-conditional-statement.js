@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 let a = 'Ewin';
 // let a = 'Tugba';
 // let a = 'Jo';
@@ -16,3 +18,15 @@ if (a.length > 4) {
 }
 
 console.log(b);
+
+let x = 'Elias';
+let y = 'Bonjour ' + x + ", ton nom c'est ";
+
+if (x.length > 5) {
+  y = y + 'long.';
+} else if (x.length === 5) {
+  y = y + 'parfait.';
+} else {
+  y = y + 'court';
+}
+console.log(y);

@@ -1,4 +1,7 @@
 // these are the only functions you will need
+
+debugger;
+
 import {
   whenFormDataChanges,
   readString,
@@ -19,10 +22,11 @@ whenFormDataChanges('user-info', () => {
   // --- create a message ---
 
   let greeting = 'Hello ' + name + '!';
-
+  let greetings = 'Good bye ' + name + '!';
   // --- display the message ---
 
   displayString('greeting-output', greeting);
+  displayString('greeting-output', greetings);
 });
 
 /*  ===== Challenges =====

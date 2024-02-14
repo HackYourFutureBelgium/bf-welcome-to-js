@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Undefined
 
   1- Undefined is a data type which represent that the value is not assigned.
@@ -12,6 +14,9 @@ let name;
 
 console.log(name);
 
+let drinks;
+
+console.log(drinks);
 /*
 What is the difference between null and undefined?
 

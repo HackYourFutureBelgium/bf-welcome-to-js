@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* 🐥 Debugger Statement
 
   The `debugger` statement will make your program pause in the devtools

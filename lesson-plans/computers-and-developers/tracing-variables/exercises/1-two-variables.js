@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Two Variables
 
   Can you predict what the [trace] button will log to the console?
@@ -22,3 +24,12 @@ console.log(y);
 y = 'good bye ' + x;
 
 console.log(y);
+
+//the console will display "good bye Pieter"
+
+let a = 'jessica';
+let b = 'hello ' + a;
+console.log(b);
+
+b = a + ' ,how are you?';
+console.log(b);
