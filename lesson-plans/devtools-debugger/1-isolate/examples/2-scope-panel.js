@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /*  Scope Panel
 
   go through this program one step at a time and watch the Scopes panel

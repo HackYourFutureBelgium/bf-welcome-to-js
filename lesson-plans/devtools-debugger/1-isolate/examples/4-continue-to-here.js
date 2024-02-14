@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* 🐣 Continue to Here
 
   click the [debug] button to study this program in the debugger

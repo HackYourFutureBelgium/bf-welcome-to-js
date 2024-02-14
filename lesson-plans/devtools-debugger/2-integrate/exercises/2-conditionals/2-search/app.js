@@ -34,9 +34,9 @@ whenFormDataChanges('search-input', () => {
   let message = '';
 
   if (doesExist) {
-    message = 'yes';
+    message = 'yes, here it is';
   } else {
-    message = 'no';
+    message = 'no, try again please';
   }
 
   // --- display the search results ---

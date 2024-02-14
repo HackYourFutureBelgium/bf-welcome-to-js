@@ -21,8 +21,8 @@ b = t;
 
 console.log(a, b, t);
 
-// what did you do in this program?
-// what are the final values of `a` and `b`?
+// what did you do in this program? : swap the value of variables.
+// what are the final values of `a` and `b`? : a = x;  b = y;
 // how are they changed from the initial values
 
-// is it possible to swap a and b without using t?
+// is it possible to swap a and b without using t? non
