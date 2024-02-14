@@ -2,14 +2,16 @@
 
 /* Reverse
 
-  Data In:
 
+  This program accepts string or numbers and revers entered data.
+
+  Data In:
+  Any numbers or text.
 
   Data Out:
 
-
-  Test Cases:
-
+  A friendly message:
+  "enter some text to reverse".
 
 */
 

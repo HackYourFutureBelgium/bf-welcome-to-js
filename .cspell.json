@@ -7,7 +7,17 @@
     "Precourse",
     "distractor",
     "distractors",
-    "typeof"
+    "typeof",
+    "sololearn",
+    "launchcode",
+    "programiz",
+    "codeacademy",
+    "pythontutor",
+    "Envato",
+    "ictshore",
+    "freecodecamp",
+    "ibuildmvps",
+    "quora"
   ],
   "ignorePaths": ["node_modules/**", "**/*.json", "**/*.mp4", "**/*.svg"]
 }

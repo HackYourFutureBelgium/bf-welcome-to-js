@@ -12,18 +12,23 @@
 // --- hello ---
 
 // write a string that says 'hello'
-console.log(); // 'hello'
+const hello = 'hello';
+console.log(hello);
 
 // concatenate 2 strings to create 'hello'
-console.log(); // 'hello'
+const hello1 = 'he' + 'llo';
+console.log(hello1);
 
 // concatenate 3 strings to create 'hello'
-console.log(); // 'hello'
+const hello2 = 'he' + 'l' + 'lo';
+console.log(hello2);
 
 // --- length ---
 
 // write a string with 5 characters and log it's length
-console.log(); // 5
+const hello3 = 'hello';
+console.log(hello3.length); // 5
 
 // write a different string with 5 characters and log it's length
-console.log(); // 5
+const hello4 = 'he' + 'llo';
+console.log(hello4.length);

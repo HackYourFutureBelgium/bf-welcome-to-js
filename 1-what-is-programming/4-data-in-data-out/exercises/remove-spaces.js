@@ -2,14 +2,15 @@
 
 /* Remove Spaces
 
-  Data In:
+This program remove spaces.
 
+Data In:
+String or numbers any length.
 
-  Data Out:
+Data Out:
 
-
-  Test Cases:
-
+A friendly welcome message:
+"enter some text, all the spaces will be removed".
 
 */
 

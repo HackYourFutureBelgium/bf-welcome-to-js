@@ -2,14 +2,15 @@
 
 /* Mirror
 
-  Data In:
+This program accepts mirrors entered text or numbers.
 
+Data In:
+String or numbers any length.
 
-  Data Out:
+Data Out:
 
-
-  Test Cases:
-
+A friendly welcome message:
+"enter some text to mirror".
 
 */
 

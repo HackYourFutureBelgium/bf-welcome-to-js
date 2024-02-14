@@ -2,15 +2,16 @@
 
 /* Flip Five
 
-  Data In:
+  This program accepts string or numbers that are exactly 5 characters and revers entered data.
 
+  Data In:
+  Any numbers or text 5 characters long.
 
   Data Out:
 
-
-  Test Cases:
-
-
+  A friendly message:
+  "Enter something with 5 characters and it will be reversed" or "nope, try again".
+  
 */
 
 /* --- gather user input --- */
