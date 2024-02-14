@@ -5,6 +5,7 @@
 
 'use strict';
 
+debugger;
 
 console.log('hello');
 
