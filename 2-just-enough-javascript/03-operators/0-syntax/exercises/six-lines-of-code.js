@@ -5,6 +5,7 @@
 
 'use strict';
 
+debugger;
 
 2 + 2;
 

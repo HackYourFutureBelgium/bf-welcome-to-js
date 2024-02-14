@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 let phrase = ' ';
 
 phrase = 'one' + phrase + 'fish';
