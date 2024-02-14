@@ -11,14 +11,14 @@
 
 // trace the program a few times with different values
 
-let x = 'Pieter';
+let x = 'Peter';
 // let x = 'Blake';
 // let x = 'George';
 
 let y = 'hello ' + x;
 
-console.log(y);
+console.log(y); /* Hello Peter */
 
-y = 'good bye ' + x;
+y = 'goodbye ' + x;
 
-console.log(y);
+console.log(y); /* Goodbye Peter */
