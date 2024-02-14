@@ -6,6 +6,8 @@
 
 'use strict';
 
+debugger;
+
 
 let firstName = 'Pieter';
 

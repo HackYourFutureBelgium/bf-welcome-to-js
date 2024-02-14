@@ -11,3 +11,5 @@ TODO: explain what comments are
 */
 
 // this is an inline comment
+
+// JavaScript comments can be used to explain JavaScript code, and to make it more readable.

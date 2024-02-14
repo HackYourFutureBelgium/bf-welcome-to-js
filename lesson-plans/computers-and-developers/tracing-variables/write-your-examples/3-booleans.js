@@ -7,16 +7,19 @@ TODO: create a few variables(boolean):
 declared, initialized, read , reassigned,...
 */
 
-//Example 1
+//Example 1: Declare a variable YES initialize it to the value true and variable NO initialize to the value false
 
 debugger;
 
-let exampleBoolean = true; //boolean
+let YES = true;
+let NO = false;
 
-const isGood = true; //boolean
+// Alert message
 
-//Example 3
+if (YES) {
+  alert('Enter the room');
+}
 
-let roomLights = false;
-roomLights = true;
-roomLights; //true
+if (NO) {
+  alert('Leave');
+}

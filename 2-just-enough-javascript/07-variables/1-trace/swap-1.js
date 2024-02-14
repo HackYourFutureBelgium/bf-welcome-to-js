@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 /* 1. declare 3 variables */
 
 let a = 'y';
