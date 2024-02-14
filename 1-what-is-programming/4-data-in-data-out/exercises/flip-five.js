@@ -2,13 +2,15 @@
 
 /* Flip Five
 
-  Data In:
+  Data In: Input string 
 
 
-  Data Out:
+  Data Out: Mirrored version of the input string.
 
 
-  Test Cases:
+  Test Cases:Input: 
+    Input: "hello"
+    Output: "olleh"
 
 
 */

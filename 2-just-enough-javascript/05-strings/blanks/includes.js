@@ -11,18 +11,18 @@ console.log('JavaScript'.includes('vaSc')); // true
 console.log('JavaScript'.includes('VAsC')); // false
 
 // exercises
-console.log('HackYourFuture'.includes(_)); // true
-console.log('HackYourFuture'.includes(_)); // true
-console.log('HackYourFuture'.includes(_)); // true
+console.log('HackYourFuture'.includes('Future')); // true
+console.log('HackYourFuture'.includes('YourFuture')); // true
+console.log('HackYourFuture'.includes('kYour')); // true
 
-console.log('HackYourFuture'.includes(_)); // false
-console.log('HackYourFuture'.includes(_)); // false
-console.log('HackYourFuture'.includes(_)); // false
+console.log('HackYourFuture'.includes('your')); // false
+console.log('HackYourFuture'.includes('hack')); // false
+console.log('HackYourFuture'.includes('future')); // false
 
-console.oog(_.includes(' Bye')); // true
-console.oog(_.includes('. Car')); // true
-console.oog(_.includes('+')); // true
+console.log('Good Bye'.includes(' Bye')); // true
+console.log('My. Car'.includes('. Car')); // true
+console.log('good + bye'.includes('+')); // true
 
-console.oog(_.includes('hi')); // false
-console.oog(_.includes('road')); // false
-console.oog(_.includes('Ima')); // false
+console.log('Hi'.includes('hi')); // false
+console.log('Road'.includes('road')); // false
+console.log('Iam'.includes('Ima')); // false

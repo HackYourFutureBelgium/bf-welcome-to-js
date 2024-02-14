@@ -2,13 +2,16 @@
 
 /* Reverse
 
-  Data In:
+  Data In: Input string
 
 
-  Data Out:
+  Data Out: Mirrored version of the input text displayed to the user.
 
 
   Test Cases:
+     Input: 'hello'
+     output: before: 'hello -> olleh'
+            
 
 
 */

@@ -16,16 +16,16 @@ console.log('eat'[1] === 'a'); // true
 console.log('eat'[2] === 't'); // true
 
 // exercises
-console.log('JavaScript'.length === _); // true
-console.log('JavaScript'[_]); // 't'
-console.log('JavaScript'[_]); // 'J'
-console.log('JavaScript'[_] === 'v'); // true
-console.log('JavaScript'[_] === 'c'); // true
+console.log('JavaScript'.length === 10); // true
+console.log('JavaScript'[9]); // 't'
+console.log('JavaScript'[0]); // 'J'
+console.log('JavaScript'[2] === 'v'); // true
+console.log('JavaScript'[5] === 'c'); // true
 
-console.log('programming'.length === _); // true
-console.log('programming'[_]); // 'm'
-console.log('programming'[_]); // 'm'
-console.log('programming'[0] === _); // true
-console.log('programming'[4] === _); // true
-console.log('programming'[6] === _); // true
-console.log('programming'[10] === _); // true
+console.log('programming'.length === 11); // true
+console.log('programming'[6]); // 'm'
+console.log('programming'[7]); // 'm'
+console.log('programming'[0] === 'p'); // true
+console.log('programming'[4] === 'r'); // true
+console.log('programming'[6] === 'm'); // true
+console.log('programming'[10] === 'g'); // true

@@ -2,18 +2,21 @@
 
 /* Remove Spaces
 
-  Data In:
+  Data In: Input string
 
 
-  Data Out:
+  Data Out: Mirrored version of the input text displayed to the user.
 
 
   Test Cases:
-
-
+    Input: 'How Are You'
+    output: before: 'How Are You'
+            after: 'HowAreYou'
 */
 
 /* --- gather user input --- */
+
+debugger;
 
 let input = null;
 while (input === null) {
