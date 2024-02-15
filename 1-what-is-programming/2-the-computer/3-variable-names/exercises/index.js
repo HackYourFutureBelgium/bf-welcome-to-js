@@ -1,6 +1,6 @@
-debugger;
+'use strict';
 
-('use strict');
+debugger;
 
 let first = 'hello';
 

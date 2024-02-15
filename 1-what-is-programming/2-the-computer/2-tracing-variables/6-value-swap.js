@@ -25,4 +25,6 @@ temp = a;
 a = b;
 b = temp;
 
+console.log(temp, a, b);
+
 // is it possible two swap a and b without using temp?

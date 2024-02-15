@@ -1,14 +1,22 @@
 'use strict';
 
+debugger;
+
 /* Flip Five
 
   Data In:
+  any text
 
 
   Data Out:
+  the reversed input if it was 5 characters long
+  else it will prompt the user for another input
 
 
   Test Cases:
+  'hey' -> 'nope, try again.'
+  'celia' -> 'ailec'
+  'vacation' -> 'nope, try again.'
 
 
 */

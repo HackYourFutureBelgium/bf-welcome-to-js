@@ -1,4 +1,5 @@
 'use strict';
+debugger;
 
 /*
   practice tracing it different ways:

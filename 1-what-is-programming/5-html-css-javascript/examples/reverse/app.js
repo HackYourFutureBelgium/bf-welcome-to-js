@@ -5,8 +5,10 @@ import {
   displayString,
 } from '../../../../lib/dom-io/index.js';
 
+debugger;
+
 whenFormDataChanges('reversify', () => {
-  // debugger;
+  debugger;
   console.log('--- form data changed ---');
 
   // --- read user input ---

@@ -1,14 +1,19 @@
 'use strict';
 
+debugger;
+
 /* Remove Spaces
 
   Data In:
+  any text 
 
 
   Data Out:
+  text without spaces
 
 
   Test Cases:
+  "today 14/02/24 is a rainy day" -> "today14/02/24isarainyday"
 
 
 */

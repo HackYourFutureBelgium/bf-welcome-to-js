@@ -1,14 +1,20 @@
 'use strict';
 
+debugger;
+
 /* Reverse
 
   Data In:
+  any text, symbol, nr.
 
 
   Data Out:
+  reverse text message
 
 
   Test Cases:
+  :!$ù/+ -> +/ù$!:
+  rabbit -> tibbar
 
 
 */
