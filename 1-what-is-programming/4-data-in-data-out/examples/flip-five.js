@@ -1,5 +1,6 @@
 'use strict';
 
+debugger;
 /* Flip Five
 
   This program reverses the input only if it is 5 characters long.
@@ -24,7 +25,7 @@
 let input = null;
 while (input === null) {
   input = prompt(
-    "enter something. \n\n if it has 5 characters it will be reversed",
+    'enter something. \n\n if it has 5 characters it will be reversed',
   );
   console.log(input);
 }
@@ -34,11 +35,14 @@ while (input === null) {
 let message = '';
 if (input.length === 5) {
   /* --- reverse the input if it is 5 characters long --- */
+  let splitString = input.split('');
+  let reversString = splitString.reverse();
+  message = reversString.join('');
 
-  for (let character of input) {
-    message = character + message;
-    console.log(message);
-  }
+  // for (let character of input) {
+  //   message = character + message;
+  //   console.log(message);
+  // }
 } else {
   /* --- do nothing if the input was not 5 characters --- */
 
