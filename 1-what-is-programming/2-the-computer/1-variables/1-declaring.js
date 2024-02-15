@@ -17,7 +17,10 @@ debugger;
 */
 
 let turtle;
+console.log(turtle);
 
 let food;
+console.log(food);
 
 let x;
+console.log(x);

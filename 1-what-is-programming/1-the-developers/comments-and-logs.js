@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* comments
 
   comments are for developers to read in the source code

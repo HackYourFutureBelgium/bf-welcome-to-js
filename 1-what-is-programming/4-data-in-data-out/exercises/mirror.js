@@ -1,15 +1,21 @@
 'use strict';
 
+debugger;
+
 /* Mirror
 
   Data In:
+  any text,nr and symbol
 
 
   Data Out:
+  a mirrored message
 
 
   Test Cases:
-
+  '12345' -> '54321 | 12345'
+  "Aujourd'hui" -> "iuh'druojuA | Aujourd'hui" 
+  "Bonjour3Fois." -> ".sioF3ruojnoB | Bonjour3Fois."
 
 */
 
