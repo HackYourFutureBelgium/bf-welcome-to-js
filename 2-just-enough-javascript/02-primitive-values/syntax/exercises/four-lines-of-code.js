@@ -4,7 +4,7 @@
 { // so prettier does not remove the extra spacing
 
 'use strict';
-
+debugger
 
 console.log('hello');
 

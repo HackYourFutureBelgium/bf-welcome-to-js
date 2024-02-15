@@ -1,12 +1,12 @@
 'use strict';
 
-__;
+const first = 'java';
 console.log(first);
 
-__;
+const last = 'script';
 console.log(last);
 
-__;
+const language = first + last;
 console.log(language);
 
-console.log(___);
+console.log(language + '!');

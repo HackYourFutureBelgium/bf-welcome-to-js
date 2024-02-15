@@ -34,9 +34,19 @@ console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
+if (input === null) {
+  output = ':(';
+} else {
+  if (input.length > 10) {
+    output = `"${input}" is ${input.length - 10} characters too long`;
+  } else if (input.length < 10) {
+    output = `"${input}" is ${10 - input.length} characters too short`;
+  } else {
+    output = `"${input}" is perfect!`;
+  }
 
 /* --- alert the result --- */
 

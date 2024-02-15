@@ -19,10 +19,10 @@ let number = 0;
 console.log(number + ' between 1 and 2, OR between 4 and 5 (exclusive)');
 
 // number is greater than 1 AND is less than 2 (exclusive)
-console.log(_);
+console.log(number > 1 && number < 2);
 
 // number is greater than 4 AND less than 5 (exclusive)
-console.log(_);
+console.log(number > 4 && number < 5);
 
 // number between 1 and 2 OR between 4 and 5 (exclusive)
-console.log(_);
+console.log((number > 1 && number < 2) || (number > 4 && number < 5));

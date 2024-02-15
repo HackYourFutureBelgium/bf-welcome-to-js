@@ -2,14 +2,15 @@
 
 let favoriteLanguage;
 
+favoriteLanguage = 'Java';
 _;
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'JavaScript';
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'js';
 console.log(favoriteLanguage);
 
-_;
+favoriteLanguage = 'Script';
 console.log(favoriteLanguage);

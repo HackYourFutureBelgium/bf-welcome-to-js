@@ -15,6 +15,7 @@
 
 /* --- gather user input --- */
 
+debugger;
 let input = null;
 while (true) {
   input = prompt('enter something with 5 characters and it will be reversed.');
