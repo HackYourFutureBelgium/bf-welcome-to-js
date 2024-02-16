@@ -1,11 +1,13 @@
 'use strict';
 
-__;
+debugger;
+
+let first = 'Richelle';
 console.log(first);
 
-__;
+let last = 'Pintucan';
 console.log(last);
 
-console.log(__ + __);
+console.log(first + ' ' + last);
 
-console.log(__ + __ + _);
+console.log(first + ' ' + last + '!');

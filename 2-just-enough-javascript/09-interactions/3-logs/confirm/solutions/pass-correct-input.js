@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 let input1 = confirm('agree');
 console.log(input1); // true
 

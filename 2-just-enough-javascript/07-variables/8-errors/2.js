@@ -2,7 +2,9 @@
 
 'use strict';
 
+debugger;
+
 // fix the error in this code
 
-hasFiveFingers = true;
-console.log(hasFiveFingers); // true
+let HasFiveFingers = true;
+console.log(HasFiveFingers); // true

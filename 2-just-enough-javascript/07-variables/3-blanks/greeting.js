@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 let firstName = 'Pieter';
 
 let greeting = 'hello ' + firstName + '!';

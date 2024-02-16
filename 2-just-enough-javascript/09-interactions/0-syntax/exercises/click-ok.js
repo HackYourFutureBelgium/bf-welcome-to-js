@@ -6,6 +6,8 @@
 
 'use strict';
 
+debugger;
+
 
 let didClickOk = confirm('please click "ok"');
 
