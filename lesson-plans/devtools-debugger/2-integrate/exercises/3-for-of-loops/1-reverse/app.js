@@ -29,10 +29,12 @@ whenFormDataChanges('reversify', () => {
   // --- set to upper or lower case ---
 
   let finalText = '';
-  if (screaming) {
+  if (reversed.length > 5) {
     finalText = reversed.toUpperCase();
-  } else {
+  } else if (reversed.length === 5) {
     finalText = reversed.toLowerCase();
+  } else {
+    finalText = reversed;
   }
 
   console.log(finalText);

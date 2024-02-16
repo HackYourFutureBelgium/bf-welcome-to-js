@@ -18,20 +18,20 @@ let work = 'good';
 
 const weather = 'raining';
 
-//Read the value stored in 'work'
+// Read the value stored in 'work'
 console.log(work);
 
-//Read the value stored in 'weather'
+// Read the value stored in 'weather'
 console.log(weather);
 
 // ASSIGN a new value to `work`
 work = 'hard';
 
-//weather = "sunny";
+// weather = "sunny";
 // ASSIGNING a new value to const `weather` cannot have its value
-//change after assignment.
+// change after assignment.
 
-//read the value stored in `work`
+// read the value stored in `work`
 console.log(work);
 
 // CONCATENATE "hard" and "?"

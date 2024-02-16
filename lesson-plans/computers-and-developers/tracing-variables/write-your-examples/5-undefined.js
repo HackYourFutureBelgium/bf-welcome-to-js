@@ -13,22 +13,22 @@ declared, initialized, read , reassigned,...
 
 let food;
 
-/*if you declare a variable and didn't
-initialize it , it's value will be undefined by default.*/
+/* if you declare a variable and didn't
+initialize it , it's value will be undefined by default. */
 
 // READ the value stored in `food`
 console.log(food);
 
-//example 1
+// example 1
 
 let fourth;
 console.log(fourth);
 
-//example 2
+// example 2
 
 let x;
 console.log(x);
 
-//example 3
+// example 3
 let color = '';
 console.log(color);
