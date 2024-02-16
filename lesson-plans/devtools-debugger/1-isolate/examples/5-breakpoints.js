@@ -13,7 +13,7 @@
   you can change them while the program is running
 
 */
-
+debugger;
 let didClickOk = confirm('please click "ok":');
 
 let message = '';

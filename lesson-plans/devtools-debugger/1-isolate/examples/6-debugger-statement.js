@@ -10,7 +10,7 @@
   If you use `debugger`, the program will stop even if you use the [run] button
 
 */
-
+debugger;
 let didClickOk = confirm('please click "ok":');
 
 let message = '';

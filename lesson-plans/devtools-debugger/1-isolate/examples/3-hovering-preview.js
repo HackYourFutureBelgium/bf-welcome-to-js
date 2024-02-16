@@ -12,7 +12,7 @@
   - check the scopes panel to understand how the value was calculated
 
 */
-
+debugger;
 let didClickOk = confirm('please click "ok":');
 
 let message = '';

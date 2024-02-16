@@ -15,7 +15,7 @@
   - were you right about what changed in the Scopes panel? -->
 
 */
-
+debugger;
 let didClickOk = confirm('please click "ok":');
 
 let message = '';

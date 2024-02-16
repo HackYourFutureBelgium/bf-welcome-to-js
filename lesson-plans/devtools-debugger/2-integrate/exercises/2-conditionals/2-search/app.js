@@ -34,9 +34,9 @@ whenFormDataChanges('search-input', () => {
   let message = '';
 
   if (doesExist) {
-    message = 'yes';
+    message = 'yes'; "${findThis}" exists in "${searchThis}"`;
   } else {
-    message = 'no';
+    message = 'no'; "${findThis}" doesn't exist in "${searchThis}"`;
   }
 
   // --- display the search results ---

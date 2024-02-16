@@ -1,4 +1,5 @@
 // these are the only functions you will need
+import { log } from 'console';
 import {
   whenFormDataChanges,
   readString,
@@ -10,20 +11,20 @@ whenFormDataChanges('user-info', () => {
 
   console.log('\n--- form data changed ---');
 
-  // --- read user input ---
+  --- read user input ---
 
-  let name = readString('the-name');
+//   let name = readString('the-name');
 
-  console.log(name);
+//   console.log(name);
 
-  // --- create a message ---
+//   --- create a message ---
 
-  let greeting = 'Hello ' + name + '!';
+//   let greeting = 'Hello ' + name + '!';
 
-  // --- display the message ---
+//   --- display the message ---
 
-  displayString('greeting-output', greeting);
-});
+//   displayString('greeting-output', greeting);
+// });
 
 /*  ===== Challenges =====
 
@@ -31,3 +32,13 @@ whenFormDataChanges('user-info', () => {
   - Make the program say "hello", then "good bye" on a new line
 
 */
+
+const firstName = readString('first-name');
+const lastName = readString('last-name');
+
+console.log(firstName, lastName);
+// --- create a message ---
+const greeting = 'Hello ' + firstName + ' ' + lastName + '!\nGoodbye!';
+
+// --- display the message ---
+displayString('greeting-output', greeting);

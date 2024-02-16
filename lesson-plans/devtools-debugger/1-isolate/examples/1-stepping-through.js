@@ -12,7 +12,7 @@
     look around the debugger, what do you see?
 
 */
-
+debugger;
 let didClickOk = confirm('please click "ok":');
 
 if (didClickOk !== true) {

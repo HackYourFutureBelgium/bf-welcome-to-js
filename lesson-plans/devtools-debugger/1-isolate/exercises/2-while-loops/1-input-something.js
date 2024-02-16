@@ -10,3 +10,8 @@ alert('thank you!');
 /*  ===== Challenges =====
   - Try to create an infinite loop so the user gets stuck inside your prompt.
 */
+while (true) {
+  let userInput = prompt('what is you name:');
+
+  console.log('what is you name:', userInput);
+}
