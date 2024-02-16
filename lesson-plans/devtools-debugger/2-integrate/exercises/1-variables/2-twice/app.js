@@ -1,5 +1,5 @@
 // these are the only functions you will need
-import {
+/*import {
   whenFormDataChanges,
   readString,
   displayString,
@@ -17,13 +17,13 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated = text + '\n' + text;
+  let repeated = text + '\n' + text; 
 
   // --- display the repeated text ---
 
   // display a string to the <pre> with id "doubled-input"
   displayString('doubled-input', repeated);
-});
+}); */
 
 /*  ===== Challenges =====
 
@@ -35,3 +35,20 @@ whenFormDataChanges('user-data', () => {
     4. asdf
 
 */
+
+import {
+  whenFormDataChanges,
+  readString,
+  displayString,
+} from '../../../../../../lib/dom-io/index.js';
+
+whenFormDataChanges('user-data', () => {
+  debugger;
+
+  console.log('\n--- form data changed ---');
+
+  let text = readString('to-multiple');
+
+  let repeated = text + '\n' + text + '\n' + text + '\n' + text;
+  displayString('multiple-input', repeated);
+});

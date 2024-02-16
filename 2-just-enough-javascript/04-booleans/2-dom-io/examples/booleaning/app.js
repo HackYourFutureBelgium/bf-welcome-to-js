@@ -1,7 +1,4 @@
 // these are the only functions you will need
-
-debugger;
-
 import {
   whenFormDataChanges,
   readBoolean,
@@ -9,6 +6,7 @@ import {
 } from '../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('bools', () => {
+  // debugger;
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
