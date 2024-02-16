@@ -1,5 +1,5 @@
 // these are the only functions you will need
-import {
+/*import {
   whenFormDataChanges,
   readString,
   displayString,
@@ -23,7 +23,7 @@ whenFormDataChanges('user-info', () => {
   // --- display the message ---
 
   displayString('greeting-output', greeting);
-});
+}); */
 
 /*  ===== Challenges =====
 
@@ -31,3 +31,25 @@ whenFormDataChanges('user-info', () => {
   - Make the program say "hello", then "good bye" on a new line
 
 */
+'user strict';
+
+import {
+  whenFormDataChanges,
+  readString,
+  displayString,
+} from '../../../../../../lib/dom-io/index.js';
+
+whenFormDataChanges('user-info', () => {
+  debugger;
+
+  console.log('\n--- form data changed ---');
+
+  let firstName = readString('first-name');
+  let lastName = readString('last-name');
+
+  console.log(firstName, lastName);
+
+  let greeting = `Hello ${firstName} ${lastName}\nGoodbye ${firstName} ${lastName}!`;
+
+  displayString('greeting-output', greeting);
+});

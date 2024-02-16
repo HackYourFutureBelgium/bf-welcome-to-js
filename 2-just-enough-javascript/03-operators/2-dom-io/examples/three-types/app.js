@@ -1,7 +1,5 @@
 // these are the only functions you will need
 
-debugger;
-
 import {
   whenFormDataChanges,
   readString,
@@ -11,6 +9,7 @@ import {
 } from '../../../../../lib/dom-io/index.js';
 
 whenFormDataChanges('values', () => {
+  // debugger;
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
