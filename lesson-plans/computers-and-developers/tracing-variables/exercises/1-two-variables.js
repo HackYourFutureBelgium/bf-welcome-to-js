@@ -25,7 +25,7 @@ y = 'good bye ' + x;
 
 console.log(y);
 
-//the console will display "good bye Pieter"
+// the console will display "good bye Pieter"
 
 let a = 'jessica';
 let b = 'hello ' + a;

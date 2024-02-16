@@ -15,18 +15,18 @@ whenFormDataChanges('user-info', () => {
 
   // --- read user input ---
 
-  let name = readString('the-name');
-
-  console.log(name);
+  let theFirstname = readString('the-first-name');
+  let theLastname = readString('the-last-name');
+  console.log(theFirstname, theLastname);
 
   // --- create a message ---
 
-  let greeting = 'Hello ' + name + '!';
-  let greetings = 'Good bye ' + name + '!';
+  let greeting = `Hello ${theFirstname} ${theLastname}! `;
+  let greetings = `Good bye ${theFirstname} ${theLastname}! `;
   // --- display the message ---
 
-  displayString('greeting-output', greeting);
-  displayString('greeting-output', greetings);
+  displayString('greeting-output', greeting + '\n' + greetings);
+  //displayString('greeting-output', greetings);
 });
 
 /*  ===== Challenges =====

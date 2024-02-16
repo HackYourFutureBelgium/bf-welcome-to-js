@@ -22,11 +22,11 @@ whenFormDataChanges('search-input', () => {
   let doesExist = false;
 
   if (caseSensitive) {
-    doesExist = searchThis.includes(findThis);
-  } else {
     let smallSearchThis = searchThis.toLowerCase();
     let smallFindThis = findThis.toLowerCase();
     doesExist = smallSearchThis.includes(smallFindThis);
+  } else {
+    doesExist = searchThis.includes(findThis);
   }
 
   // --- create the message ---

@@ -17,11 +17,11 @@ let food = null;
 // READ the value stored in `food`
 console.log(food);
 
-//example 1
+// example 1
 
 let four = null;
 console.log(four);
 
-//example 2
+// example 2
 const house = null;
 console.log(house);
