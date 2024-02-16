@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 let a = 'bye';
 let b = 'hi';
 let temp;

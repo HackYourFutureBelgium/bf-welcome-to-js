@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 // fill in the blanks to log the correct values
 
 let phrase = 'a';

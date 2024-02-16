@@ -6,6 +6,8 @@
   input the correct values to log the expected values
 */
 
+debugger;
+
 let confirm1 = confirm('1. agree to this one');
 console.log(confirm1 === true); // true
 

@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 /* ------------ instructions ----------- */
 
 /*
@@ -22,16 +24,10 @@
 
 let phrase = ' ';
 
-phrase = 'one' + phrase + 'fish';
+phrase = 'one fish';
 
-phrase = phrase + ' two';
+phrase = phrase + ' ' + 'two';
 
 phrase = phrase + ' fish';
 
 console.log(phrase === 'one fish two fish');
-
-/* ----------- distractors -------------- */
-
-phrase = 'one' + phrase + ' fish'; // distractor
-phrase = 'one ' + phrase + 'fish'; // distractor
-phrase = phrase + 'fish'; // distractor

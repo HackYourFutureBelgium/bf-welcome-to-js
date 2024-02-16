@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 // declare a variable named isBelgian
 //   initialize it with the boolean true
 

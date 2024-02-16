@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 let first = 'angus';
 let last = 'croll';
 

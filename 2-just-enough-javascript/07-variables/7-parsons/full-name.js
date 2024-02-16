@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* parsons-collapse: hint
 
   0. strict mode!
@@ -16,10 +18,3 @@ let last = 'Patil';
 let full = first + ' ' + last;
 
 console.log(full);
-
-// --- distractors ---
-
-Let first = 'Padma'; // distractor
-last = 'Patil'; // distractor
-let = last 'Patil'; // distractor
-let full first + ' ' + last; // distractor

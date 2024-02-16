@@ -2,6 +2,8 @@
 
 'use strict';
 
+debugger;
+
 // let number = 0; // false
 // let number = 0.5; // false
 // let number = 1; // true
