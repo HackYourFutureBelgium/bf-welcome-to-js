@@ -2,6 +2,8 @@
 
 console.log('--- in execution phase ---');
 
+debugger;
+
 /*
   environment:
 
@@ -19,4 +21,4 @@ console.log('--- in execution phase ---');
 
 let tree = 'oak';
 
-let tree = 'birch';
+tree = 'birch';

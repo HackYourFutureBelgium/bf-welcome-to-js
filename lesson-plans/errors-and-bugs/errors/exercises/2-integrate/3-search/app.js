@@ -21,7 +21,7 @@ import {
 */
 
 whenFormDataChanges('search-input', () => {
-  console.log('--- form data changed ---');
+  console.log('form data changed');
 
   // --- read the user's input ---
 
@@ -31,8 +31,7 @@ whenFormDataChanges('search-input', () => {
   let caseSensitive = readBoolean('sensitive');
 
   // --- do the search ---
-
-  doesExist = false;
+  let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);
