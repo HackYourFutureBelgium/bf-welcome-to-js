@@ -20,6 +20,7 @@
 
 */
 
+debugger;
 // alert just displays text, you cannot type anything
 alert('(alert) hello! the program is paused until you click "ok"');
 

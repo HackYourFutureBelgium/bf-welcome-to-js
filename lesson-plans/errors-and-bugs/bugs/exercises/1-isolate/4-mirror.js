@@ -1,5 +1,7 @@
 'use strict';
 
+
+debugger;
 /*
   test cases:
     '' -> '|'
@@ -22,7 +24,7 @@ while (text === null) {
 
 let mirrored = '|';
 for (const character of text) {
-  mirrored = mirrored + character + mirrored;
+  mirrored =  character + mirrored + character;
 }
 
 alert(mirrored);

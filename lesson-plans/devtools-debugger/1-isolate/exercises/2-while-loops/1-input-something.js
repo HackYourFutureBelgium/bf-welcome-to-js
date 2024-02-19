@@ -1,8 +1,12 @@
 'use strict';
 
+debugger;
 let input = null;
-while (input === null) {
+while (true) {
   input = prompt('input something:');
+  if (input !== null) {
+    break;
+  }
 }
 
 alert('thank you!');

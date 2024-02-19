@@ -14,8 +14,9 @@
 
 */
 
+// Declares a variable named turtle and initializes it with the string value 'Vinnie'.
 let turtle = 'Vinnie';
-
+// Declares a variable named food and initializes it with the string value 'lettuce'.
 let food = 'lettuce';
-
+// Declares a variable named x and initializes it with the string value 'abc'.
 let x = 'abc';

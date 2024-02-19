@@ -4,6 +4,7 @@
 { // so prettier does not remove the extra spacing
 
 
+  debugger;
 'use strict';
 
 
