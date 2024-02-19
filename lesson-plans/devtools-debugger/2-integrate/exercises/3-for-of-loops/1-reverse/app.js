@@ -21,7 +21,10 @@ whenFormDataChanges('reversify', () => {
 
   let reversed = '';
   for (let character of text) {
-    reversed = character + reversed;
+    if (!reversed.includes(character)){
+      reversed = character + reversed;
+    }
+    
   }
 
   console.log(reversed);

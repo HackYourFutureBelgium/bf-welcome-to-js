@@ -12,8 +12,8 @@
     look around the debugger, what do you see?
 
 */
-
-let didClickOk = confirm('please click "ok":');
+debugger;
+let didClickOk = confirm('please click "ok":'); // boolean
 
 if (didClickOk !== true) {
   alert(':(');
