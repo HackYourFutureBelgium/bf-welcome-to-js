@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /*
   test cases:
     '' -> ''
@@ -15,7 +17,7 @@
 
 */
 
-let text = null;
+/* let text = null;
 while (text === null) {
   text = prompt('enter some text, it will be excited');
 }
@@ -23,6 +25,18 @@ while (text === null) {
 let excited = '';
 for (const character of text) {
   excited = character + '!';
+}
+
+alert(excited); */
+
+let text = null;
+while (!text) {
+  text = prompt('enter some text, it will be excited');
+}
+
+let excited = '';
+for (const character of text) {
+  excited += character + '!';
 }
 
 alert(excited);

@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /*
   test cases:
     null -> (do not exit the loop)
@@ -15,11 +17,22 @@
 
 */
 
-let message = '';
+/* let message = '';
 
 let input = null;
 while (input === null || input.length === 0) {
   const input = prompt('enter something');
+
+  message = 'you entered "' + input + '"';
+}
+
+alert(message); */
+
+let message = '';
+
+let input = null;
+while (!input) {
+  input = prompt('enter something');
 
   message = 'you entered "' + input + '"';
 }

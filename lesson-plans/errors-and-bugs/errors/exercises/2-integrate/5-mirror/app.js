@@ -19,8 +19,10 @@ import {
   the fix(es):
 */
 
+debugger;
+
 whenFormDataChanges('input', () => {
-  console.log(--- form data changed ---);
+  console.log('form data changed');
 
   // --- read the user's input ---
 

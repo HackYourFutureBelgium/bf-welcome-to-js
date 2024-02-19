@@ -1,10 +1,8 @@
-
-
 'use strict';
 
+debugger;
+
 console.log('--- in execution phase ---');
-
-
 
 /*
   environment:
@@ -21,7 +19,4 @@ console.log('--- in execution phase ---');
   the fix(es):
 */
 
-
-const 3 = 'three';
-
-
+const num = 'three';

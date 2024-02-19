@@ -1,9 +1,8 @@
-
-
 'use strict';
 
-console.log('--- in execution phase ---');
+debugger;
 
+console.log('--- in execution phase ---');
 
 /*
   environment:
@@ -20,7 +19,5 @@ console.log('--- in execution phase ---');
   the fix(es):
 */
 
-const a = 'this is
-two lines';
-
-
+const a = `this is 
+two lines`;

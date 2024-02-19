@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /*
   test cases:
     '' -> '|'
@@ -15,7 +17,7 @@
 
 */
 
-let text = null;
+/* let text = null;
 while (text === null) {
   text = prompt('enter some text, it will be mirrored');
 }
@@ -23,6 +25,18 @@ while (text === null) {
 let mirrored = '|';
 for (const character of text) {
   mirrored = mirrored + character + mirrored;
+}
+
+alert(mirrored); */
+
+let text = null;
+while (!text) {
+  text = prompt('enter some text, it will be mirrored');
+}
+
+let mirrored = '|';
+for (const character of text) {
+  mirrored = character + mirrored + character;
 }
 
 alert(mirrored);
