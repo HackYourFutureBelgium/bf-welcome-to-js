@@ -1,27 +1,24 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Invalid left-hand side in assignment
 
-  location:
+  location:at variable-assignment-mistake.js:25:1
 
-  life cycle:
+  life cycle: execution
 
-  the mistake:
+  the mistake: true can't be assigned as a variable 
 
-  the fix(es):
+  the fix(es): assigne isHappy from right to left, 
 */
 
 let isHappy = false;
 
-true = isHappy;
+isHappy = true;
 
-
+console.log(isHappy);

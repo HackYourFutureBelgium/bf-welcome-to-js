@@ -3,20 +3,21 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name:ReferenceError
 
-  location:
+  message: welf is not defined
 
-  life cycle:
+  location: declaration-mistake-1.js:21:6
 
-  the mistake:
+  life cycle: execution
 
-  the fix(es):
+  the mistake: undeclared variable
+
+  the fix(es): declare the variable welf 
 */
 
-welf = 'ingrad';
+const welf = 'ingrad';
 
 console.log(welf);

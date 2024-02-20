@@ -4,6 +4,8 @@ import {
   displayString,
 } from '../../../../../../../lib/dom-io/index.js';
 
+debugger;
+
 whenFormDataChanges('input', () => {
   // debugger;
   console.log('--- form data changed ---');
@@ -18,8 +20,8 @@ whenFormDataChanges('input', () => {
 
   let layer = '';
   for (const brick of bricks) {
-    layer = '\n' + layer + brick;
-    pyramid = pyramid + '\n' + layer + brick;
+    layer = layer + brick;
+    pyramid = pyramid + '\n' + layer;
   }
 
   // --- display the pyramid ---

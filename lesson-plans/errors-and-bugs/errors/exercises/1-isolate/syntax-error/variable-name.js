@@ -1,27 +1,21 @@
-
-
 'use strict';
 
 console.log('--- in execution phase ---');
 
-
-
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Unexpected number
 
-  location:
+  location:at variable-name.js:25:7
 
-  life cycle:
+  life cycle: execution
 
-  the mistake:
+  the mistake: we cant start declare a variable with a number
 
-  the fix(es):
+  the fix(es): start with a character then after with number
 */
 
-
-const 3 = 'three';
-
-
+const the3 = 'three';
+console.log(the3);

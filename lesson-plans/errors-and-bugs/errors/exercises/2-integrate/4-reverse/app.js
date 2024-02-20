@@ -6,18 +6,19 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name: TypeError
+  message: screaming is not iterable
+    at HTMLFormElement.<anonymous>
 
-  location:
+  location:app.js:35:25
 
-  life cycle:
+  life cycle:execution
 
-  the mistake:
+  the mistake: in for loop screaming boolean
 
-  the fix(es):
+  the fix(es): use instead string text
 */
 
 whenFormDataChanges('reversify', () => {
@@ -31,7 +32,7 @@ whenFormDataChanges('reversify', () => {
   // --- reverse the string input ---
 
   let reversed = '';
-  for (let character of screaming) {
+  for (let character of text) {
     reversed = character + reversed;
   }
 

@@ -5,18 +5,19 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name:ReferenceError
+  message:DisplayString is not defined
+    at HTMLFormElement.<anonymous>
 
-  location:
+  location:app.js:47:3
 
-  life cycle:
+  life cycle:execution
 
-  the mistake:
+  the mistake:wrong spell the function name 
 
-  the fix(es):
+  the fix(es):corect the spell.
 */
 
 whenFormDataChanges('sleep-info', () => {
@@ -43,5 +44,5 @@ whenFormDataChanges('sleep-info', () => {
 
   // --- display the advice ---
 
-  DisplayString('advice-area', advice);
+  displayString('advice-area', advice);
 });

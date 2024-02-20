@@ -5,22 +5,22 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Invalid left-hand side expression in prefix operation
 
-  location:
+  location:at app.js:23:17
 
-  life cycle:
+  life cycle:execution
 
-  the mistake:
+  the mistake: console.log value undefine in string
 
-  the fix(es):
+  the fix(es): define console.log's value in string
 */
 
 whenFormDataChanges('input', () => {
-  console.log(--- form data changed ---);
+  console.log('--- form data changed ---');
 
   // --- read the user's input ---
 

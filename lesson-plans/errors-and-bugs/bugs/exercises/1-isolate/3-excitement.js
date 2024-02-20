@@ -15,6 +15,8 @@
 
 */
 
+debugger;
+
 let text = null;
 while (text === null) {
   text = prompt('enter some text, it will be excited');
@@ -22,7 +24,7 @@ while (text === null) {
 
 let excited = '';
 for (const character of text) {
-  excited = character + '!';
+  excited += character + '!';
 }
 
 alert(excited);
