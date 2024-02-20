@@ -1,8 +1,13 @@
 'use strict';
 
-let input = null;
-while (input === null || input.length !== 5) {
-  input = prompt('enter something with 5 characters:');
+debugger;
+
+let input = '';
+while (input.length !== 10) {
+  const part1 = prompt('enter the first 5 characters:');
+  const part2 = prompt('enter the next 5 characters:');
+
+  input = part1 + part2;
 }
 
 let message = 'thank you for "' + input + '"!';

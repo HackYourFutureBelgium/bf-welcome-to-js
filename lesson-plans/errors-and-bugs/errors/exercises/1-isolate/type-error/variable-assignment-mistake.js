@@ -20,7 +20,7 @@ console.log('--- in execution phase ---');
   the fix(es):
 */
 
-let isHappy = false;
+let isHappy = ;
 
 true = isHappy;
 

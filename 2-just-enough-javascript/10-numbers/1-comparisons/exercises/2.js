@@ -1,5 +1,6 @@
 // #todo
 
+debugger;
 'use strict';
 
 let number = 0;
@@ -19,10 +20,10 @@ let number = 0;
 console.log(number + ' between 1 and 2, OR between 4 and 5 (inclusive)');
 
 // number is greater than or equal to 1 AND is less than or equal to 2 (inclusive)
-console.log(_);
+console.log(number >= 1 && number <= 2);
 
 // number is greater than or equal to 4 AND is less than or equal to 5 (inclusive)
-console.log(_);
+console.log(number >= 4 && <= 5);
 
 // number between 1 and 2 OR between 4 and 5 (inclusive)
-console.log(_);
+console.log((number >= 1 && number <= 2) || (number >= 4 && number <= 5));

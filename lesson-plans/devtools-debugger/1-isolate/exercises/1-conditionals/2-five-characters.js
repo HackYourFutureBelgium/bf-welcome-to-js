@@ -1,15 +1,15 @@
 'use strict';
 
+debugger;
 let input = prompt('enter something with 5 characters:');
 
-let message = '';
+let message = 'thankyou';
+
 if (input === null) {
   message = ':(';
 } else if (input.length < 5) {
   message = 'too short';
-} else if (input.length === 5) {
-  message = 'thank you!';
-} else {
+} else if (input.length < 5) {
   message = 'too long';
 }
 

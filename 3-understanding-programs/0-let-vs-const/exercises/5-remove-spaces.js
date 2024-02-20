@@ -4,7 +4,7 @@
 
 // use `const` for every variable that is never reassigned
 
-let input = null;
+const input = null;
 while (input === null) {
   input = prompt('enter some text, all the spaces will be removed');
   console.log(input);

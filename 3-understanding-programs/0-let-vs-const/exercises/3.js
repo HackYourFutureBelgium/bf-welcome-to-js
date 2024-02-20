@@ -3,6 +3,7 @@
 'use strict';
 console.log('-- begin --');
 
+debugger;
 /* declare and assign variables as described in the comments
 
   pay close attention to how each variable is used!
@@ -18,26 +19,26 @@ console.log('-- begin --');
 
 */
 
-_;
+const furniture = 'chair';
 console.log(furniture); // should log 'chair'
 
-_;
+const building = 'house';
 console.log(building); // should log 'house'
 
-furniture = 'table';
-console.log(_); // should log 'table'
+let furniture = 'table';
+console.log(furniture); // should log 'table'
 
-_;
+let food;
 console.log(food); // should log undefined
 
-_;
+food = 'apple';
 console.log(food); // should log 'apple'
 
-console.log(_); // should log 'house'
+console.log(building); // should log 'house'
 
-console.log(_); // should log 'table'
+console.log(furniture); // should log 'table'
 
-_;
-console.log(_); // should log 'apple, pear'
+food += ', pear';
+console.log(food); // should log 'apple, pear'
 
 console.log('-- end --');

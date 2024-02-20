@@ -22,5 +22,3 @@ console.log('--- in execution phase ---');
 
 const a = 'this is
 two lines';
-
-

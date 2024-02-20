@@ -4,7 +4,9 @@
 
 // use `const` for every variable that is never reassigned
 
-let input = null;
+debugger;
+
+const input = null;
 while (input === null) {
   input = prompt('enter some text to mirror');
   console.log(input);
