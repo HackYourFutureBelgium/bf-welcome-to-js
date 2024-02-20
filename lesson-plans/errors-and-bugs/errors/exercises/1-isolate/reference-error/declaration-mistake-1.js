@@ -3,7 +3,7 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:chrome
 
   name:
   message:

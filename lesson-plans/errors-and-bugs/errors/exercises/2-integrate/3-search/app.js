@@ -6,18 +6,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: reference error
+  message:doesExist is not defined
 
-  location:
+  location:line 35
 
   life cycle:
 
-  the mistake:
+  the mistake: method undefined
 
-  the fix(es):
+  the fix(es): using let in line 35
 */
 
 whenFormDataChanges('search-input', () => {
@@ -32,7 +32,7 @@ whenFormDataChanges('search-input', () => {
 
   // --- do the search ---
 
-  doesExist = false;
+  let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);

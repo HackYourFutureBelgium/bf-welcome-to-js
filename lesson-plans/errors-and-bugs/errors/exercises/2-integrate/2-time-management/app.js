@@ -7,16 +7,17 @@ import {
 /*
   environment:
 
-  name:
-  message:
+  name: reference error
 
-  location:
+  message:DisplayString is not defined
+
+  location:line 47
 
   life cycle:
 
-  the mistake:
+  the mistake: its not allowed to use Capital letter for method
 
-  the fix(es):
+  the fix(es): lowercase is applied
 */
 
 whenFormDataChanges('sleep-info', () => {
@@ -43,5 +44,5 @@ whenFormDataChanges('sleep-info', () => {
 
   // --- display the advice ---
 
-  DisplayString('advice-area', advice);
+  displayString('advice-area', advice);
 });
