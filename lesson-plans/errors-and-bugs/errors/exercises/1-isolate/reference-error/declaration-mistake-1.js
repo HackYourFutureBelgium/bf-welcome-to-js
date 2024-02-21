@@ -1,6 +1,4 @@
-'use strict';
-
-console.log('--- in execution phase ---');
+// console.log('--- in execution phase ---');
 
 /*
   environment:
@@ -17,6 +15,17 @@ console.log('--- in execution phase ---');
   the fix(es):
 */
 
+/*
 welf = 'ingrad';
+
+console.log(welf); */
+
+'use strict';
+
+debugger;
+
+console.log('--- in execution phase ---');
+
+const welf = 'ingrad';
 
 console.log(welf);

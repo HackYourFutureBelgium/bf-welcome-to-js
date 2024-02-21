@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Remove Spaces
 
   Data In:

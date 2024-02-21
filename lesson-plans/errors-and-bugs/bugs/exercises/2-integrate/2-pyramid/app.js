@@ -29,6 +29,10 @@ whenFormDataChanges('input', () => {
 
 */
 
+'use strict';
+
+debugger;
+
 import {
   whenFormDataChanges,
   readString,

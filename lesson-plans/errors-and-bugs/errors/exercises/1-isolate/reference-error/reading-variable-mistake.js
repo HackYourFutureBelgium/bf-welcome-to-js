@@ -1,6 +1,4 @@
-'use strict';
-
-console.log('--- in execution phase ---');
+//console.log('--- in execution phase ---');
 
 /*
   environment:
@@ -17,6 +15,18 @@ console.log('--- in execution phase ---');
   the fix(es):
 */
 
+/*
+
 console.log(tomatoes);
 
+let tomatoes = 'fresh'; */
+
+'use strict';
+
+debugger;
+
+console.log('--- in execution phase ---');
+
 let tomatoes = 'fresh';
+
+console.log(tomatoes);

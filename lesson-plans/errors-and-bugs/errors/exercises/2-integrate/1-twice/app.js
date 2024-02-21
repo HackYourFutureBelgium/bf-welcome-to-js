@@ -1,9 +1,9 @@
-// these are the only functions you will need
+/* these are the only functions you will need
 import {
   whenFormDataChanges,
   readString,
   displayString,
-} from '../../../../../../../lib/dom-io/index.js';
+} from '../../../../../../../lib/dom-io/index.js'; */
 
 /*
   environment:
@@ -39,32 +39,16 @@ whenFormDataChanges('user-data', () => {
 
 */
 
-/* these are the only functions you will need
+'use strict';
+
+debugger;
+
+// these are the only functions you will need
 import {
   whenFormDataChanges,
   readString,
   displayString,
 } from '../../../../../../../lib/dom-io/index.js';
-*/
-
-/*
-  environment: chrome
-
-  name: SyntaxError
-  message: Unexpected token '+' 
-
-  location: line 32 
-
-  life cycle: execution 
-
-  the mistake: using + operator instead of = assignment operator 
-
-  the fix(es): use = 
-*/
-
-('use strict');
-
-debugger;
 
 whenFormDataChanges('user-data', () => {
   console.log('\n--- form data changed ---');

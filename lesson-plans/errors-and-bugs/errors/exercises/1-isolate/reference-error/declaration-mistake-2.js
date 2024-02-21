@@ -1,6 +1,4 @@
-'use strict';
-
-console.log('--- in execution phase ---');
+//console.log('--- in execution phase ---');
 
 /*
   environment:
@@ -16,7 +14,7 @@ console.log('--- in execution phase ---');
 
   the fix(es):
 */
-
+/*
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
@@ -25,6 +23,27 @@ if (userName.length > 3) {
 }
 
 let isValidUserName;
+
+if (userName.length <= 3) {
+  isValidUserName = false;
+}
+
+console.log('isValidUserName:', typeof isValidUserName, isValidUserName);
+
+*/
+
+'use strict';
+
+debugger;
+
+console.log('--- in execution phase ---');
+
+const userName = 'chiobin';
+console.log('userName:', typeof userName, userName);
+let isValidUserName;
+if (userName.length > 3) {
+  isValidUserName = true;
+}
 
 if (userName.length <= 3) {
   isValidUserName = false;

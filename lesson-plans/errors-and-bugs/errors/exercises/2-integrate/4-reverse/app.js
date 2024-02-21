@@ -22,9 +22,7 @@
   the fix(es):
 */
 
-'user strict';
-
-debugger;
+/*
 
 whenFormDataChanges('reversify', () => {
   console.log('--- form data changed ---');
@@ -54,6 +52,12 @@ whenFormDataChanges('reversify', () => {
 
   displayString('out', finalText);
 });
+
+*/
+
+'use strict';
+
+debugger;
 
 import {
   whenFormDataChanges,

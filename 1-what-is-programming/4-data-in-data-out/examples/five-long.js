@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Five Long
 
   This program only accepts strings that are exactly 5 characters.

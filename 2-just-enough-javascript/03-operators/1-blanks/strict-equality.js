@@ -25,7 +25,7 @@ console.log('Bye' === 'bye');
 console.log(1 === 1.1);
 // exercises
 console.log(1 === 'one');
-console.log(true === false;
+console.log(true === false);
 console.log('1' === 1);
 console.log('0' === false);
 console.log('hello' === 'hola');

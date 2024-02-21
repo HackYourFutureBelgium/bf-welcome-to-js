@@ -85,6 +85,10 @@ whenFormDataChanges(_0x476560(454), () => {
 
 */
 
+'use strict';
+
+debugger;
+
 function _0x12ba(n, t) {
   const r = _0x42a8();
   return (_0x12ba = function (n, t) {

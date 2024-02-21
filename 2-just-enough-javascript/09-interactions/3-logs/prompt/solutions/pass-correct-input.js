@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 let input1 = prompt('"hi"');
 console.log(input1); // 'hi'
 
