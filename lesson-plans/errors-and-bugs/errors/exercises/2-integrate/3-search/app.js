@@ -19,6 +19,7 @@ import {
 
   the fix(es):
 */
+debugger;
 
 whenFormDataChanges('search-input', () => {
   console.log('--- form data changed ---');
@@ -32,7 +33,7 @@ whenFormDataChanges('search-input', () => {
 
   // --- do the search ---
 
-  doesExist = false;
+  let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);

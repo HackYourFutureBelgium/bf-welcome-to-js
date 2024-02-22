@@ -20,6 +20,8 @@ import {
   the fix(es):
 */
 
+debugger;
+
 whenFormDataChanges('reversify', () => {
   console.log('--- form data changed ---');
 
@@ -31,7 +33,7 @@ whenFormDataChanges('reversify', () => {
   // --- reverse the string input ---
 
   let reversed = '';
-  for (let character of screaming) {
+  for (let character of text) {
     reversed = character + reversed;
   }
 

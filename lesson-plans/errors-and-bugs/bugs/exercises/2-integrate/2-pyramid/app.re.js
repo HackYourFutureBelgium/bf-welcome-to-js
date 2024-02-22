@@ -64,11 +64,11 @@ whenFormDataChanges(_0x476560(454), () => {
   const n = _0x476560,
     t = {
       LdOAp: function (n, t) {
-        return n(t);
+        return nt);
       },
       czHPf: n(451) + n(447),
       LoCNj: function (n, t) {
-        return n + t;
+        return n +  t;
       },
       xLTVa: function (n, t, r) {
         return n(t, r);

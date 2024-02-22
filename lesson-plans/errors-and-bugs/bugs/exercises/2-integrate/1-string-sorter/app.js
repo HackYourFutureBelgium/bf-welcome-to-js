@@ -19,7 +19,7 @@ whenFormDataChanges('to-sort', () => {
   let sortedInputs = '';
   if (left.length <= right.length) {
     sortedInputs = left + ', ' + right;
-  } else if (right.length <= left.length) {
+  } else if (right.length < left.length) {
     sortedInputs = right + ', ' + left;
   } else {
     sortedInputs = left + '\n' + right;
