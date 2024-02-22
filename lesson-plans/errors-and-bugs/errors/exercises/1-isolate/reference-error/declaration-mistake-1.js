@@ -17,6 +17,6 @@ console.log('--- in execution phase ---');
   the fix(es):
 */
 
-welf = 'ingrad';
+let welf = 'ingrad';
 
 console.log(welf);

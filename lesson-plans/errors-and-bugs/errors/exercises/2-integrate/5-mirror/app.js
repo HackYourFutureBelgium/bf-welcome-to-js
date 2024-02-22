@@ -1,7 +1,7 @@
 import {
-  whenFormDataChanges,
-  readString,
   displayString,
+  readString,
+  whenFormDataChanges,
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
@@ -20,7 +20,7 @@ import {
 */
 
 whenFormDataChanges('input', () => {
-  console.log(--- form data changed ---);
+  console.log('--- form data changed ---');
 
   // --- read the user's input ---
 

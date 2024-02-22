@@ -18,7 +18,7 @@ for (let character of input) {
   }
 }
 
-let message = 'before: ' + input + '\nafter: ' + spaceless;
+const message = 'before: ' + input + '\nafter: ' + spaceless;
 console.log(message);
 
 alert(message);

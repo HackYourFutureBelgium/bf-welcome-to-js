@@ -1,8 +1,8 @@
 import {
-  whenFormDataChanges,
-  readString,
-  readBoolean,
   displayString,
+  readBoolean,
+  readString,
+  whenFormDataChanges,
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
@@ -22,7 +22,6 @@ import {
 
 whenFormDataChanges('search-input', () => {
   console.log('--- form data changed ---');
-
   // --- read the user's input ---
 
   let searchThis = readString('text');
@@ -32,7 +31,7 @@ whenFormDataChanges('search-input', () => {
 
   // --- do the search ---
 
-  doesExist = false;
+  let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);

@@ -1,8 +1,8 @@
 // these are the only functions you will need
 import {
-  whenFormDataChanges,
-  readString,
   displayString,
+  readString,
+  whenFormDataChanges,
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
@@ -23,13 +23,14 @@ import {
 whenFormDataChanges('user-data', () => {
   console.log('\n--- form data changed ---');
 
+  debugger;
   // --- read user input ---
 
   let text = readString('to-double');
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text;
 
   // --- display the repeated text ---
 

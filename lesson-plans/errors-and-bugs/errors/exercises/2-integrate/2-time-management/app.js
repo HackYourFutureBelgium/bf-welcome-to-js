@@ -1,7 +1,7 @@
 import {
-  whenFormDataChanges,
-  readBoolean,
   displayString,
+  readBoolean,
+  whenFormDataChanges,
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
@@ -43,5 +43,5 @@ whenFormDataChanges('sleep-info', () => {
 
   // --- display the advice ---
 
-  DisplayString('advice-area', advice);
+  displayString('advice-area', advice);
 });

@@ -23,3 +23,13 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+const person = {
+  name: 'John',
+  age: 30
+}
+
+
+for (const key in person) {
+  console.log(key, person[key]);
+}
