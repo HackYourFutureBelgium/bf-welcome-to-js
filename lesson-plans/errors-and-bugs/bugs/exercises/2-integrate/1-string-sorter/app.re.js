@@ -1,3 +1,8 @@
+import {
+  whenFormDataChanges,
+  readString,
+  displayString,
+} from '../../../../../../lib/dom-io/index.js';
 function _0x45a5(n, t) {
   const r = _0xa98f();
   return (_0x45a5 = function (n, t) {
@@ -60,11 +65,7 @@ function _0xa98f() {
       e.push(e.shift());
     }
 })();
-import {
-  whenFormDataChanges,
-  readString,
-  displayString,
-} from '../../../../../../lib/dom-io/index.js';
+
 whenFormDataChanges(_0x46e559(205), () => {
   const n = _0x46e559,
     t = {

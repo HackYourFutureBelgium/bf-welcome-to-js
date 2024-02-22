@@ -1,3 +1,4 @@
+
 // these are the only functions you will need
 import {
   whenFormDataChanges,
@@ -6,18 +7,18 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected token '+' 
 
-  location:
+  location: line 32 
 
-  life cycle:
+  life cycle: execution 
 
-  the mistake:
+  the mistake: using + operator instead of = assignment operator 
 
-  the fix(es):
+  the fix(es): use = 
 */
 
 whenFormDataChanges('user-data', () => {
@@ -29,7 +30,7 @@ whenFormDataChanges('user-data', () => {
 
   // --- repeat the text ---
 
-  let repeated + text + '\n' + text;
+  let repeated = text + '\n' + text;
 
   // --- display the repeated text ---
 

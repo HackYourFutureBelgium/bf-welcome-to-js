@@ -4,7 +4,7 @@
 
 console.log('--- in execution phase ---');
 
-
+debugger;
 
 /*
   environment:
@@ -21,7 +21,5 @@ console.log('--- in execution phase ---');
   the fix(es):
 */
 
-
-const 3 = 'three';
-
-
+const num3 = 'three';
+console.log(num3);

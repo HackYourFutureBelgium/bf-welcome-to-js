@@ -3,6 +3,7 @@
 'use strict';
 
 console.log('--- in execution phase ---');
+debugger;
 
 
 /*
@@ -21,7 +22,6 @@ console.log('--- in execution phase ---');
 */
 
 let isHappy = false;
+isHappy = true;
 
-true = isHappy;
-
-
+console.log(isHappy);
