@@ -3,13 +3,14 @@
 debugger;
 /* Remove Spaces
 
-  Data In:
+  Data In: any text, all the spaces will be removed!
 
 
-  Data Out:
+  Data Out: text input with space will be removed
 
 
-  Test Cases:
+  Test Cases: before => "iam Dini"
+              after => "IamDini"
 
 
 */

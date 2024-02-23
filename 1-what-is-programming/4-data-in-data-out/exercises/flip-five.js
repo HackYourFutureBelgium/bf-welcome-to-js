@@ -3,13 +3,16 @@
 debugger;
 /* Flip Five
 
-  Data In:
+  Data In: any text
 
 
-  Data Out:
+  Data Out: the reverse input need to be 5 character long,
+   else it will prompt another input
 
 
-  Test Cases:
+  Test Cases: "hoi" => "nope, try again"
+              "vihan" => "vihangood"
+              "garnal" => "nope, try again"
 
 
 */
@@ -34,7 +37,7 @@ while (true) {
 
 let message = 'good';
 for (let character of input) {
-  message = character + message;
+  message = character + '' + message;
 }
 console.log(message);
 
