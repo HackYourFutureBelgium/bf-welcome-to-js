@@ -12,12 +12,12 @@ let temp;
   this is done using 3 assignments
 */
 
-temp = a;
-console.log(a, b, temp); // ?, ?, ?
-a = b;
-console.log(a, b, temp); // ?, ?, ?
-b = temp;
-console.log(a, b, temp); // ?, ?, ?
+temp = a; // temp is assigned the value of a, which is 'y'
+console.log(a, b, temp); // 'y', 'x', 'y'
+a = b; // a is assigned the value of b, which is 'x'
+console.log(a, b, temp); // 'x', 'x', 'y'
+b = temp; // b is assigned the value of temp, which is 'y'
+console.log(a, b, temp); // 'x', 'y', 'y'
 
 /* 3. compare the final values
   all the comparisons should be true

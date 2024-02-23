@@ -3,13 +3,13 @@
 debugger;
 /* Reverse
 
-  Data In:
+  Data In: some text
 
 
-  Data Out:
+  Data Out: reverse the input text
 
 
-  Test Cases:
+  Test Cases: "rohma vihana" -> "anahiv amhor'
 
 
 */

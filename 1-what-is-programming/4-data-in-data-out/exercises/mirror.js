@@ -3,13 +3,13 @@
 debugger;
 /* Mirror
 
-  Data In:
+  Data In: any text
 
 
-  Data Out:
+  Data Out: the text we input turn into mirror
 
 
-  Test Cases:
+  Test Cases: input => "ikodiko" | "okidoki"
 
 
 */
