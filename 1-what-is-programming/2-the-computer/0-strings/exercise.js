@@ -17,7 +17,7 @@ debugger;
 console.log('hello'); // 'hello'
 
 // concatenate 2 strings to create 'hello'
-console.log('hel' + 'lo'); // 'hello'
+console.log('he' + 'llo'); // 'hello'
 
 // concatenate 3 strings to create 'hello'
 console.log('he' + 'll' + 'o'); // 'hello'
