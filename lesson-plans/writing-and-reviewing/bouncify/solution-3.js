@@ -23,3 +23,23 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+const text = '';
+
+while (true) {}
+
+const specials = '';
+
+const isUpper = true;
+let newStr = '';
+for (let i = 0; i < text.length; i++) {
+  if (!specials.includes(text[i])) {
+    if (isUpper) {
+      newStr += text[i].toUpperCase();
+    } else {
+      newStr += text[i].toLowerCase();
+    }
+  } else {
+    newStr += text[i];
+  }
+}

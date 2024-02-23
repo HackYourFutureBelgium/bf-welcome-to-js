@@ -23,3 +23,68 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+debugger;
+
+/*let input = ' ';
+
+console.log(toUpperCase(str));
+
+function toUpperCase(str) {
+  let string = str.split(' ');
+  let uppers = string.map(function (val, i) {
+    if (i % 2 == 0) return (val + '').toLowerCase();
+    else return (val + '').toUpperCase();
+  });
+  return uppers.join(' ');
+}
+
+*/
+
+let text = '';
+
+// ask the user for input
+while (true) {
+  const input = prompt('please enter something : ');
+
+  // cancel
+  if (input === null) {
+    alert('there is no escape!');
+    continue;
+  }
+
+  // empty string
+  if (input === '') {
+    alert('no empty input, try again.');
+    continue;
+  }
+
+  if (input) {
+    text = input;
+    break;
+  }
+}
+
+console.log(text);
+
+const specials = ' !@#$%^&*()_-+=1234567890';
+
+let newtext = '';
+let isUpperCase = true;
+
+// loop through text
+for (const char of text) {
+  // char is not in specials
+  if (specials.indexOf(char) === -1) {
+    if (isUpperCase) {
+      newtext += char.toUpperCase();
+    } else {
+      newtext += char.toLowerCase();
+    }
+    isUpperCase = !isUpperCase;
+  } else {
+    newtext += char;
+  }
+}
+
+alert(newtext);
