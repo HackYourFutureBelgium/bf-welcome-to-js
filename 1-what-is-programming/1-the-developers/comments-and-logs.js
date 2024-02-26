@@ -1,5 +1,7 @@
 'use strict';
 
+// inline comment
+
 /* comments
 
   comments are for developers to read in the source code

@@ -8,7 +8,7 @@
     "spell-check": "cspell  './**'",
     "lint:md": "markdownlint --ignore node_modules --ignore flashcards --config ./.markdownlint.jsonc --fix ./ ",
     "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
-    "study": "study"
+    "study": "lenses2"
   },
   "author": "HackYourFutureBelgium",
   "license": "MIT",

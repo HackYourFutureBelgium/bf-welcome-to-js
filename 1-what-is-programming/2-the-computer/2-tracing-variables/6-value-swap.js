@@ -1,4 +1,5 @@
 'use strict';
+debugger;
 
 /*
   comment and uncomment different names
@@ -19,8 +20,9 @@ let a = '.';
 let b = '@';
 let temp;
 
-temp = a;
-a = b;
-b = temp;
+temp = a; // .
+a = b; // @
+b = temp; // .
 
 // is it possible two swap a and b without using temp?
+// no i need a variable with no value

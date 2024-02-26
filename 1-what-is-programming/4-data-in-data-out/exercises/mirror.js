@@ -1,5 +1,7 @@
 'use strict';
 
+debugger;
+
 /* Mirror
 
   Data In:
@@ -23,7 +25,7 @@ while (input === null) {
 
 /* --- create mirrored text --- */
 
-let mirrored = ' | ';
+let mirrored = ' $ ';
 for (let character of input) {
   mirrored = character + mirrored + character;
   console.log(mirrored);

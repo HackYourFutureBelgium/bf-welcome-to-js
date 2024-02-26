@@ -12,12 +12,12 @@ debugger;
 
 */
 
-let name = 'Pieter';
+let name = 'Peter';
 
 let greeting = 'hello ' + name;
 console.log(greeting); // "hello Pieter"
 
-name = 'Amela';
+name = 'Amelia';
 
 greeting = 'good bye ' + name;
 console.log(greeting); // "good bye Amela"

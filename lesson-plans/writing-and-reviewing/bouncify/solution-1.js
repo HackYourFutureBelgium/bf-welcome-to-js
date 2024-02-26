@@ -1,4 +1,5 @@
 'use strict';
+debugger;
 
 /* Bouncify
 
@@ -23,3 +24,48 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+// eslint-disable-next-line no-unused-vars
+let text = '';
+
+while (true) {
+  let input = prompt('enter some text, the letters will be bouncified');
+
+  // cancel
+  if (input === null) {
+    alert('there is no escape!');
+  }
+
+  // empty string
+  if (input === '') {
+    alert('no empty input, try again.');
+  }
+
+  if (input) {
+    text = input;
+    break;
+  }
+}
+
+console.log(text);
+
+const extra = ' !@#$%^&*()_-+=1234567890';
+
+let newtext = '';
+let isUpperCase = true;
+
+// loop through text
+for (const char of text) {
+  // char is not in specials
+  if (extra.indexOf(char) === -1) {
+    if (isUpperCase) {
+      newtext += char.toUpperCase();
+    } else {
+      newtext += char.toLowerCase();
+    }
+    isUpperCase = !isUpperCase;
+  } else {
+    newtext += char;
+  }
+}
+
+alert(newtext);

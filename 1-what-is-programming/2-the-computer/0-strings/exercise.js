@@ -31,5 +31,5 @@ let string1 = 'hello';
 console.log(string1.length); // 5
 
 // write a different string with 5 characters and log it's length
-let string2 = 'ciaoo';
+let string2 = 'Hanna';
 console.log(string2.length); // 5

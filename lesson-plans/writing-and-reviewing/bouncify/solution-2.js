@@ -23,3 +23,45 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+let text = '';
+
+while (true) {
+  let input = prompt('please enter some text, will be bounce');
+
+  // cancel
+  if (input === null) {
+    alert('there is no escape!');
+    continue;
+  }
+
+  // empty input
+  if (input === '') {
+    alert('no empty input, try again.');
+    continue;
+  }
+
+  // with full input
+  if (input) {
+    text = input;
+    break;
+  }
+}
+
+let newPhrase = '';
+let isUpperCase = true;
+
+for (const char of text) {
+  if (/^[a-zA-Z]+$/.test(char)) {
+    if (isUpperCase) {
+      newPhrase += char.toUpperCase();
+    } else {
+      newPhrase += char.toLowerCase();
+    }
+    isUpperCase = !isUpperCase;
+  } else {
+    newPhrase += char;
+  }
+}
+
+alert(newPhrase);
