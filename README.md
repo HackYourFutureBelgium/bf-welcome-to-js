@@ -246,27 +246,3 @@ files in this repository, letting you know if there are any syntax errors or bad
 practices.
 
 </details>
-
-## Class recording
-
-<details>
-<summary>expand/collapse</summary>
-<br>
-
-### Week1
-
-- [Day 1](https://youtu.be/-76jJ1YGpO4)
-- [Day 2](https://youtu.be/HRWKotQzGNQ)
-- [Day 3](https://youtu.be/AQ95EaMbTMI)
-- [Day 4](https://youtu.be/RTV1V01tXLo)
-
-### Week2
-
-- [Day 5-1](https://youtu.be/5BUvv9bumK4)
-- [Day 5-2](https://youtu.be/ZbdgOXpOrds)
-- [Day 5-3](https://youtu.be/yY-nyRRjMgQ)
-- [Day 6](https://youtu.be/-gNOnrpUHSo)
-- [Day 7](https://youtu.be/0oalTHUxafk)
-- [Day 8](https://youtu.be/QlPQ44HG9XM)
-
-</details>
