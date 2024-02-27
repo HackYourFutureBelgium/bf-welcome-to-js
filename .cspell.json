@@ -7,7 +7,23 @@
     "Precourse",
     "distractor",
     "distractors",
+<<<<<<< Updated upstream
     "typeof"
+=======
+    "typeof",
+    "sololearn",
+    "launchcode",
+    "programiz",
+    "codeacademy",
+    "pythontutor",
+    "Envato",
+    "ictshore",
+    "freecodecamp",
+    "ibuildmvps",
+    "quora",
+    "Daria",
+    "Spodina"
+>>>>>>> Stashed changes
   ],
   "ignorePaths": ["node_modules/**", "**/*.json", "**/*.mp4", "**/*.svg"]
 }
