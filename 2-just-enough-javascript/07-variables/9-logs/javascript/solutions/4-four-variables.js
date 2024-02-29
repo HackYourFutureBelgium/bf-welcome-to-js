@@ -1,9 +1,9 @@
 'use strict';
 
-__;
-__;
-__;
-__;
+const first = 'Java';
+const last = 'Script';
+const language = first + last;
+const favoriteLanguage = language + '!';
 
 console.log(first);
 console.log(last);

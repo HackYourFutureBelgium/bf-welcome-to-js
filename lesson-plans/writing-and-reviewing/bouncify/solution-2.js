@@ -23,3 +23,43 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
+
+let phrase = '';
+
+while (true) {
+  const input = prompt('Please enter a phrase : ');
+
+  // if cancel
+  if (input === null) {
+    alert('there is no escape!');
+    continue;
+  }
+
+  if (input === '') {
+    alert('no empty input, try again.');
+    continue;
+  }
+
+  if (input) {
+    phrase = input;
+    break;
+  }
+}
+
+let newPhrase = '';
+let isUpperCase = true;
+
+for (const char of phrase) {
+  if (/^[a-zA-Z]+$/.test(char)) {
+    if (isUpperCase) {
+      newPhrase += char.toUpperCase();
+    } else {
+      newPhrase += char.toLowerCase();
+    }
+    isUpperCase = !isUpperCase;
+  } else {
+    newPhrase += char;
+  }
+}
+
+alert(newPhrase);
