@@ -2,13 +2,13 @@
 
 let number = 1;
 
-__;
+console.log(number);
 
-__;
-__;
+number = number + 1;
+console.log(number);
 
-__;
-__;
+number = number + 1;
+console.log(number);
 
-__;
-__;
+number = number + 1;
+console.log(number);

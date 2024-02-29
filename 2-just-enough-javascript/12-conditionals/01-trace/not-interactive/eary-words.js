@@ -17,7 +17,7 @@ let word = '';
 let message;
 if (word.length >= 3) {
   if (word.includes('ear')) {
-    message = 'eary word!';
+    message = 'eary word! :)';
   } else {
     message = 'not eary :(';
   }
