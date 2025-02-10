@@ -9,20 +9,20 @@
 
 */
 
-let a = 'y';
-let b = 'x';
-let t = '';
+let a = 'y'; // declare and initialization let a
+let b = 'x'; // declare and initialization let b
+let t = ''; // declare and initialization let t
 
-console.log(a, b, t);
+console.log(a, b, t); // read a, b, t ('y', 'x', '')
 
-t = a;
-a = b;
-b = t;
+t = a; //reassign let t
+a = b; //reassign let a
+b = t; //reassign let b
 
-console.log(a, b, t);
+console.log(a, b, t); // read a, b, t ('b', 't', 'a')
 
-// what did you do in this program?
-// what are the final values of `a` and `b`?
-// how are they changed from the initial values
+// what did you do in this program?     swapped places a, b
+// what are the final values of `a` and `b`?    value a is b, value b is t
+// how are they changed from the initial values   value a changed from 'y' to 'x', value a changed from 'x' to 'y'
 
-// is it possible to swap a and b without using t?
+// is it possible to swap a and b without using t?  yes it's possible, but in this case is not possible

@@ -1,13 +1,14 @@
 'use strict';
 
-let a = '*';
-// let a = '<>';
-// let a = '|-|';
-// let a = '';
+let a = '*'; // declare and initialization let a = '*'
+// let a = '<>';  // declare and initialization let a = '<>'
+// let a = '|-|';  // declare and initialization let a = '|-|'
+// let a = '';  // declare and initialization let a = ''
 
-let b = '';
+let b = ''; // declare and initialization let b = ''
 while (b.length < a.length * 3) {
-  b = b + a;
+  // read value a and b
+  b = b + a; // reassign variable b
 }
 
-console.log(b);
+console.log(b); // read variable b
