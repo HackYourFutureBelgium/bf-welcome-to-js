@@ -6,15 +6,14 @@
 
 */
 
-let first = 'Pieter';
-let last = 'Rabbit';
+let first = 'Pieter'; // declare and initialization let first
+let last = 'Rabbit'; // declare and initialization let last
 
-let fullName = first + ' ' + last;
+let fullName = first + ' ' + last; // declare and initialization let fullName
+console.log(fullName); // read fullName 'Pieter Rabbit'
 
-console.log(fullName);
+let greeting = 'hello ' + fullName; // declare and initialization let greeting
 
-let greeting = 'hello ' + fullName;
+greeting = 'good bye ' + fullName; //reassign ler greeting
 
-greeting = 'good bye ' + fullName;
-
-console.log(greeting);
+console.log(greeting); // read greeting 'good bye Pieter Rabbit'
