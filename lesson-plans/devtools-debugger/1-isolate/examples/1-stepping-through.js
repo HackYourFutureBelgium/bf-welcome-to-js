@@ -13,6 +13,8 @@
 
 */
 
+// the debugger jump to line 23 because the comments are ignore
+
 let didClickOk = confirm('please click "ok":');
 
 if (didClickOk !== true) {

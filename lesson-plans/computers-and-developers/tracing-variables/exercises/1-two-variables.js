@@ -15,6 +15,9 @@ let x = 'Pieter';
 // let x = 'Blake';
 // let x = 'George';
 
+// Declare variable y
+// initialize y to the value 'hello Pieter'
+
 let y = 'hello ' + x;
 
 console.log(y);

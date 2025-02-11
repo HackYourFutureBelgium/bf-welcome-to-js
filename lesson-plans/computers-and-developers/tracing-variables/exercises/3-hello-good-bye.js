@@ -6,6 +6,15 @@
 
 */
 
+// Declare  variable first
+// Declare  variable last
+// Concatenate first and last name with a space in between
+// Declare fullName
+// Read fullName
+// Declare variable greeting
+// reassign variable greeting
+// Read greeting
+
 let first = 'Pieter';
 let last = 'Rabbit';
 

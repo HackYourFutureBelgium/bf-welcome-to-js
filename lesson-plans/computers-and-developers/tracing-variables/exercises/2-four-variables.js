@@ -15,6 +15,8 @@ let a = 'Pieter';
 // let a = 'Blake';
 // let a = 'George';
 
+// Declare variable b
+
 let b = 'Rabbit';
 // let b = 'Wozzeck';
 // let b = 'Schoenberg';

@@ -3,8 +3,8 @@
 let input = prompt('enter something with 5 characters:');
 
 let message = '';
-if (input === null) {
-  message = ':(';
+if (input) {
+  message = 'thank you';
 } else if (input.length < 5) {
   message = 'too short';
 } else if (input.length === 5) {
