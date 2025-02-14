@@ -47,3 +47,5 @@ x = x + '!';
 
 // READ the value stored in `x`
 console.log(x);
+
+// Done

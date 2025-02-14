@@ -53,3 +53,5 @@ if (typeof name !== 'undefined') {
     let name = 'Alex';
     console.log('Variable exists:', Alex);
 }
+
+// Done
