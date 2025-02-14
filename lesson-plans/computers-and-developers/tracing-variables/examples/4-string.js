@@ -43,15 +43,9 @@ do you know that ${animal} says ${sound}!
 console.log(message);
 
 
-let name = 'Alex';  
-let name = 'Mariia';  // WE CAN NOT DO THIS. BUT WE CAN RENAME OLD VARIABLE
-console.log(name);
-
-
-let name = 'Alex';  
-name = 'Mariia';  // RENAMING OLD VARIABLE
-console.log(name);  // 
-
+let userName = 'Alex';  
+userName = 'Mariia';  // WE CAN NOT DO THIS. BUT WE CAN RENAME OLD VARIABLE
+console.log(userName);
 
 if (typeof name !== 'undefined') {
     console.log('Variable already exists!');
