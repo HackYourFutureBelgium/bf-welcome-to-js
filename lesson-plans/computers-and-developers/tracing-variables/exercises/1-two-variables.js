@@ -22,3 +22,15 @@ console.log(y);
 y = 'good bye ' + x;
 
 console.log(y);
+
+// DONE
+
+
+// 1-two-variables
+
+// 'use strict';
+// let x = 'Pieter';
+// let y = 'Hello ' + x;
+// console.log(y);
+// y = 'Good bye ' + x;
+// console.log(y);

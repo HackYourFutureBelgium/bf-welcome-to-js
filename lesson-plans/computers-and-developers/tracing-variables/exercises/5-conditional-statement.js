@@ -16,3 +16,25 @@ if (a.length > 4) {
 }
 
 console.log(b);
+
+
+// DONE 
+
+// 5-conditional-statement
+
+// 'use strict';
+
+// let a = 'Jan';
+// let b = 'Hello ' + a + ', your name is ';
+
+// if (a.length > 4) {
+//   b = b + 'long.';
+  
+// } else if (a.length === 4) {
+//   b = b + 'perfect.';
+  
+// } else {
+//   b = b + 'short.';
+// }
+
+// console.log(b);

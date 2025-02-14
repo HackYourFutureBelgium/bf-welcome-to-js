@@ -28,3 +28,15 @@ console.log(d);
 d = 'good bye ' + c;
 
 console.log(d);
+
+// DONE
+
+// 2-four-variables
+
+// let a = 'Danny';
+// let b = 'Christopher';
+// let c = a + ' ' + b;
+// let d = 'Hello' + "," + " " + c;
+// console.log(d);
+// d = 'Good bye' + "," + " " + c;
+// console.log(d);

@@ -1,6 +1,7 @@
 /* Comments
 
 TODO: explain what comments are
+
   comments are used to leave notes for you and other developers
     the computer will ignore them
 
@@ -10,4 +11,7 @@ TODO: explain what comments are
 
 */
 
-// this is an inline comment
+// - this is an inline comment ---> //
+
+
+/* - this is block comment  ---> /* */ 

@@ -26,3 +26,18 @@ console.log(a, b, t);
 // how are they changed from the initial values
 
 // is it possible to swap a and b without using t?
+
+// DONE
+
+//  4-value-swap
+
+// 'use strict';
+// let a = 'y';
+// let b = 'x';
+
+// let t = '';
+// console.log(a, b, t);
+// t = a;
+// a = b;
+// b = t;
+// console.log(a, b, t);

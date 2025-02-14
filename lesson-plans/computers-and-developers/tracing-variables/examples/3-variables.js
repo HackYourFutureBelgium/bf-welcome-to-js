@@ -19,11 +19,11 @@
 
 // DECLARE a variable named `x`
 // INITIALIZE the value to "hello"
-let x = 'hello';
+let x = 'hello'; // LET - we can add new value
 
 // DECLARE a variable named `y`
 // INITIALIZE the value to 3.14
-const y = 3.14;
+const y = 3.14;  // CONST - we can not add new value
 
 // READ the value stored in `x`
 console.log(x);

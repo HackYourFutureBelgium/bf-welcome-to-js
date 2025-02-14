@@ -29,3 +29,5 @@ pressing `trace` button and comparing your table to the console output.
 
 Don't worry if this is challenging, you'll have lots of opportunity to practice
 tracing in this module.
+
+<!-- DONE -->

@@ -21,3 +21,6 @@ type of undefined is undefined, while type of null is object.
 2- undefined is a type and a value
 
 */
+
+// Done
+
